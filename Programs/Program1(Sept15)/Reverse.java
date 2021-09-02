@@ -1,11 +1,64 @@
-
-public class Reverse 
+//Ethan Coyle
+//Dr.Saikat
+//Program 1 Problem 4
+class Reverse 
 {
-    
-    public static void main(String args[])
+    static void reverse(char str[],int Beginning,int Ending) 
     {
-     String s="Before trying to do any of the steps below, you should read the article through at least once for basic understanding. Then go back and review, following these steps.He ran his machine up to the stone porch and ascending the steps rang the door bell. They directed their steps toward the sea, which was lit up by the rising moon. She breathed a sigh of relief, and her light steps fell gradually into the measure of his. This was fully four feet under water and the lower story of the place was two steps lower down.";
-     String reverse = new StringBuffer(s).reverse().toString();
-     System.out.println(reverse);
+     // First create StringLINE variable to hold the string
+        char StringLINE;  
+        while (Beginning <= Ending)
+        {
+            // Inside here, we are swapping around the string
+            StringLINE = str[Beginning];
+            str[Beginning] = str[Ending];
+            str[Ending] = StringLINE;
+            Beginning++;
+            Ending--;
+        }
+
     }
-}
+
+// Next we must create function to reverse the words
+
+    static char[] StringSwap(char []s)
+    {
+    int Beginning = 0;//initialize the starting point to 0
+    
+    for (int Ending = 0; Ending < s.length; Ending++)
+    {
+        if (s[Ending] == ' ')
+        {
+        
+        reverse(s, Beginning, Ending);
+        Beginning = Ending + 1;
+
+        }
+
+    }
+
+    // Reverse the last word
+
+    reverse(s, Beginning, s.length - 1);
+
+    // putting the whole string in reverse
+    reverse(s, 0, s.length - 1);
+    //retruning the string that is flipped
+    return s;
+    }
+
+//Now that we have both the read and flip functions
+//it is time to do driver code to read in the dtring
+//go to appropriate functions and display the flipped 
+//string that was read in
+
+    public static void main(String[] args)
+
+    {
+        String s = "this is my first programming  assignment";
+        char []p = StringSwap(s.toCharArray());
+        System.out.print(p);
+
+    }
+
+}//end of class reverse
