@@ -1,7 +1,7 @@
 //Ethan Coyle
 //Dr.Saikat
 //Program 1 Problem 4
-class Reverse 
+public class QuestionFour
 {
     static void reverse(char str[],int Beginning,int Ending) 
     {
