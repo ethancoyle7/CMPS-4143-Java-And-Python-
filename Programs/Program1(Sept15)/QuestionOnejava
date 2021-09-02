@@ -13,7 +13,7 @@
 
 
 //this is the compilation and executable code for the first problem
-public class LargeAndSmall //class name same as the .java name
+public class QuestionOne //class name same as the .java name
 {
         public static void main(String[] args) 
     {
