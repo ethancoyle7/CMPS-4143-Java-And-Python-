@@ -12,7 +12,7 @@
 //   Format                                                                                 //
 //                                                                                          //
 //##########################################################################################//
-class Reverse 
+class QuestionFour 
 {
     static void reverse(char str[],int Beginning,int Ending) 
     {
