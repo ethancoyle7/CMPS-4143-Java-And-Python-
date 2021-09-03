@@ -4,8 +4,8 @@ This folder contains the material completed for our first program
 
 |   #    | Folder Link       | Assignment Description                          |
 |------- |-------------------|-------------------------------------------------|
-| [04](./4143-Prog1.pdf)| [Q01](./4143-Prog1.pdf) | [Program PDF Link](./4143-Prog1.pdf)   |
-| [04](./QuestionOne.java) | [Q01](./QuestionOne.java) | [Question One Link](./QuestionOne.java)   |
-| [03](./QuestionTwo.java) | [Q02](./QuestionTwo.java) | [Question Two Link](./QuestionTwo.java) |
-| [02](./QuestionThree.java) | [Q03](./QuestionThree.java) | [Question Three Link](./QuestionThree.java) |
-| [01](./QuestionFour.java) | [Q04](./QuestionFour.java) | [Question Four Link](./QuestionFour.java) |
+| [00](./4143-Prog1.pdf)| [PDF](./4143-Prog1.pdf) | [Program PDF Link](./4143-Prog1.pdf)   |
+| [01](./QuestionOne.java) | [Q01](./QuestionOne.java) | [Largest and Smallest](./QuestionOne.java)   |
+| [02](./QuestionTwo.java) | [Q02](./QuestionTwo.java) | [Copy Array and DEscending Numbers](./QuestionTwo.java) |
+| [03](./QuestionThree.java) | [Q03](./QuestionThree.java) | [Common Occurance](./QuestionThree.java) |
+| [04](./QuestionFour.java) | [Q04](./QuestionFour.java) | [Reversing Strings](./QuestionFour.java) |
