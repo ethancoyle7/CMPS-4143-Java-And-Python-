@@ -1,6 +1,17 @@
-//Ethan Coyle
-//Dr.Saikat
-//Program 1 Problem 4
+//##########################################################################################//
+//                                                                                          //
+//   Author-           Ethan Coyle                                                          //
+//   Instructor/Class- Dr.Saikat-CMPS 4143 Java/Pyhton                                      //
+//   Due Date-         Septermeber15,2021                                                   //
+//   What it does-                                                                          //
+//                                                                                          //
+//   This File contains the answer to the Question #4 on Program1                           //
+//   This Program will read in one line in string s, print out that string                  //
+//   For user visualization purposes, then it will run through and reverse the string       //
+//   And then will print out the reversed order of the given string in a nice user readable //
+//   Format                                                                                 //
+//                                                                                          //
+//##########################################################################################//
 class Reverse 
 {
     static void reverse(char str[],int Beginning,int Ending) 
