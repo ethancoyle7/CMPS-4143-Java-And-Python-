@@ -24,7 +24,7 @@ class Reverse
     static char[] StringSwap(char []s)
     {
     int Beginning = 0;//initialize the starting point to 0
-    
+    //comense the swapping!!!!
     for (int Ending = 0; Ending < s.length; Ending++)
     {
         if (s[Ending] == ' ')
@@ -55,9 +55,13 @@ class Reverse
     public static void main(String[] args)
 
     {
+        //format the printing console output
         String s = "this is my first programming  assignment";
+        System.out.print("Original Text is :    "+ s +"\n");
         char []p = StringSwap(s.toCharArray());
+        System.out.print("Converted Text is:    ");
         System.out.print(p);
+        System.out.print("\n");
 
     }
 

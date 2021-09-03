@@ -12,7 +12,7 @@
 //   the screen the top 5 most occured Thus satisfying the given question                   //
 //                                                                                          //
 //##########################################################################################//
-public class HighFrequency //same name as the given java program
+public class QuestionThree //same name as the given java program
 {
             public static void main(String[] args)//our main driver
          {
@@ -78,7 +78,7 @@ public class HighFrequency //same name as the given java program
                 }
             }
             // Lastly, we systematically print out the % most frequent words that are found
-            System.out.println("The Top % Most Frequent Words Are -");
+            System.out.println("The Top 5 Most Frequent Words Are -");
             for (int i = 0; i < 5; i++)
              {
                  //loop through for loop print out the most frequet that is store in the array
