@@ -1,0 +1,2 @@
+Original Text is :    this is my first programming  assignment
+Converted Text is:    assignment programming first my is this 
