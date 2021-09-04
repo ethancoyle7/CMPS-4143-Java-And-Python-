@@ -1,0 +1,4 @@
+In This Array of 20 Values 
+
+The Largest  # in This Array is = 905
+The Smallest # in This Array is = 2

@@ -72,7 +72,7 @@ class QuestionFour
         char []p = StringSwap(s.toCharArray());
         System.out.print("Converted Text is:    ");
         System.out.print(p);
-        System.out.print("\n");
+        System.out.print("\n\n");
 
     }
 
