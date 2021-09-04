@@ -11,8 +11,6 @@ This folder contains the material completed for our first program
 | [04](./QuestionFour.java) | [Q04](./QuestionFour.java) | [Reversing Strings](./QuestionFour.java) |
 
 
-#### BELOW IS A LIST OF THE OUTPUTS FOR EACH
-
 
 ## THIS CONTAINS LINKS TO THE OUTPUTS OF EACH QUESTION
 
@@ -21,5 +19,4 @@ This folder contains the material completed for our first program
 | [01](./QuestionOneOutput.txt) | [Q01](./QuestionOneOutput.txt) | [Output for Question 1](./QuestionOneOutput.txt)   |
 | [02](./Question2Output.txt) | [Q02](./Question2Output.txt) | [Output for Question 2](./Question2Output.txt) |
 | [03](./Question3Output.txt) | [Q03](./Question3Output.txt) | [Output for Question 3](./Question3Output.txt) |
-| [04](./Question4Output.txt) | [Q04](./Question4Output.txt) | [Output for Question 4](./Question4Output.txt) |
-
+| [04](./Question4OutPut.txt) | [Q04](./Question4OutPut.txt) | [Output for Question 4](./Question4OutPut.txt) |
