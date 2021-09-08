@@ -67,7 +67,10 @@ class QuestionFour
 
     {
         //format the printing console output
-        String s = "this is my first programming  assignment";
+        //we read in the first string perform the stringswap function
+        //then output in readable format for the viewer of original
+        //versus the swapped
+        String s = "this is my first programming  assignment ";
         System.out.print("Original Text is :    "+ s +"\n");
         char []p = StringSwap(s.toCharArray());
         System.out.print("Converted Text is:    ");

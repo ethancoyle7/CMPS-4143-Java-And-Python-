@@ -20,9 +20,11 @@ public class QuestionTwo
     {
         int DescendingArray=0;//create a DescendingArrayorary holder start at 0 Used in Descending
         int Array_X[] = { 10,100,40,28,98,37,12,63 };
+
+        //dynamically allocate new memory to create an identical array x and y
         int Array_Y[] = new int[Array_X.length];
         Array_Y = Array_X;
-        Array_Y[0]++;
+        Array_Y[0]++;//iterate throughotu the array to copy
 
         System.out.println("The Contents of Original Array Are : ");
 
