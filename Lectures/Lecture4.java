@@ -71,5 +71,5 @@ public class Lecture4
                     " His Breed is a  "+Dog2.getBreed()+ " His Color is "+Dog2.getColor());
 
         }
-}
+}//end of driver and program
 
