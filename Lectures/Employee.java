@@ -13,7 +13,7 @@ public class Employee
         // first initialize instance variable that are private
         String Name;
         String Position;
-        String EmploeeGender;
+        String EmployeeGender;
         int EmployeeAge;
 
         // This is the constructor that initializes the pet to default values
@@ -22,7 +22,7 @@ public class Employee
                 //called upon whenever the puppy class is invoked
                 Name=EmployeeName;
                 Position=EmployeePoistion;
-                EmploeeGender=Gender;
+                EmployeeGender=Gender;
                 EmployeeAge=Age;
         }
 
@@ -57,12 +57,12 @@ public class Employee
         
         public void setGender(String Gender) 
         {
-            EmploeeGender=Gender;
+            EmployeeGender=Gender;
         }
         //accesor to the breed string
         public String getGender() 
         {
-            return EmploeeGender;
+            return EmployeeGender;
         }
         //once initialize, we can move to our main driver and then create instances of new puppers
 
