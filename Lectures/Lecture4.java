@@ -1,3 +1,10 @@
+//Ethan Coyle
+//Dr.Saikat- CMPS 4143
+//Lecture4 Submission
+
+//This class creates instance of a dog
+// and creating objects from that class
+
 public class Lecture4 
 {
    
