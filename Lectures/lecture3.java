@@ -4,7 +4,7 @@
 //spiral array class work
 
 
-public class Lecture3// same name as the filename
+public class lecture3// same name as the filename
 {
     private static void SpiralArray(int[][] grid)
     {
