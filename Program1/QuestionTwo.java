@@ -12,35 +12,53 @@
 //                                                                                          //
 //##########################################################################################//
 
-
+import java.util.Arrays; //we need this imprt for the  insert
 public class QuestionTwo
  {
+    //creating our driver program
     public static void main(String[] args)
 
     {
-        int DescendingArray=0;//create a DescendingArrayorary holder start at 0 Used in Descending
-        //given array for x in the programming assignment
-        int Array_X[] = { 10,100,40,28,98,37,12,63 };
+    //initialize the variables to be used at the top
+    int DescendingArray=0,Index_position = 0,TotArraySum = 0;
+    int Array_X[] = {10,100,40,28,98,37,12,63};
 
-        //dynamically allocate new memory to create an identical array x and y
-        int Array_Y[] = new int[Array_X.length];
-        Array_Y = Array_X;
-        Array_Y[0]++;//iterate throughotu the array to copy
-
-        System.out.println("The Contents of Original Array Are : ");
-
-        for (int i = 0; i < Array_X.length; i++)
-            System.out.print(Array_X[i] + " ");
-            
-        System.out.println("\n\nThe Contents Array Y are :  ");
+    //for user view, display original array, then  copy array to y
+    System.out.println("\nThe Contents of Our Original Array is : "+Arrays.toString(Array_X)); 
+    
+    int Array_Y[] = new int[Array_X.length];
+    Array_Y = Array_X;
+    
+    
+    System.out.println("Before the AVG Insert, Our Array Y is : "+Arrays.toString(Array_Y));
+    // Insert an element in 3rd position of the array (index->2, value->5)
         
-        //for loop to print out the values of the copied array
-        for (int i = 0; i < Array_Y.length; i++)
-            System.out.print(Array_Y[i] + " ");
+    for(int i=0; i < Array_X.length ; i++)
+        TotArraySum = TotArraySum + Array_X[i];
+       //calculate AVG value
+    int AVG = TotArraySum / Array_X.length;
+
+    //printing out the average for visualization purposes
+    System.out.print("\nAfter Calculating the avergae we got an average of  :  "+AVG+"\n\n");
+    //System.out.println("The Contents of Our Original Array is : "+Arrays.toString(Array_X));     
         
+    
+    //parse through the array and print out the contents of the new array with the average placed infirst position
+       for(int i=Array_Y.length-1; i > Index_position; i--)
+       {
+        Array_Y[i] = Array_X[i];
+        }
+        Array_Y[Index_position] = AVG;//place the average in the index position which initializes to index 1
+        //printing out the contents of array y
+        System.out.println("Array Y with The Average placed is :  "+Arrays.toString(Array_Y));
+        
+
+
         //below is going to iterate through in descending order of the original array
-        int n= Array_X.length;//iterate through the length of array
+        //iterate through the length of array
         //comparative nested for loop to iterate and compare values
+        int n= Array_X.length;
+        
         for (int i = 0; i < n; i++) 
         {
             for (int j = i + 1; j < n; j++)
@@ -54,34 +72,13 @@ public class QuestionTwo
                     Array_X[j] = DescendingArray;
                     //assign the new values to original in descending order
                 }
-            
-            }
-            
+            } 
         }
-            //console print the array in the descending order
-            System.out.print("\n\nIn Descending Order:\n");
-            
-            for (int i = 0; i < n - 1; i++) 
-            {
-            //formatting for array
-            System.out.print(Array_X[i] + ",");   
-            }
-    //print out the descending order array
-    //original array now ordered in descending value order
-    System.out.print(Array_X[n - 1]+"\n\n");
-            
-    //we are then going to accumulate and find the average of the array and print out the 
-    //value of the average for display purposes 
 
-    int TotArraySum = 0;//base value before counting is 0
-       for(int i=0; i < Array_Y.length ; i++)
-        TotArraySum = TotArraySum + Array_Y[i];
-       //calculate AVG value
-    float AVG = TotArraySum / Array_Y.length;
-        //then we will print out the calculated average of array
-    System.out.println("The average of all the values in the array is  : " + AVG);
-    
-    
+        //console print the array in the descending order
+        System.out.print("In Descending Order The Array Y is :  "+
+                            Arrays.toString(Array_Y)+"\n\n");
+
+    //Now compare the contents of new array to the old and delete extra values to make them the same
      }      
-
-}
+}//end of the driver and program
