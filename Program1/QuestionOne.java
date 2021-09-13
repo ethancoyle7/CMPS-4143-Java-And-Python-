@@ -20,16 +20,16 @@ public class QuestionOne //class name same as the .java name
     //give array of 20 values
     int NumArr[] = new int[]{5,25,37,48,69,85,28,15,12,37,78,94,100,29,8,
                                 16,11,15,905,2};
-    //set the smallest and the largest in the array to 0 or the first
+    //small and large are the first index
     int Smallest = NumArr[0];
     int Largest = NumArr[0];
     //comapre each item in the array to the one compared before and after and then
     //if fits either category, then that is new number or move to next one
     for(int i=1; i< NumArr.length; i++)
         {
-        if(NumArr[i] > Largest)
+        if(NumArr[i] > Largest)  // comparison to find the largest value inside the array
                 Largest = NumArr[i];
-        else if (NumArr[i] < Smallest)
+        else if (NumArr[i] < Smallest) // comparison peruse the arry to find the smallest
                 Smallest = NumArr[i];       
         }
     //print out to the screen the largest number found and the smallest number found

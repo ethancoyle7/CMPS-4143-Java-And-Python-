@@ -19,6 +19,7 @@ public class QuestionTwo
 
     {
         int DescendingArray=0;//create a DescendingArrayorary holder start at 0 Used in Descending
+        //given array for x in the programming assignment
         int Array_X[] = { 10,100,40,28,98,37,12,63 };
 
         //dynamically allocate new memory to create an identical array x and y
@@ -63,13 +64,24 @@ public class QuestionTwo
             for (int i = 0; i < n - 1; i++) 
             {
             //formatting for array
-            System.out.print(Array_X[i] + ",");
-            
+            System.out.print(Array_X[i] + ",");   
             }
     //print out the descending order array
     //original array now ordered in descending value order
     System.out.print(Array_X[n - 1]+"\n\n");
             
+    //we are then going to accumulate and find the average of the array and print out the 
+    //value of the average for display purposes 
+
+    int TotArraySum = 0;//base value before counting is 0
+       for(int i=0; i < Array_Y.length ; i++)
+        TotArraySum = TotArraySum + Array_Y[i];
+       //calculate AVG value
+    float AVG = TotArraySum / Array_Y.length;
+        //then we will print out the calculated average of array
+    System.out.println("The average of all the values in the array is  : " + AVG);
+    
+    
      }      
 
 }

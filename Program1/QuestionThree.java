@@ -68,6 +68,8 @@ public class QuestionThree //same name as the given java program
                     if (frequency[j] < frequency[j + 1]) 
                     {
                         //temporary holding plave for frequency
+                        // while we are going through the occurancy placeholders, we are going to 
+                        //  assign the highest values to temp for printing out
                         int temp = frequency[j];
                         frequency[j] = frequency[j + 1];
                         frequency[j + 1] = temp;
