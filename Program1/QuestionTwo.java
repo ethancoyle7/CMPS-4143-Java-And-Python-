@@ -40,7 +40,8 @@ public class QuestionTwo
             if (arr[i] == key)
                 return i;
       
-        return -1;
+        return -1;// if this doesnt find the element, then will not continue with the delete
+                  // element function will just go to the else statement
     }
      
     // This is our function to delete the average element again to make them both equal
