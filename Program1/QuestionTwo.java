@@ -125,11 +125,11 @@ public class QuestionTwo
     if(Array_X !=Array_Y)
     {
     int itr;  
-    int ArrayLength = Array_Y.length; // the array length to look at is the length 9
     int key = AVG;                    //key item to delete is average value
-    n = deleteElement(Array_Y, ArrayLength, key);   // go to the function call
+    n = deleteElement(Array_Y, n, key);   // go to the function call
     
     System.out.println("\n\nArray Y Content after deletion ");
+    System.out.println("-----------------------------------");
     for (itr=0; itr<n; itr++)
         System.out.print(" "+Array_Y[itr]+",");
     }
