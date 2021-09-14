@@ -16,7 +16,7 @@ import java.util.Arrays; //we need this imprt for the  insert
 public class QuestionTwo
  {
      //function call to add the element AVG into the array Y
-    public static int[] addX(int n, int arr[], int x)
+    public static int[] InsertAVG(int n, int arr[], int x)
     {
         int i;
   
@@ -32,9 +32,10 @@ public class QuestionTwo
         //returning the new array with new value inserted
         return newarr;
     }
+    //function to search for the number that is specified to perform deletion function
     static int findElement(int arr[], int n, int key)
     {
-        int i;
+        int i;//search through the array to find the value specified
         for (i = 0; i < n; i++)
             if (arr[i] == key)
                 return i;
@@ -51,10 +52,10 @@ public class QuestionTwo
         if (pos == -1)
         {
             System.out.println("We couldnt find specified element");
-            return n;
+            return n;//exit out of this function call
         }
       
-        // Deleting element
+        // DIf the value is found we iterate through to delete that number
         int i;
         for (i = pos; i< n - 1; i++)
             arr[i] = arr[i + 1];
@@ -91,7 +92,7 @@ public class QuestionTwo
 
     int x = AVG, SizeArray = 8;//to be used on function call to insert the avg value at end
 
-    Array_Y = addX(SizeArray, Array_X, x);// go the function call to insert the Avg 
+    Array_Y = InsertAVG(SizeArray, Array_X, x);// go the function call to insert the Avg 
     //print out the contents after the insert is done
     System.out.println("\nThe Contents of Array Y After AVG  :  " + Arrays.toString(Array_Y));
 
