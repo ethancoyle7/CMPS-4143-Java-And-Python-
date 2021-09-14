@@ -32,6 +32,35 @@ public class QuestionTwo
         //returning the new array with new value inserted
         return newarr;
     }
+    static int findElement(int arr[], int n, int key)
+    {
+        int i;
+        for (i = 0; i < n; i++)
+            if (arr[i] == key)
+                return i;
+      
+        return -1;
+    }
+     
+    // This is our function to delete the average element again to make them both equal
+    static int deleteElement(int arr[], int n, int key)
+    {
+        // find the element thats to be deleted from function call position
+        int pos = findElement(arr, n, key);
+      
+        if (pos == -1)
+        {
+            System.out.println("We couldnt find specified element");
+            return n;
+        }
+      
+        // Deleting element
+        int i;
+        for (i = pos; i< n - 1; i++)
+            arr[i] = arr[i + 1];
+      
+        return n - 1;// returning the array with the value deleted
+    }
 
     //creating our driver program
     public static void main(String[] args)
@@ -92,6 +121,19 @@ public class QuestionTwo
                             Arrays.toString(Array_Y)+"\n\n");
 
     //Now compare the contents of new array to the old and delete extra values to make them the same
+    if(Array_X !=Array_Y)
+    {
+    int itr;  
+    int ArrayLength = Array_Y.length; // the array length to look at is the length 9
+    int key = AVG;                    //key item to delete is average value
+    n = deleteElement(Array_Y, ArrayLength, key);   // go to the function call
     
-     }      
-}//end of the driver and program
+    System.out.println("\n\nArray Y Content after deletion ");
+    for (itr=0; itr<n; itr++)
+        System.out.print(" "+Array_Y[itr]+",");
+    }
+    else
+    System.out.print("The Arrays are the Same!");
+
+     }//end of our driver main  
+}//end of the class program
