@@ -27,9 +27,10 @@ public class QuestionThree //same name as the given java program
             //for formatting purposes and visual presentation, print out the string
             System.out.println(S);
     
-            String[] words = S.split("\\s");
+            String[] words = S.split("\s");
 
              //next, we are going to look and find the most frequent words given
+             //create two dynamic allocated arrays to store frequent words and their frequency
             String[] FrequentWords = new String[words.length];
             int[] frequency = new int[words.length];
 
@@ -44,10 +45,12 @@ public class QuestionThree //same name as the given java program
                 boolean exists = false;// need to check booleans to see if frequency does exist
                 for (int j = 0; j < OccuranceCount; j++) 
                 {
+                    // cpaital and lower case dont matter if word occurs add to frequency
                     if (words[i].replaceAll("[.,;]", "").equalsIgnoreCase(FrequentWords[j])) 
                     {
+                        //if an occurancy does occur add to freguency 
                         frequency[j] += 1;
-                        exists = true;
+                        exists = true; // it has reoccured
     
                     }
                 }
@@ -59,7 +62,7 @@ public class QuestionThree //same name as the given java program
                 }
             }
     
-            //Next for loop sorts the arrays of occurancies
+            //my naext loop is going to loop through the occurancecounts
     
             for (int i = 0; i < OccuranceCount; i++) 
             {
@@ -80,11 +83,13 @@ public class QuestionThree //same name as the given java program
                 }
             }
             // Lastly, we systematically print out the % most frequent words that are found
-            System.out.println("The Top 5 Most Frequent Words Are -");
+            System.out.println("\nThe Top 5 Most Frequently Occured Words in this string are -");
+            System.out.println("---------------------------------------------------------------");
             for (int i = 0; i < 5; i++)
              {
                  //loop through for loop print out the most frequet that is store in the array
-                System.out.println(FrequentWords[i] + " - This  appeared " + frequency[i] + " times.");
+                System.out.println("["+ FrequentWords[i] + "] - This  appeared " + frequency[i] + "Times. ");
             }
+            System.out.println("---------------------------------------------------------------");
         }
 }//end of process and end of program

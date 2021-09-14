@@ -1,8 +1,14 @@
-The Contents of Original Array Are : 
-11 100 40 28 98 37 12 63
+The Contents of Our Original Array is : [10, 100, 40, 28, 98, 37, 12, 63]
+The Content of ArrY without AVG is   :  [10, 100, 40, 28, 98, 37, 12, 63]
 
-The Contents Array Y are :
-11 100 40 28 98 37 12 63
+After Calculating the avergae we got an average of  :  48
 
-In Descending Order:
-100,98,63,40,37,28,12,11
+
+The Contents of Array Y After AVG  :  [10, 100, 40, 28, 98, 37, 12, 63, 48]
+In Descending Order The Array Y is :  [100, 98, 63, 48, 40, 37, 28, 12, 10]
+
+
+
+Array Y Content after deletion
+-----------------------------------
+ 100, 98, 63, 40, 37, 28, 12, 10,

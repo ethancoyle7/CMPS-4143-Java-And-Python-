@@ -1,8 +1,10 @@
-Before trying to do any of the steps below, you should read the article through at least once for basic understanding. Then go back and review, following these steps. He ran his machine up to the stone porch and ascending the steps rang the door bell. They directed their steps toward the sea, which was lit up by the rising moon. She breathed a sigh of 
-relief, and her light steps fell gradually into the measure of his. This was fully four feet under water and the lower story of the place was two steps lower down.
-The Top 5 Most Frequent Words Are -
-the - This  appeared 10 times.
-steps - This  appeared 6 times.
-of - This  appeared 4 times.
-and - This  appeared 4 times.
-was - This  appeared 3 times.
+Before trying to do any of the steps below, you should read the article through at least once for basic understanding. Then go back and review, following these steps. He ran his machine up to the stone porch and ascending the steps rang the door bell. They directed their steps toward the sea, which was lit up by the rising moon. She breathed a sigh of relief, and her light steps fell gradually into the measure of his. This was fully four feet under water and the lower story of the place was two steps lower down.
+
+The Top 5 Most Frequently Occured Words in this string are -
+---------------------------------------------------------------
+[the] - This  appeared 10Times.
+[steps] - This  appeared 6Times.
+[of] - This  appeared 4Times.
+[and] - This  appeared 4Times.
+[was] - This  appeared 3Times.
+---------------------------------------------------------------

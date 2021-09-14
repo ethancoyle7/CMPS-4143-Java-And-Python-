@@ -18,19 +18,19 @@ public class QuestionOne //class name same as the .java name
         public static void main(String[] args) 
     {
     //give array of 20 values
-    int NumArr[] = new int[]{5,25,37,48,69,85,28,15,12,37,78,94,100,29,8,
+    int ArrayofValues[] = new int[]{5,25,37,-9000,0,85,28,5901020,12,37,78,94,100,29,8,
                                 16,11,15,905,2};
     //small and large are the first index
-    int Smallest = NumArr[0];
-    int Largest = NumArr[0];
+    int Smallest = ArrayofValues[0];
+    int Largest = ArrayofValues[0];
     //comapre each item in the array to the one compared before and after and then
     //if fits either category, then that is new number or move to next one
-    for(int i=1; i< NumArr.length; i++)
+    for(int i=1; i< ArrayofValues.length; i++)
         {
-        if(NumArr[i] > Largest)  // comparison to find the largest value inside the array
-                Largest = NumArr[i];
-        else if (NumArr[i] < Smallest) // comparison peruse the arry to find the smallest
-                Smallest = NumArr[i];       
+        if(ArrayofValues[i] > Largest)  // comparison to find the largest value inside the array
+                Largest = ArrayofValues[i];
+        else if (ArrayofValues[i] < Smallest) // comparison peruse the arry to find the smallest
+                Smallest = ArrayofValues[i];       
         }
     //print out to the screen the largest number found and the smallest number found
     System.out.println("In This Array of 20 Values \n");

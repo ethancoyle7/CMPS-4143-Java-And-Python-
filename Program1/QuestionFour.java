@@ -22,17 +22,14 @@ class QuestionFour
         {
             // Inside here, we are swapping around the string
             StringLINE = str[Beginning];
-            str[Beginning] = str[Ending];
-            str[Ending] = StringLINE;
+            str[Beginning] = str[Ending]; // switch beginning with the end
+            str[Ending] = StringLINE; // reverse the order that is reading
             Beginning++;
             Ending--;
         }
-
     }
-
-// Next we must create function to reverse the words
-
-    static char[] StringSwap(char []s)
+    //function call whos purpose is to check thring and then go to reverse
+    static char[] FlipString(char []s)
     {
     int Beginning = 0;//initialize the starting point to 0
     //comense the swapping!!!!
@@ -40,20 +37,14 @@ class QuestionFour
     {
         if (s[Ending] == ' ')
         {
-        
-        reverse(s, Beginning, Ending);
+        reverse(s, Beginning, Ending);//function call to reverse the string function
         Beginning = Ending + 1;
-
         }
-
     }
-
-    // Reverse the last word
-
-    reverse(s, Beginning, s.length - 1);
-
+    reverse(s, Beginning, s.length - 1);//first call
     // putting the whole string in reverse
-    reverse(s, 0, s.length - 1);
+    //in order to make it legible and not mirror backwards call function again
+    reverse(s, 0,s.length - 1);//second call
     //retruning the string that is flipped
     return s;
     }
@@ -63,18 +54,14 @@ class QuestionFour
 //go to appropriate functions and display the flipped 
 //string that was read in
 
-    public static void main(String[] args)
+    public static void main(String[] args)// main driver for program
 
     {
-        //format the printing console output
-        //we read in the first string perform the stringswap function
-        //then output in readable format for the viewer of original
-        //versus the swapped
-        String s = "this is my first programming  assignment ";
-        System.out.print("Original Text is :    "+ s +"\n");
-        char []p = StringSwap(s.toCharArray());
+        String s = "this is my first programming  assignment "; // orginal string
+        System.out.print("Original Text is :    "+ s +"\n");    //friendly user output
+        char []ReversedStringArray = FlipString(s.toCharArray());       // function call to reverse          
         System.out.print("Converted Text is:    ");
-        System.out.print(p);
+        System.out.print(ReversedStringArray); //go to function call to work through so output is nice
         System.out.print("\n\n");
 
     }
