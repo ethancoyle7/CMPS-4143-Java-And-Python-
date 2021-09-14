@@ -15,61 +15,73 @@
 import java.util.Arrays; //we need this imprt for the  insert
 public class QuestionTwo
  {
+     //function call to add the element AVG into the array Y
+    public static int[] addX(int n, int arr[], int x)
+    {
+        int i;
+  
+        // new array size n+1 for inserting average
+        int newarr[] = new int[n + 1];
+  
+        //taking the old array and looping through adding element
+        for (i = 0; i < n; i++)
+            newarr[i] = arr[i];
+  
+        newarr[n] = x;
+  
+        //returning the new array with new value inserted
+        return newarr;
+    }
+
     //creating our driver program
     public static void main(String[] args)
 
     {
     //initialize the variables to be used at the top
-    int DescendingArray=0,Index_position = 0,TotArraySum = 0;
+    int DescendingArray=0,TotArraySum = 0;
     int Array_X[] = {10,100,40,28,98,37,12,63};
 
     //for user view, display original array, then  copy array to y
     System.out.println("\nThe Contents of Our Original Array is : "+Arrays.toString(Array_X)); 
     
-    int Array_Y[] = new int[Array_X.length];
-    Array_Y = Array_X;
-    
-    
-    System.out.println("Before the AVG Insert, Our Array Y is : "+Arrays.toString(Array_Y));
-    // Insert an element in 3rd position of the array (index->2, value->5)
-        
+
+    //for calculating the average, we must loop through array x and determine the total of the sum indexes
+    //then divide by the number of indexes and then store in variable
     for(int i=0; i < Array_X.length ; i++)
         TotArraySum = TotArraySum + Array_X[i];
-       //calculate AVG value
+    //calculate AVG value
     int AVG = TotArraySum / Array_X.length;
 
-    //printing out the average for visualization purposes
-    System.out.print("\nAfter Calculating the avergae we got an average of  :  "+AVG+"\n\n");
-    //System.out.println("The Contents of Our Original Array is : "+Arrays.toString(Array_X));     
-        
-    
-    //parse through the array and print out the contents of the new array with the average placed infirst position
-       for(int i=Array_Y.length-1; i > Index_position; i--)
-       {
-        Array_Y[i] = Array_X[i];
-        }
-        Array_Y[Index_position] = AVG;//place the average in the index position which initializes to index 1
-        //printing out the contents of array y
-        System.out.println("Array Y with The Average placed is :  "+Arrays.toString(Array_Y));
-        
+    //we create a new array called y and then copy array x into it
+    int Array_Y[] = new int[Array_X.length];
+    Array_Y = Array_X;
+    System.out.println("The Content of ArrY without AVG is   :  "+Arrays.toString(Array_Y));
 
+    //now for display print out the calculated average
+    System.out.print("\nAfter Calculating the avergae we got an average of  :  "+AVG+"\n\n");
+
+    int x = AVG, SizeArray = 8;//to be used on function call to insert the avg value at end
+
+    Array_Y = addX(SizeArray, Array_X, x);// go the function call to insert the Avg 
+    //print out the contents after the insert is done
+    System.out.println("\nThe Contents of Array Y After AVG  :  " + Arrays.toString(Array_Y));
 
         //below is going to iterate through in descending order of the original array
         //iterate through the length of array
         //comparative nested for loop to iterate and compare values
-        int n= Array_X.length;
+        int n= Array_Y.length;
         
         for (int i = 0; i < n; i++) 
         {
             for (int j = i + 1; j < n; j++)
             {
                 //test to see ivalue of i is less than next
-                if (Array_X[i] < Array_X[j]) 
+                if (Array_Y[i] < Array_Y[j]) 
                 {
                     //store values into DescendingArray rel
-                    DescendingArray = Array_X[i];
-                    Array_X[i] = Array_X[j];
-                    Array_X[j] = DescendingArray;
+                    DescendingArray = Array_Y[i];
+                    Array_Y[i] = Array_Y[j];
+                    Array_Y[j] = DescendingArray;
                     //assign the new values to original in descending order
                 }
             } 
@@ -80,5 +92,6 @@ public class QuestionTwo
                             Arrays.toString(Array_Y)+"\n\n");
 
     //Now compare the contents of new array to the old and delete extra values to make them the same
+    
      }      
 }//end of the driver and program
