@@ -21,19 +21,19 @@ public class QuestionTwo
         int i;
   
         // new array size n+1 for inserting average
-        int newarr[] = new int[n + 1];
+        int NewArray[] = new int[n + 1];
   
         //taking the old array and looping through adding element
         for (i = 0; i < n; i++)
-            newarr[i] = arr[i];
+            NewArray[i] = arr[i];
   
-        newarr[n] = x;
+        NewArray[n] = x;
   
         //returning the new array with new value inserted
-        return newarr;
+        return NewArray;
     }
     //function to search for the number that is specified to perform deletion function
-    static int findElement(int arr[], int n, int key)
+    static int LocatingDiscrepancy(int arr[], int n, int key)
     {
         int i;//search through the array to find the value specified
         for (i = 0; i < n; i++)
@@ -45,10 +45,10 @@ public class QuestionTwo
     }
      
     // This is our function to delete the average element again to make them both equal
-    static int deleteElement(int arr[], int n, int key)
+    static int DeleteDiscrepancy(int arr[], int n, int key)
     {
         // find the element thats to be deleted from function call position
-        int pos = findElement(arr, n, key);
+        int pos = LocatingDiscrepancy(arr, n, key);
       
         if (pos == -1)
         {
@@ -127,15 +127,16 @@ public class QuestionTwo
     {
     int itr;  
     int key = AVG;                    //key item to delete is average value
-    n = deleteElement(Array_Y, n, key);   // go to the function call
+    n = DeleteDiscrepancy(Array_Y, n, key);   // go to the function call
     
     System.out.println("\n\nArray Y Content after deletion ");
     System.out.println("-----------------------------------");
     for (itr=0; itr<n; itr++)
-        System.out.print(" "+Array_Y[itr]+",");
+        System.out.print(" "+Array_Y[itr]+" ");
     }
     else
-    System.out.print("The Arrays are the Same!");
-
+        System.out.print("The Arrays are the Same!");
+        System.out.println("\n-----------------------------------");
      }//end of our driver main  
+    
 }//end of the class program

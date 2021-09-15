@@ -14,34 +14,34 @@
 //##########################################################################################//
 class QuestionFour 
 {
-    static void reverse(char str[],int Beginning,int Ending) 
+    static void reverse(char str[],int Front,int Rear) 
     {
      // First create StringLINE variable to hold the string
         char StringLINE;  
-        while (Beginning <= Ending)
+        while (Front <= Rear)
         {
             // Inside here, we are swapping around the string
-            StringLINE = str[Beginning];
-            str[Beginning] = str[Ending]; // switch beginning with the end
-            str[Ending] = StringLINE; // reverse the order that is reading
-            Beginning++;
-            Ending--;
+            StringLINE = str[Front];
+            str[Front] = str[Rear]; // switch beginning with the end
+            str[Rear] = StringLINE; // reverse the order that is reading
+            Front++;
+            Rear--;
         }
     }
     //function call whos purpose is to check thring and then go to reverse
     static char[] FlipString(char []s)
     {
-    int Beginning = 0;//initialize the starting point to 0
+    int Front = 0;//initialize the starting point to 0
     //comense the swapping!!!!
-    for (int Ending = 0; Ending < s.length; Ending++)
+    for (int Rear = 0; Rear < s.length; Rear++)
     {
-        if (s[Ending] == ' ')
+        if (s[Rear] == ' ')
         {
-        reverse(s, Beginning, Ending);//function call to reverse the string function
-        Beginning = Ending + 1;
+        reverse(s, Front, Rear);//function call to reverse the string function
+        Front = Rear + 1;
         }
     }
-    reverse(s, Beginning, s.length - 1);//first call
+    reverse(s, Front, s.length - 1);//first call
     // putting the whole string in reverse
     //in order to make it legible and not mirror backwards call function again
     reverse(s, 0,s.length - 1);//second call

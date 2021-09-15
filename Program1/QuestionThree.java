@@ -30,26 +30,26 @@ public class QuestionThree //same name as the given java program
             String[] words = S.split("\s");
 
              //next, we are going to look and find the most frequent words given
-             //create two dynamic allocated arrays to store frequent words and their frequency
+             //create two dynamic allocated arrays to store frequent words and their Recurrance
             String[] FrequentWords = new String[words.length];
-            int[] frequency = new int[words.length];
+            int[] Recurrance = new int[words.length];
 
-            //dyanmicall allocate new mem for frequency
+            //dyanmicall allocate new mem for Recurrance
             //initialize a counter variable to store the count
             int OccuranceCount = 0;
 
-            //starting a for loop to run through the string a run through frequency 
+            //starting a for loop to run through the string a run through Recurrance 
             
             for (int i = 0; i < words.length; i++) 
             {
-                boolean exists = false;// need to check booleans to see if frequency does exist
+                boolean exists = false;// need to check booleans to see if Recurrance does exist
                 for (int j = 0; j < OccuranceCount; j++) 
                 {
-                    // cpaital and lower case dont matter if word occurs add to frequency
+                    // cpaital and lower case dont matter if word occurs add to Recurrance
                     if (words[i].replaceAll("[.,;]", "").equalsIgnoreCase(FrequentWords[j])) 
                     {
                         //if an occurancy does occur add to freguency 
-                        frequency[j] += 1;
+                        Recurrance[j] += 1;
                         exists = true; // it has reoccured
     
                     }
@@ -57,7 +57,7 @@ public class QuestionThree //same name as the given java program
                 if (!exists)// if the boolean is true, then add to counter 
                 {
                     FrequentWords[OccuranceCount] = words[i].replaceAll("[.,;]", "");
-                    frequency[OccuranceCount] = 1;
+                    Recurrance[OccuranceCount] = 1;
                     OccuranceCount += 1;
                 }
             }
@@ -68,14 +68,14 @@ public class QuestionThree //same name as the given java program
             {
                 for (int j = 0; j < OccuranceCount - i - 1; j++) 
                 {
-                    if (frequency[j] < frequency[j + 1]) 
+                    if (Recurrance[j] < Recurrance[j + 1]) 
                     {
-                        //temporary holding plave for frequency
+                        //temporary holding plave for Recurrance
                         // while we are going through the occurancy placeholders, we are going to 
                         //  assign the highest values to temp for printing out
-                        int temp = frequency[j];
-                        frequency[j] = frequency[j + 1];
-                        frequency[j + 1] = temp;
+                        int temp = Recurrance[j];
+                        Recurrance[j] = Recurrance[j + 1];
+                        Recurrance[j + 1] = temp;
                         String tempS = FrequentWords[j];
                         FrequentWords[j] = FrequentWords[j + 1];
                         FrequentWords[j + 1] = tempS;
@@ -88,7 +88,7 @@ public class QuestionThree //same name as the given java program
             for (int i = 0; i < 5; i++)
              {
                  //loop through for loop print out the most frequet that is store in the array
-                System.out.println("["+ FrequentWords[i] + "] - This  appeared " + frequency[i] + "Times. ");
+                System.out.println("["+ FrequentWords[i] + "] Appearing "+ Recurrance[i] + " Times. ");
             }
             System.out.println("---------------------------------------------------------------");
         }
