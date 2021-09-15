@@ -46,6 +46,6 @@ public class MulitLevel
     //to display the multilevel result use some print out methods
     System.out.println(childObj.print_one());
     System.out.println(childObj.print_two());
-    System.out.println(childObj.print_thee());
+    System.out.println(childObj.print_three());
     }
 }
