@@ -1,4 +1,5 @@
 
+    
 interface ONE
 {
     public void print_one();
@@ -42,3 +43,6 @@ public class MultipleInheritance implements THREE
     }
 
 }
+
+    
+
