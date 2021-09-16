@@ -1,0 +1,19 @@
+From the interface output
+--------------------------
+
+Bicycle present state :
+speed: 2 gear: 2
+Bike present state :
+speed: 1 gear: 1
+Car at present state :
+speed: 1 gear: 1
+-----------------------
+
+From the multiple inheritance output
+------------------------------------
+Printing from 1
+
+Printing from 2
+
+Printing from 3
+-------------------------------------
