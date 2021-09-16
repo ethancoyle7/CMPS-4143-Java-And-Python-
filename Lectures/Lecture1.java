@@ -4,7 +4,7 @@
  * author - Ethan Coyle
  * Class -4143
  */
-class HelloWorld // camelcase class name
+class Lecture1 // camelcase class name
  {
    //main class inside of the hello world class
     public static void main(String[] args) 
