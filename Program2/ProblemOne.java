@@ -112,7 +112,7 @@ class FathersSon extends GrandFathersSon// extend this child from parent which i
 
 // now to print out all in the main driver class to iterate through all
 //the various cases of OOP concepts 
-class QuestionOne
+class ProblemOne
 {
     public static void main(String[] args) 
     {
