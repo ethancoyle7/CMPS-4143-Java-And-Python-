@@ -1,3 +1,7 @@
+
+
+
+
 public class Mammalia 
 {
     //creating a basis for all the animals in mammlia class that everything is going to be orriding from

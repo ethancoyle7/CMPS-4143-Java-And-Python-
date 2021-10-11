@@ -13,7 +13,7 @@
 //       blocks and print to the screen the errors that is caught during compilation        //
 //                                                                                          //
 //##########################################################################################//
-
+import java.util.Scanner;// we need to utilize the scanner for user input
 
 //first initilaize the class Main in whihch our program is being compiled in
 public class Calculator
@@ -174,9 +174,16 @@ public class Calculator
                 // new instance of Main
                 Calculator CalcTestCase = new Calculator();
 
+                //get a sanner to read in an equation reading
+                Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+                System.out.println("Enter A Test Equation");
+
+                String TestCase = myObj.nextLine();  // Read user input
+
+                
                 // run a try catch for each of the specified TestingCases
                 // go to respective functions and utilize the error hecking 
-                String TestCase = "X = 1+2+(3"; // our first TestingCase
+                //String TestCase = "X = 1+2+(3"; // our first TestingCase
                 try 
                 {
                         // go to getsolution block and see if anything fits the bill
@@ -192,15 +199,18 @@ public class Calculator
                 {
                         System.err.println(e.getLocalizedMessage());
                 }
-
+                //myObj.close();// close the scanner
                 System.out.println("--------------------------------------------------------\n");
                 // for each test case, the iteration stays the same
                 //read in the test case and then see if can catch the errors
                 // try to find error in the second given testcase
-                TestCase = "Y = 2+5 = 3";
+                System.out.println("Enter A Test Equation");
+
+                String TestCase2 = myObj.nextLine();
+                //TestCase = "Y = 2+5 = 3";
                 try 
                 {
-                        CalcTestCase.getSolution(TestCase);
+                        CalcTestCase.getSolution(TestCase2);
                 } 
                 catch (RuntimeError e) 
                 {
@@ -213,11 +223,14 @@ public class Calculator
 
                 System.out.println("--------------------------------------------------------\n");
 
+                
                 // try to find error in the 5th test case
-                TestCase = "Y = 6*Z+5";
+                System.out.println("Enter A Test Equation");
+                String TestCase3 = myObj.nextLine();
+                //TestCase = "Y = 6*Z+5";
                 try 
                 {
-                        CalcTestCase.getSolution(TestCase);
+                        CalcTestCase.getSolution(TestCase3);
                 } 
                 catch (RuntimeError e) 
                 {
@@ -230,12 +243,14 @@ public class Calculator
                 System.out.println("--------------------------------------------------------\n");
                 
 
+                System.out.println("Enter A Test Equation");
+                String TestCase4 = myObj.nextLine();
                 // Testing for errors in the test case for the forth example
-                TestCase = "Y 3+5+(1+6)";
+                //TestCase = "Y 3+5+(1+6)";
                 try 
                 {
                         //try to see if can be TestCaseSolutiond without exceptions
-                        CalcTestCase.getSolution(TestCase);
+                        CalcTestCase.getSolution(TestCase4);
                 } 
                 // if cannot be TestCaseSolutiond catch the errors both syntacticallay and 
                 // runtime errors
@@ -249,12 +264,15 @@ public class Calculator
                 }
                 System.out.println("--------------------------------------------------------\n");
 
+
+                System.out.println("Enter A Test Equation");
+                String TestCase5 = myObj.nextLine();
                 // try to see if any errors in the 5th case
-                TestCase = "Z=(3+5)/0";
+                //TestCase = "Z=(3+5)/0";
                 try 
                 {
                         // go to function call pass the string to check
-                        CalcTestCase.getSolution(TestCase);
+                        CalcTestCase.getSolution(TestCase5);
                 }
                 // if any errors pass, then print out errors from both syntax
                 // and runtime 
@@ -268,11 +286,14 @@ public class Calculator
                 }
                 System.out.println("--------------------------------------------------------\n");
                 // our 6th given test case from out input
-                TestCase = "A = 7*6/2";
+                System.out.println("Enter A Test Equation");
+
+                String TestCase6 = myObj.nextLine();
+                //TestCase = "A = 7*6/2";
                 try 
                 {
                         //try for solution
-                        CalcTestCase.getSolution(TestCase);
+                        CalcTestCase.getSolution(TestCase6);
                 }
                 //if there any errors preventing this, print the error ErrorMessage out
                 catch (RuntimeError e) 
@@ -290,5 +311,6 @@ public class Calculator
                         System.out.println("--------------------------------------------------------\n");
                         System.out.println("we Are Exiting our Test Cases and into the Final Block\n\n");
                 }   
+                myObj.close();// make sure to close out of the scanner
         }// end of testing 
 }// end of the driver and the prgram
