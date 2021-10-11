@@ -223,7 +223,7 @@ public class Calculator
 
                 System.out.println("--------------------------------------------------------\n");
 
-                
+
                 // try to find error in the 5th test case
                 System.out.println("Enter A Test Equation");
                 String TestCase3 = myObj.nextLine();
@@ -311,6 +311,6 @@ public class Calculator
                         System.out.println("--------------------------------------------------------\n");
                         System.out.println("we Are Exiting our Test Cases and into the Final Block\n\n");
                 }   
-                myObj.close();// make sure to close out of the scanner
+                myObj.close();// make sure to close out of the scanner of else eof runoff
         }// end of testing 
 }// end of the driver and the prgram
