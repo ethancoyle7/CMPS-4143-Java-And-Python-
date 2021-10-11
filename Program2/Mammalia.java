@@ -1,3 +1,19 @@
+//##########################################################################################//
+//                                                                                          //
+//   Author-           Ethan Coyle                                                          //
+//   Instructor/Class- Dr.Saikat-CMPS 4143 Java/Pyhton                                      //
+//   Due Date-         October 11,2021                                                      //
+//   What it does-                                                                          //
+//                                                                                          //
+//   The purpose of this program is to create instance of mammalia family tree and          //
+//   then change thier attributes and do few other things per the guidline s of the prog    //
+//   by creating inheritance from derived classes and ovverriding methods for each instance //
+//   of a created mammalia family memeber                                                   //
+//##########################################################################################//
+
+
+
+
 
 //we start by creating our main supe class that we derive each one of our other animals and mammals from
 
