@@ -1,219 +1,649 @@
 
+//we start by creating our main supe class that we derive each one of our other animals and mammals from
 
-
-
-public class Mammalia 
+class Mammilia 
 {
-    //creating a basis for all the animals in mammlia class that everything is going to be orriding from
-    int NumLegs,NumNuerons,BornOnDate;
+
+    // we initialize out variables for the various attributes for each of our mammals to be derived from
+    int Legs;
     boolean HasTail;
-    boolean HasBrain;
-    double precision;
-    
+    boolean HasABrain;
+    int NumNeurons;
+    double LevelOfPrecision;
+    int DateOfBirth;
     String FavoriteFood;
 
-    //we need t set the attributes for each of the casses as well
-    public void Attributes()
+    // then we create our constructor which will be used as pointer type to our personal new created animals
+    public Mammilia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood) 
     {
-        
-    };
-    public void eat(){};
-    public void walk(){};
-    public void sleep(){};
-    public void give_birth(){};
-
-    Mammalia(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-    {
-        this.NumLegs = Legs;
-        this.HasBrain = HasBrain;
-        this.NumNuerons = NumNuerons;
-        this.HasTail = Tail;
-        this.precision = precision;
-        this.BornOnDate = BornOnDate;
-        this.FavoriteFood = FavFood;
+        this.Legs = Legs;
+        this.HasTail = HasTail;
+        this.HasABrain = HasABrain;
+        this.NumNeurons = NumNeurons;
+        this.LevelOfPrecision = LevelOfPrecision;
+        this.DateOfBirth = DateOfBirth;
+        this.FavoriteFood = FavoriteFood;
     }
 
-    //extending from the mammalia class monotremata
-    class Theria extends Mammalia 
+    //other attributes that the animals share
+    public void Eat() 
     {
-        Theria(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            super(Legs,HasBrain,Tail,NumNuerons, precision, BornOnDate, FavFood);
-
-        }
-        @Override
-        public void Attributes()
-        {
-            
-            System.out.println(" Has -"+NumLegs+"legs\n");
-            System.out.println(" Has -"+HasBrain+ " A Brain\n");
-            System.out.println(" Has -"+HasTail +" A Tail\n");
-            System.out.println(" Has -"+NumNuerons+ " Neurons!\n");
-            System.out.println(" Has -"+precision+" Percent Precision and Adaptability\n");
-            System.out.println(" Was Born in the Year -"+BornOnDate+ "\n");
-            System.out.println(" Their Favorite Food is -"+FavoriteFood+ "Wow Thats Yummy!\n\n");
-        }
-        
+        System.out.println("I like to Eat" + FavoriteFood + " Wow Aint That Yummy?\n");
     }
-    public class Monotremata extends Mammalia
+    public void Walk() 
     {
-        Monotremata(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        System.out.println("I Walk on " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am currenlty Sleeping Away\n");
+    }
+    
+    public String Attributes() 
+    {
+        
+        //returning the set variables and values per instance of each case of derive mammalia
+        return ("Has  " + Legs + " Legs\n"+ 
+        "I Have a Tail? " + HasTail + "\n"+
+         "Do I have a Brain?  " + HasABrain + "\n"+
+          "How Many Neurons Do I have? " + NumNeurons + "\n"
+        + "My Total Level Percentage of Precision is  " + LevelOfPrecision + "%\n"+
+         "I was Born in the Year? " + DateOfBirth + "\n"+
+          "And My Favorite Food is ? " + FavoriteFood + "\n");
+    }
+}
+
+    // the following is built similarly to the derived from super class only differences are the attributes associated with them that are
+    // user defined in the main driver of the program
+    //we extend each one from their respective cases and then if they are used in the driver for animal and class instances, then they will
+    //be processed accordingly
+    class Theria extends Mammilia 
+    {
+        //constructors set for each instance of animal process by calling the parent class
+    public Theria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        //returned the overriden atttrivutes for the derived class
+        return (super.Attributes() + "\n");
+    }
+
+    // various other attributes associated with this derived from mammalia
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+//repeat the whole process
+class Monotremata extends Mammilia 
+{
+    public Monotremata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk()
+     {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Placentalia extends Theria {
+    public Placentalia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Marsupialia extends Theria 
+{
+    public Marsupialia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return ("Marsupialia\n" + super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk()
+     {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
     }
    
-    //theria is the paren of the marsupilia class
-    class Marsupialia extends Theria
+}
+
+class Boreoeutheria extends Placentalia 
+{
+    public Boreoeutheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
     {
-        Marsupialia(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    //parent class is theria
-    class Placentia extends Theria
-    {
-        Placentia(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    //placentia is the parent class for the atlantogenata
-    class Atlantogenata extends Placentia
-    {
-        Atlantogenata(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    //class is extended from plaventia
-    class Boreoeutheria extends Placentia
-   {
-    Boreoeutheria(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            
-            super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Afrotheria extends Atlantogenata
-    {
-        Afrotheria(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Xenarthra extends Atlantogenata
-    {
-        Xenarthra(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-            super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Euarchontoglires extends Boreoeutheria
-    {   
-        Euarchontoglires(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
     }
 
-    class Laurasiatheria extends Boreoeutheria
+    @Override public String Attributes() 
     {
-        Laurasiatheria(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        return (super.Attributes() + "\n");
     }
 
-    class Euarchonta extends Euarchontoglires
+    public void Eat() {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Atlantogenata extends Placentalia
+{
+    public Atlantogenata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
     {
-        Euarchonta(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
     }
 
-    class Glires extends Euarchontoglires
+    @Override public String Attributes() 
     {
-        Glires(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        return (super.Attributes() + "\n");
     }
 
-    class Scrotifera extends Laurasiatheria
+    public void Eat() 
     {
-        Scrotifera(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
     }
-    class Eulipotyphia extends Laurasiatheria
+    public void Walk() 
     {
-        Eulipotyphia(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        System.out.println("I Have : " + Legs + "Legs\n");
     }
-    class Chirpotera extends Scrotifera
+    public void Sleep() 
     {
-        Chirpotera(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        System.out.println("I am Asleep\n");
     }
-    class Euungulata extends Scrotifera
+    
+}
+
+class Afrotheria extends Atlantogenata  
+{
+    public Afrotheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
     {
-        Euungulata(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Ferae extends Scrotifera
-    {
-        Ferae(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Cetartiodactyla extends Euungulata
-    {
-        Cetartiodactyla(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Perissodactyla extends Euungulata
-    {
-        Perissodactyla(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Pholidota extends Ferae
-    {
-        Pholidota(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
-    }
-    class Carnivora extends Ferae
-    {
-        Carnivora(int Legs, boolean HasBrain, boolean Tail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        {
-             super(Legs,HasBrain, Tail,NumNuerons, precision, BornOnDate, FavFood);
-        }
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
     }
 
-    public  void main(String[] args) 
+    @Override public String Attributes() 
     {
-        //Theria(int Legs, boolean HasBrain, boolean HasTail, int NumNuerons, double precision, int BornOnDate, String FavFood)
-        Theria SquidMan= new Theria(4, true, true, 5, 10.0, 1, " Potatoes ");
-        SquidMan.Attributes();
+        return (super.Attributes() + "\n");
+    }
 
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
 
-    }   //end of the main driver  
-}// end of the main class and close
+class Xenarthra extends Atlantogenata 
+ {
+    public Xenarthra(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
 
+    @Override public String Attributes() 
+    {
+        return ( super.Attributes() + "\n");
+    }
 
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk()
+     {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Laurasiatheria extends Boreoeutheria 
+{
+    public Laurasiatheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes()
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk()
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Euarchontogires extends Boreoeutheria 
+{
+    public Euarchontogires(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return ( super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Euarchonta extends Euarchontogires
+ {
+    public Euarchonta(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat()
+     {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Glires extends Euarchontogires 
+{
+    public Glires(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk()
+     {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Scrotifera extends Laurasiatheria 
+{
+    public Scrotifera(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return ( super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Eulipotyphia extends Laurasiatheria {
+    public Eulipotyphia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Chiroptera extends Scrotifera 
+{
+    public Chiroptera(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Euunquiata extends Scrotifera 
+{
+    public Euunquiata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Ferae extends Scrotifera 
+{
+    public Ferae(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat()
+     {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Carnivora extends Ferae 
+{
+    public Carnivora(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Pholidota extends Ferae 
+{
+
+    public Pholidota(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep()
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Cetartiodactyla extends Euunquiata 
+{
+    public Cetartiodactyla(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return (super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+class Perissodactyla extends Euunquiata 
+{
+    public Perissodactyla(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    {
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+    }
+
+    @Override public String Attributes() 
+    {
+        return ( super.Attributes() + "\n");
+    }
+
+    public void Eat() 
+    {
+        System.out.println("I Love to Eat :" + FavoriteFood + "\n");
+    }
+    public void Walk() 
+    {
+        System.out.println("I Have : " + Legs + "Legs\n");
+    }
+    public void Sleep() 
+    {
+        System.out.println("I am Asleep\n");
+    }
+    
+}
+
+public class Mammalia
+{
+    public static void main(String [] args) 
+    {
+        // problem one says to print out five animals from the families
+        Perissodactyla ButterBean = new Perissodactyla(80, true, true, 12, 1.2, 1954, "Butter  and Peanuts");
+        System.out.println(" I am a Perissodactyla\n"+ButterBean.Attributes());
+
+        // animal 2
+        Mammilia BubbleMan = new Theria(2, true, true, 11, 88.3, 1332, "Air and Little Hobbits");
+        System.out.println(" I am a Theria\n"+BubbleMan.Attributes());
+
+        //mammal3
+        Mammilia Boreoeutheria1 = new Boreoeutheria(19, true, true, 200, 99.9, 1283, "Celery and Potatoes");
+        System.out.println(" I am a Boreoeutheria\n"+ Boreoeutheria1.Attributes());
+
+        //mammal 4 creating
+        Pholidota Laurasiatheria1 = new Pholidota(80, true, true, 9, 40.3, 1542, "Nothing");
+        System.out.println(" I am a Pholidota\n"+Laurasiatheria1.Attributes());
+
+        //mammalia 5 creating
+        Mammilia Placentalia1 = new Placentalia(5, true, true, 800, 10.0, 2030, "McDonals and Ketchup Sauce");
+        System.out.println("I am a Placentia\n"+Placentalia1.Attributes());
+    }
+}
