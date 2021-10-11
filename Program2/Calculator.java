@@ -14,8 +14,9 @@
 //                                                                                          //
 //##########################################################################################//
 
-//first initilaize the class calculator in whihch our program is being compiled in
-public class Calculator 
+
+//first initilaize the class Main in whihch our program is being compiled in
+public class Calculator
 {
         // out first attempt on the catch blocks will be the syntax errors that extend from the
         // exception class that will catch the errors
@@ -58,20 +59,20 @@ public class Calculator
                 @Override
                 public String getLocalizedMessage() 
                 {
-                        //returning the error message capture from the throws of the 
-                        //individualized errors
+                        // returning the error message capture from the throws of the 
+                        // individualized errors
                  return  this.ErrorMessage+"\n";
                 }
         }
 
-        //method to TestCaseSolution working problem which is the last one of testing
+        // method to TestCaseSolution working problem which is the last one of testing
         public int TestCaseSolution(String equation) 
         {
-                // conver to sum
-                //int Equation= Integer.valueOf(equation);
+                // Convert to sum
+                // int Equation= Integer.valueOf(equation);
                 int result;
                 result=7*6/2;
-                System.out.println(equation+"                 " + result);
+                System.out.println(equation + "                 " + result);
                 return 0;
         }
 
@@ -94,7 +95,7 @@ public class Calculator
                         //couting the number of right braces
                         if (TestingCase.charAt(i) == '(') 
                         {
-                                rightBrace++;
+                                leftBrace++;
                         }
                         //coutning the number of right braces
                         if (TestingCase.charAt(i) == ')') 
@@ -120,7 +121,7 @@ public class Calculator
                          TestingCase.charAt(i))) 
                         {
                                 //throw error up through the exception handling
-                                throw new SyntaxError(TestingCase+"                 Syntax Error: more than one variable");
+                                throw new SyntaxError(TestingCase + "                 Syntax Error: more than one variable");
                         }
                         
                 }
@@ -129,29 +130,26 @@ public class Calculator
                 // if there is, then throw exception through exception handling 
                 
                 //check that the left brace and right braces are equal or unequal
-                if (leftBrace< rightBrace)
+                if (leftBrace < rightBrace)
                 {
                         throw new SyntaxError(TestingCase+"                Syntax Error: ')' expected. \n");
                 }
-                else if (rightBrace >leftBrace) 
+                else if (leftBrace > rightBrace)
                 {
                         throw new SyntaxError(TestingCase+"                Syntax Error: '(' expected.");
                 } 
-                // else if (rightBrace < leftBrace) 
-                // {
-                //         throw new SyntaxError(TestingCase+"   ')' expected. \n");
-                // }
+               
 
                 //tally up the count of the equals sign must have just one if none found,
                 // error error
-                if (EqualsSigns <1) 
+                if (EqualsSigns < 1) 
                 {
-                        throw new SyntaxError(TestingCase+"               Syntax Error: '=' expected  \n");
+                        throw new SyntaxError(TestingCase + "               Syntax Error: '=' expected  \n");
                 } 
                 //if there is more than one, then that is a problem too
                 else if (EqualsSigns > 1) 
                 {
-                        throw new SyntaxError(TestingCase+"               Syntax Error: Unexpected '='\n");
+                        throw new SyntaxError(TestingCase + "               Syntax Error: Unexpected '='\n");
                 }
 
                 // if not exception is caught, then we TestCaseSolution the TestingCase
@@ -173,7 +171,7 @@ public class Calculator
                                    "    Test Expression           Correct Response \n"+
                                    "========================================================\n");
 
-                // new instance of calculator
+                // new instance of Main
                 Calculator CalcTestCase = new Calculator();
 
                 // run a try catch for each of the specified TestingCases
@@ -255,10 +253,10 @@ public class Calculator
                 TestCase = "Z=(3+5)/0";
                 try 
                 {
-                        //go to function call pass the string to check
+                        // go to function call pass the string to check
                         CalcTestCase.getSolution(TestCase);
                 }
-                // if any errors pass, then print out erros fro both syntax
+                // if any errors pass, then print out errors from both syntax
                 // and runtime 
                 catch (RuntimeError e) 
                 {
