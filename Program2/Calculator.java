@@ -290,5 +290,5 @@ public class Calculator
                         System.out.println("--------------------------------------------------------\n");
                         System.out.println("we Are Exiting our Test Cases and into the Final Block\n\n");
                 }   
-        }
-}
+        }// end of testing 
+}// end of the driver and the prgram
