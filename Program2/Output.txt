@@ -4,13 +4,14 @@ First We are going to create Five Mammalia Derived Animals
 
 
  I am a Perissodactyla
-I Have  80 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 12 Ammount Of Neurons 
-My Total Level Percentage of Precision is  1.2% Im a little Smart 
-I was Born in the Year? 1954
-And My Favorite Food is ? Butter  and Peanuts Isnt that Yummy? 
+---------------------------------
+I Have                    80 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    12 Neurons 
+My Precision Level is     1.2% (Im a little Smart) 
+I was Born in the Year    1954
+And My Favorite Food is   Butter  and Peanuts (Isnt that Yummy? )
 
 
 
@@ -20,35 +21,38 @@ And My Favorite Food is ? Butter  and Peanuts Isnt that Yummy?
 
 
  I am a Theria
-I Have  2 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 11 Ammount Of Neurons 
-My Total Level Percentage of Precision is  88.3% Im a little Smart 
-I was Born in the Year? 1332
-And My Favorite Food is ? Air and Little Hobbits Isnt that Yummy? 
+---------------------------------
+I Have                    2 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    11 Neurons 
+My Precision Level is     88.3% (Im a little Smart) 
+I was Born in the Year    1332
+And My Favorite Food is   Air and Little Hobbits (Isnt that Yummy? )
 
 
  I am a Boreoeutheria
-I Have  19 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 200 Ammount Of Neurons 
-My Total Level Percentage of Precision is  99.9% Im a little Smart 
-I was Born in the Year? 1283
-And My Favorite Food is ? Celery and Potatoes Isnt that Yummy? 
+---------------------------------
+I Have                    19 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    200 Neurons 
+My Precision Level is     99.9% (Im a little Smart) 
+I was Born in the Year    1283
+And My Favorite Food is   Celery and Potatoes (Isnt that Yummy? )
 
 
 
 
  I am a Pholidota
-I Have  80 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 9 Ammount Of Neurons 
-My Total Level Percentage of Precision is  40.3% Im a little Smart 
-I was Born in the Year? 1542
-And My Favorite Food is ? Nothing Isnt that Yummy? 
+---------------------------------
+I Have                    80 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    9 Neurons 
+My Precision Level is     40.3% (Im a little Smart) 
+I was Born in the Year    1542
+And My Favorite Food is   Nothing (Isnt that Yummy? )
 
 
 
@@ -58,13 +62,14 @@ And My Favorite Food is ? Nothing Isnt that Yummy?
 
 
 I am a Placentia
-I Have  5 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 800 Ammount Of Neurons 
-My Total Level Percentage of Precision is  10.0% Im a little Smart 
-I was Born in the Year? 2030
-And My Favorite Food is ? McDonals and Ketchup Sauce Isnt that Yummy? 
+---------------------------------
+I Have                    5 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    800 Neurons 
+My Precision Level is     10.0% (Im a little Smart) 
+I was Born in the Year    2030
+And My Favorite Food is   McDonals and Ketchup Sauce (Isnt that Yummy? )
 
 
 
@@ -74,217 +79,219 @@ Now We are Going to be Outputting our newly created Animals Derived Form their o
 
 
 I am a Marsupialia
+---------------------------------
 Marsupialia
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Pork and Prime Rib Isnt that Yummy? 
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Pork and Prime Rib (Isnt that Yummy? )
 
 
 
 I am a Marsupialia
+---------------------------------
 Marsupialia
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Bugs and Worms Isnt that Yummy? 
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Bugs and Worms (Isnt that Yummy? )
 
 
 
 I am a Marsupialia
+---------------------------------
 Marsupialia
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Blue Cheese and Crackers Isnt that Yummy? 
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Blue Cheese and Crackers (Isnt that Yummy? )
 
 
 
 I am a Marsupialia
+---------------------------------
 Marsupialia
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Rocks Isnt that Yummy? 
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Rocks (Isnt that Yummy? )
 
 
 
 I am a Marsupialia
+---------------------------------
 Marsupialia
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Spaghetti Isnt that Yummy? 
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Spaghetti (Isnt that Yummy? )
 
 
 
 I am a Afrotheria
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Beries and Pork Belly Isnt that Yummy? 
-
-
-
-
-
-I am a Afrotheria
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ?  Fried Caviar Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Beries and Pork Belly (Isnt that Yummy? )
 
 
 
 
 
 I am a Afrotheria
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Mold Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is    Fried Caviar (Isnt that Yummy? )
 
 
 
 
 
 I am a Afrotheria
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Ants and Mold Catapillers Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Mold (Isnt that Yummy? )
 
 
 
 
 
 I am a Afrotheria
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Eggs and Bacon Isnt that Yummy? 
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Ants and Mold Catapillers (Isnt that Yummy? )
+
+
+
+
+
+I am a Afrotheria
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Eggs and Bacon (Isnt that Yummy? )
 
 
 
 
 
 I am a Xenarthra
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Banana and More Bananas Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Banana and More Bananas (Isnt that Yummy? )
 
 
 
 
 
 I am a Xenarthra
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Cherries and Worms Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Cherries and Worms (Isnt that Yummy? )
 
 
 
 
 
 I am a Xenarthra
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Drt and Ants Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Drt and Ants (Isnt that Yummy? )
 
 
 
 
 
 I am a Xenarthra
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy? 
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
 
 
 
 
 
 I am a Xenarthra
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Beans and Beans Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
 
 
 
 
 
 I am a Glires
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Carrotss Isnt that Yummy? 
-
-
-
-
-
-
-I am a Glires
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Other Animals Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Carrotss (Isnt that Yummy? )
 
 
 
@@ -292,13 +299,14 @@ And My Favorite Food is ? Other Animals Isnt that Yummy?
 
 
 I am a Glires
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Sticks and Dirt Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Other Animals (Isnt that Yummy? )
 
 
 
@@ -306,13 +314,14 @@ And My Favorite Food is ? Sticks and Dirt Isnt that Yummy?
 
 
 I am a Glires
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
 
 
 
@@ -320,13 +329,29 @@ And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy?
 
 
 I am a Glires
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Beans and Beans Isnt that Yummy? 
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+
+
+
+
+
+
+I am a Glires
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
 
 
 
@@ -334,43 +359,14 @@ And My Favorite Food is ? Beans and Beans Isnt that Yummy?
 
 
 I am a Chiroptera
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Carrotss Isnt that Yummy? 
-
-
-
-
-
-
-
-I am a Chiroptera
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Other Animals Isnt that Yummy? 
-
-
-
-
-
-
-
-I am a Chiroptera
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Sticks and Dirt Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Carrotss (Isnt that Yummy? )
 
 
 
@@ -379,13 +375,14 @@ And My Favorite Food is ? Sticks and Dirt Isnt that Yummy?
 
 
 I am a Chiroptera
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Other Animals (Isnt that Yummy? )
 
 
 
@@ -394,13 +391,46 @@ And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy?
 
 
 I am a Chiroptera
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Beans and Beans Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+
+
+
+
+
+
+
+I am a Chiroptera
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+
+
+
+
+
+
+
+I am a Chiroptera
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
 
 
 
@@ -409,45 +439,14 @@ And My Favorite Food is ? Beans and Beans Isnt that Yummy?
 
 
 I am a Cetartiodactyla
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Carrotss Isnt that Yummy? 
-
-
-
-
-
-
-
-
-I am a Cetartiodactyla
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Other Animals Isnt that Yummy? 
-
-
-
-
-
-
-
-
-I am a Cetartiodactyla
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Sticks and Dirt Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Carrotss (Isnt that Yummy? )
 
 
 
@@ -457,13 +456,14 @@ And My Favorite Food is ? Sticks and Dirt Isnt that Yummy?
 
 
 I am a Cetartiodactyla
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Other Animals (Isnt that Yummy? )
 
 
 
@@ -473,13 +473,48 @@ And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy?
 
 
 I am a Cetartiodactyla
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Beans and Beans Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+
+
+
+
+
+
+
+
+I am a Cetartiodactyla
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+
+
+
+
+
+
+
+
+I am a Cetartiodactyla
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
 
 
 
@@ -489,13 +524,14 @@ And My Favorite Food is ? Beans and Beans Isnt that Yummy?
 
 
 I am a Perissodactyla
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Carrotss Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Carrotss (Isnt that Yummy? )
 
 
 
@@ -505,13 +541,14 @@ And My Favorite Food is ? Carrotss Isnt that Yummy?
 
 
 I am a Perissodactyla
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Other Animals Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Other Animals (Isnt that Yummy? )
 
 
 
@@ -521,13 +558,14 @@ And My Favorite Food is ? Other Animals Isnt that Yummy?
 
 
 I am a Perissodactyla
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Sticks and Dirt Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
 
 
 
@@ -537,13 +575,14 @@ And My Favorite Food is ? Sticks and Dirt Isnt that Yummy?
 
 
 I am a Perissodactyla
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy? 
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
 
 
 
@@ -553,13 +592,14 @@ And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy?
 
 
 I am a Perissodactyla
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Beans and Beans Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
 
 
 
@@ -569,13 +609,14 @@ And My Favorite Food is ? Beans and Beans Isnt that Yummy?
 
 
 I am a Pholidota
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Carrotss Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Carrotss (Isnt that Yummy? )
 
 
 
@@ -585,13 +626,14 @@ And My Favorite Food is ? Carrotss Isnt that Yummy?
 
 
 I am a Pholidota
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Other Animals Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Other Animals (Isnt that Yummy? )
 
 
 
@@ -601,13 +643,14 @@ And My Favorite Food is ? Other Animals Isnt that Yummy?
 
 
 I am a Pholidota
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Sticks and Dirt Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
 
 
 
@@ -617,13 +660,14 @@ And My Favorite Food is ? Sticks and Dirt Isnt that Yummy?
 
 
 I am a Pholidota
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy? 
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
 
 
 
@@ -633,13 +677,14 @@ And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy?
 
 
 I am a Pholidota
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Beans and Beans Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
 
 
 
@@ -649,13 +694,14 @@ And My Favorite Food is ? Beans and Beans Isnt that Yummy?
 
 
 I am a Carnivora
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 80 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.0% Im a little Smart 
-I was Born in the Year? 1287
-And My Favorite Food is ? Carrotss Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    80 Neurons 
+My Precision Level is     90.0% (Im a little Smart) 
+I was Born in the Year    1287
+And My Favorite Food is   Carrotss (Isnt that Yummy? )
 
 
 
@@ -665,13 +711,14 @@ And My Favorite Food is ? Carrotss Isnt that Yummy?
 
 
 I am a Carnivora
-I Have  0 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 0 Ammount Of Neurons 
-My Total Level Percentage of Precision is  0.0% Im a little Smart 
-I was Born in the Year? 1500
-And My Favorite Food is ? Other Animals Isnt that Yummy? 
+---------------------------------
+I Have                    0 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    0 Neurons 
+My Precision Level is     0.0% (Im a little Smart) 
+I was Born in the Year    1500
+And My Favorite Food is   Other Animals (Isnt that Yummy? )
 
 
 
@@ -681,13 +728,14 @@ And My Favorite Food is ? Other Animals Isnt that Yummy?
 
 
 I am a Carnivora
-I Have  1 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 10 Ammount Of Neurons 
-My Total Level Percentage of Precision is  100.0% Im a little Smart 
-I was Born in the Year? 1568
-And My Favorite Food is ? Sticks and Dirt Isnt that Yummy? 
+---------------------------------
+I Have                    1 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    10 Neurons 
+My Precision Level is     100.0% (Im a little Smart) 
+I was Born in the Year    1568
+And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
 
 
 
@@ -697,13 +745,14 @@ And My Favorite Food is ? Sticks and Dirt Isnt that Yummy?
 
 
 I am a Carnivora
-I Have  8 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 78 Ammount Of Neurons 
-My Total Level Percentage of Precision is  90.9% Im a little Smart 
-I was Born in the Year? 1567
-And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy? 
+---------------------------------
+I Have                    8 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    78 Neurons 
+My Precision Level is     90.9% (Im a little Smart) 
+I was Born in the Year    1567
+And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
 
 
 
@@ -713,13 +762,14 @@ And My Favorite Food is ? Brocolli and Rocks Isnt that Yummy?
 
 
 I am a Carnivora
-I Have  4 Leg/s
-I Have a Tail? true
-Do I have a Brain?  true
- I have? 1 Ammount Of Neurons 
-My Total Level Percentage of Precision is  5.0% Im a little Smart 
-I was Born in the Year? 1289
-And My Favorite Food is ? Beans and Beans Isnt that Yummy? 
+---------------------------------
+I Have                    4 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    1 Neurons 
+My Precision Level is     5.0% (Im a little Smart) 
+I was Born in the Year    1289
+And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
 
 
 
