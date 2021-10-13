@@ -9,11 +9,11 @@ I Have                    80 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    12 Neurons 
-My Precision Level is     1.2% (Im a little Smart) 
+My Precision Level is     1.2%  (Im a little Smart) 
 I was Born in the Year    1954
-And My Favorite Food is   Butter  and Peanuts (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Butter  and Peanuts   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -28,11 +28,11 @@ I Have                    2 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    11 Neurons 
-My Precision Level is     88.3% (Im a little Smart) 
+My Precision Level is     88.3%  (Im a little Smart) 
 I was Born in the Year    1332
-And My Favorite Food is   Air and Little Hobbits (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Air and Little Hobbits   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
  I am a Boreoeutheria
@@ -41,11 +41,11 @@ I Have                    19 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    200 Neurons 
-My Precision Level is     99.9% (Im a little Smart) 
+My Precision Level is     99.9%  (Im a little Smart) 
 I was Born in the Year    1283
-And My Favorite Food is   Celery and Potatoes (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Celery and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -56,11 +56,11 @@ I Have                    80 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    9 Neurons 
-My Precision Level is     40.3% (Im a little Smart) 
+My Precision Level is     40.3%  (Im a little Smart) 
 I was Born in the Year    1542
-And My Favorite Food is   Nothing (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Nothing   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -75,11 +75,11 @@ I Have                    5 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    800 Neurons 
-My Precision Level is     10.0% (Im a little Smart) 
+My Precision Level is     10.0%  (Im a little Smart) 
 I was Born in the Year    2030
-And My Favorite Food is   McDonals and Ketchup Sauce (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   McDonals and Ketchup Sauce   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -95,11 +95,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Pork and Prime Rib (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Pork and Prime Rib   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -110,11 +110,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Bugs and Worms (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Bugs and Worms   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -125,11 +125,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Blue Cheese and Crackers (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Blue Cheese and Crackers   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -140,11 +140,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -155,11 +155,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Spaghetti (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Spaghetti   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -169,11 +169,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Beries and Pork Belly (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beries and Pork Belly   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -185,11 +185,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is    Fried Caviar (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is    Fried Caviar   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -201,11 +201,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Mold (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Mold   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -217,11 +217,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Ants and Mold Catapillers (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Ants and Mold Catapillers   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -233,11 +233,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Eggs and Bacon (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Eggs and Bacon   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -249,11 +249,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Banana and More Bananas (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Banana and More Bananas   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -265,11 +265,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Cherries and Worms (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Cherries and Worms   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -281,11 +281,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Drt and Ants (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Drt and Ants   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -297,11 +297,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Brocolli and Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -313,11 +313,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beans and Beans   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -329,11 +329,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Carrotss (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Carrotss   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -346,11 +346,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Other Animals (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Other Animals   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -363,11 +363,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Sticks and Dirt   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -380,11 +380,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Brocolli and Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -397,11 +397,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beans and Beans   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -414,11 +414,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Carrotss (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Carrotss   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -432,11 +432,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Other Animals (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Other Animals   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -450,11 +450,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Sticks and Dirt   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -468,11 +468,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Brocolli and Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -486,11 +486,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beans and Beans   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -504,11 +504,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Carrotss (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Carrotss   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -523,11 +523,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Other Animals (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Other Animals   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -542,11 +542,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Sticks and Dirt   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -561,11 +561,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Brocolli and Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -580,11 +580,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beans and Beans   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -599,11 +599,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Carrotss (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Carrotss   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -618,11 +618,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Other Animals (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Other Animals   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -637,11 +637,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Sticks and Dirt   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -656,11 +656,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Brocolli and Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -675,11 +675,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beans and Beans   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -694,11 +694,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Carrotss (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Carrotss   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -713,11 +713,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Other Animals (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Other Animals   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -732,11 +732,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Sticks and Dirt   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -751,11 +751,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Brocolli and Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -770,11 +770,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beans and Beans   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -789,11 +789,11 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    80 Neurons 
-My Precision Level is     90.0% (Im a little Smart) 
+My Precision Level is     90.0%  (Im a little Smart) 
 I was Born in the Year    1287
-And My Favorite Food is   Carrotss (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Carrotss   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -808,11 +808,11 @@ I Have                    0 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    0 Neurons 
-My Precision Level is     0.0% (Im a little Smart) 
+My Precision Level is     0.0%  (Im a little Smart) 
 I was Born in the Year    1500
-And My Favorite Food is   Other Animals (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Other Animals   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -827,11 +827,11 @@ I Have                    1 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    10 Neurons 
-My Precision Level is     100.0% (Im a little Smart) 
+My Precision Level is     100.0%  (Im a little Smart) 
 I was Born in the Year    1568
-And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Sticks and Dirt   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -846,11 +846,11 @@ I Have                    8 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    78 Neurons 
-My Precision Level is     90.9% (Im a little Smart) 
+My Precision Level is     90.9%  (Im a little Smart) 
 I was Born in the Year    1567
-And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Brocolli and Rocks   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
 
 
@@ -865,12 +865,1061 @@ I Have                    4 Leg/s
 I Have a Tail?            true
 Do I have a Brain         true
 I have                    1 Neurons 
-My Precision Level is     5.0% (Im a little Smart) 
+My Precision Level is     5.0%  (Im a little Smart) 
 I was Born in the Year    1289
-And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
-My Hunting Speed is       5 (Aint I Fast? ) 
- My  Hunting_Process is   Teeth Aint That Cool?
+And My Favorite Food is   Beans and Beans   (Isnt that Yummy? )
+My Hunting Speed is       5   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Teeth  Aint That Cool?
 
+
+
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    18 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    12 Neurons 
+My Precision Level is     56.7%  (Im a little Smart) 
+I was Born in the Year    1000
+And My Favorite Food is   Carrots and Dings   (Isnt that Yummy? )
+My Hunting Speed is       100   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Using a Bubble Maker  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    18 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    12 Neurons 
+My Precision Level is     56.7%  (Im a little Smart) 
+I was Born in the Year    1000
+And My Favorite Food is   Carrots and Dings   (Isnt that Yummy? )
+My Hunting Speed is       100   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Using a Bubble Maker  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    18 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    12 Neurons 
+My Precision Level is     56.7%  (Im a little Smart) 
+I was Born in the Year    1000
+And My Favorite Food is   Carrots and Dings   (Isnt that Yummy? )
+My Hunting Speed is       100   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Using a Bubble Maker  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    18 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    12 Neurons 
+My Precision Level is     56.7%  (Im a little Smart) 
+I was Born in the Year    1000
+And My Favorite Food is   Carrots and Dings   (Isnt that Yummy? )
+My Hunting Speed is       100   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Using a Bubble Maker  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    18 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    12 Neurons 
+My Precision Level is     56.7%  (Im a little Smart) 
+I was Born in the Year    1000
+And My Favorite Food is   Carrots and Dings   (Isnt that Yummy? )
+My Hunting Speed is       100   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Using a Bubble Maker  Aint That Cool?
+
+
+
+
+
+
+I am a Cetatiodactlyia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       45   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Aggressive  Aint That Cool?
+
+
+
+
+
+
+
+
+I am a Cetartiodactyla  
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+
+I am a Cetartiodactyla  
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+
+I am a Cetartiodactyla  
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+
+I am a Cetartiodactyla  
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+
+I am a Theria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am a Theria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am a Theria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am a Theria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am a Theria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am a Placentalia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am a Placentalia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+I am a Placentalia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+I am a Placentalia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+I am a Placentalia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+I am a Boreoeutheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+I am a Boreoeutheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Boreoeutheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Boreoeutheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Boreoeutheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Cetatiodactlyia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
+
+
+
+
+I am a Cetatiodactlyia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Cetatiodactlyia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Cetatiodactlyia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Cetatiodactlyia 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Atlantogenata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
+
+
+
+
+I am a Atlantogenata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Atlantogenata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Atlantogenata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Atlantogenata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+I am a Laurasiatheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
+
+
+
+
+I am a Laurasiatheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Laurasiatheria
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Laurasiatheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Laurasiatheria 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+I am a Scrotifera 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+I am a Euungulata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Euungulata
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Euungulata
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Euungulata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Euungulata 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Ferae 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am the Upgraded Version 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Ferae
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Ferae
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Ferae 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
+
+
+
+
+
+
+
+I am a Ferae 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
 
 
