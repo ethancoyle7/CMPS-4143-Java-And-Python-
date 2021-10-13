@@ -913,8 +913,8 @@ public class Mammalia
         Theria Theria1 = new Theria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Theria \n"+"---------------------------------\n"+Theria1.Attributes());
         
-        Cetartiodactyla1.set_RunSpeed(10 ); // replacing the attribute hunting and running 
-        Cetartiodactyla1.set_HuntingAttribute("Morbid and Rabid");
+        Theria1.set_RunSpeed(10 ); // replacing the attribute hunting and running 
+        Theria1.set_HuntingAttribute("Morbid and Rabid");
 
         System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Theria1.Attributes());
 
@@ -933,7 +933,7 @@ public class Mammalia
         Placent1.set_RunSpeed(450); // replacing the attribute hunting and running 
         Placent1.set_HuntingAttribute("Lazzzzy");
 
-        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Theria1.Attributes());
+        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Placent1.Attributes());
 
         Placentalia Placent2 = new Placentalia(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Placentalia \n"+"---------------------------------\n"+Placent2.Attributes());
@@ -950,10 +950,10 @@ public class Mammalia
         Boreoeutheria Boro1 = new Boreoeutheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Boreoeutheria \n"+"---------------------------------\n"+Boro1.Attributes());
         
-        Placent1.set_RunSpeed(450); // replacing the attribute hunting and running 
-        Placent1.set_HuntingAttribute("Lazzzzy");
+        Boro1.set_RunSpeed(450); // replacing the attribute hunting and running 
+        Boro1.set_HuntingAttribute("Lazzzzy");
 
-        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Theria1.Attributes());
+        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Boro1.Attributes());
 
         Boreoeutheria Boro2 = new Boreoeutheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Boreoeutheria \n"+"---------------------------------\n"+Boro2.Attributes());
