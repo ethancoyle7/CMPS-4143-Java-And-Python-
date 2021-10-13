@@ -12,6 +12,8 @@ I have                    12 Neurons
 My Precision Level is     1.2% (Im a little Smart) 
 I was Born in the Year    1954
 And My Favorite Food is   Butter  and Peanuts (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -29,6 +31,8 @@ I have                    11 Neurons
 My Precision Level is     88.3% (Im a little Smart) 
 I was Born in the Year    1332
 And My Favorite Food is   Air and Little Hobbits (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
  I am a Boreoeutheria
@@ -40,6 +44,8 @@ I have                    200 Neurons
 My Precision Level is     99.9% (Im a little Smart) 
 I was Born in the Year    1283
 And My Favorite Food is   Celery and Potatoes (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -53,6 +59,8 @@ I have                    9 Neurons
 My Precision Level is     40.3% (Im a little Smart) 
 I was Born in the Year    1542
 And My Favorite Food is   Nothing (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -70,6 +78,8 @@ I have                    800 Neurons
 My Precision Level is     10.0% (Im a little Smart) 
 I was Born in the Year    2030
 And My Favorite Food is   McDonals and Ketchup Sauce (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -88,6 +98,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Pork and Prime Rib (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -101,6 +113,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Bugs and Worms (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -114,6 +128,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Blue Cheese and Crackers (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -127,6 +143,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -140,6 +158,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Spaghetti (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -152,6 +172,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Beries and Pork Belly (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -166,6 +188,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is    Fried Caviar (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -180,6 +204,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Mold (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -194,6 +220,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Ants and Mold Catapillers (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -208,6 +236,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Eggs and Bacon (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -222,6 +252,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Banana and More Bananas (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -236,6 +268,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Cherries and Worms (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -250,6 +284,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Drt and Ants (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -264,6 +300,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -278,6 +316,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -292,6 +332,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Carrotss (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -307,6 +349,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Other Animals (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -322,6 +366,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -337,6 +383,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -352,6 +400,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -367,6 +417,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Carrotss (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -383,6 +435,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Other Animals (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -399,6 +453,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -415,6 +471,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -431,6 +489,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -447,6 +507,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Carrotss (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -464,6 +526,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Other Animals (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -481,6 +545,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -498,6 +564,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -515,6 +583,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -532,6 +602,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Carrotss (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -549,6 +621,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Other Animals (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -566,6 +640,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -583,6 +659,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -600,6 +678,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -617,6 +697,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Carrotss (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -634,6 +716,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Other Animals (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -651,6 +735,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -668,6 +754,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -685,6 +773,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -702,6 +792,8 @@ I have                    80 Neurons
 My Precision Level is     90.0% (Im a little Smart) 
 I was Born in the Year    1287
 And My Favorite Food is   Carrotss (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -719,6 +811,8 @@ I have                    0 Neurons
 My Precision Level is     0.0% (Im a little Smart) 
 I was Born in the Year    1500
 And My Favorite Food is   Other Animals (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -736,6 +830,8 @@ I have                    10 Neurons
 My Precision Level is     100.0% (Im a little Smart) 
 I was Born in the Year    1568
 And My Favorite Food is   Sticks and Dirt (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -753,6 +849,8 @@ I have                    78 Neurons
 My Precision Level is     90.9% (Im a little Smart) 
 I was Born in the Year    1567
 And My Favorite Food is   Brocolli and Rocks (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 
@@ -770,6 +868,8 @@ I have                    1 Neurons
 My Precision Level is     5.0% (Im a little Smart) 
 I was Born in the Year    1289
 And My Favorite Food is   Beans and Beans (Isnt that Yummy? )
+My Hunting Speed is       5 (Aint I Fast? ) 
+ My  Hunting_Process is   Teeth Aint That Cool?
 
 
 

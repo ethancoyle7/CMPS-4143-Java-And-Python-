@@ -29,9 +29,12 @@ class Mammilia
     double LevelOfPrecision;
     int DateOfBirth;
     String FavoriteFood;
+    int Running_Speed = 0;
+    String Hunting_Process = "None";
 
     // then we create our constructor which will be used as pointer type to our personal new created animals
-    public Mammilia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood) 
+    public Mammilia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process ) 
     {
         this.Legs = Legs;
         this.HasTail = HasTail;
@@ -40,6 +43,27 @@ class Mammilia
         this.LevelOfPrecision = LevelOfPrecision;
         this.DateOfBirth = DateOfBirth;
         this.FavoriteFood = FavoriteFood;
+        this.Hunting_Process = Hunting_Process;
+        this.Running_Speed = Running_Speed;
+    }
+    public void set_Running_Speed(int Running_Speed) 
+    {
+        this.Running_Speed = Running_Speed;
+    }
+
+    public int get_Running_Speed() 
+    {
+        return Running_Speed;
+    }
+
+    public void set_Hunting_Process(String Hunting_Process) 
+    {
+        this.Hunting_Process = Hunting_Process;
+    }
+
+    public String get_Hunting_Process() 
+    {
+        return Hunting_Process;
     }
 
     //other attributes that the animals share
@@ -64,9 +88,11 @@ class Mammilia
          "I Have a Tail?            " + HasTail + "\n"+
          "Do I have a Brain         " + HasABrain + "\n"+
          "I have                    " + NumNeurons + " Neurons \n"
-        + "My Precision Level is     " + LevelOfPrecision + "% (Im a little Smart) \n"+
+        + "My Precision Level is     " + LevelOfPrecision + "%  (Im a little Smart) \n"+
          "I was Born in the Year    " + DateOfBirth + "\n"+
-         "And My Favorite Food is   " + FavoriteFood +  " (Isnt that Yummy? )\n");
+         "And My Favorite Food is   " + FavoriteFood +  "   (Isnt that Yummy? )\n"+
+         "My Hunting Speed is       " + Running_Speed + "   MPH (Aint I Fast? ) \n"+
+         " My  Hunting_Process is   " + Hunting_Process+ "  Aint That Cool?\n");
     }
 }
 
@@ -77,9 +103,11 @@ class Mammilia
     class Theria extends Mammilia 
     {
         //constructors set for each instance of animal process by calling the parent class
-    public Theria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Theria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);
     }
 
     @Override public String Attributes() 
@@ -106,9 +134,11 @@ class Mammilia
 //repeat the whole process
 class Monotremata extends Mammilia 
 {
-    public Monotremata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Monotremata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -132,9 +162,11 @@ class Monotremata extends Mammilia
 }
 
 class Placentalia extends Theria {
-    public Placentalia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Placentalia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -160,9 +192,11 @@ class Placentalia extends Theria {
 
 class Marsupialia extends Theria 
 {
-    public Marsupialia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Marsupialia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -187,9 +221,11 @@ class Marsupialia extends Theria
 
 class Boreoeutheria extends Placentalia 
 {
-    public Boreoeutheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Boreoeutheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -211,9 +247,11 @@ class Boreoeutheria extends Placentalia
 
 class Atlantogenata extends Placentalia
 {
-    public Atlantogenata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Atlantogenata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -238,9 +276,11 @@ class Atlantogenata extends Placentalia
 
 class Afrotheria extends Atlantogenata  
 {
-    public Afrotheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Afrotheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -265,9 +305,11 @@ class Afrotheria extends Atlantogenata
 
 class Xenarthra extends Atlantogenata 
  {
-    public Xenarthra(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Xenarthra(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -292,9 +334,11 @@ class Xenarthra extends Atlantogenata
 
 class Laurasiatheria extends Boreoeutheria 
 {
-    public Laurasiatheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Laurasiatheria(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes()
@@ -319,9 +363,11 @@ class Laurasiatheria extends Boreoeutheria
 
 class Euarchontogires extends Boreoeutheria 
 {
-    public Euarchontogires(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Euarchontogires(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -346,9 +392,11 @@ class Euarchontogires extends Boreoeutheria
 
 class Euarchonta extends Euarchontogires
  {
-    public Euarchonta(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Euarchonta(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() {
@@ -371,9 +419,11 @@ class Euarchonta extends Euarchontogires
 
 class Glires extends Euarchontogires 
 {
-    public Glires(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Glires(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -398,9 +448,11 @@ class Glires extends Euarchontogires
 
 class Scrotifera extends Laurasiatheria 
 {
-    public Scrotifera(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Scrotifera(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -425,9 +477,11 @@ class Scrotifera extends Laurasiatheria
 
 class Eulipotyphia extends Laurasiatheria 
 {
-    public Eulipotyphia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Eulipotyphia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -452,9 +506,11 @@ class Eulipotyphia extends Laurasiatheria
 
 class Chiroptera extends Scrotifera 
 {
-    public Chiroptera(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Chiroptera(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -479,9 +535,11 @@ class Chiroptera extends Scrotifera
 
 class Euunquiata extends Scrotifera 
 {
-    public Euunquiata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Euunquiata(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -506,9 +564,11 @@ class Euunquiata extends Scrotifera
  
 class Ferae extends Scrotifera 
 {
-    public Ferae(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Ferae(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -533,9 +593,11 @@ class Ferae extends Scrotifera
 
 class Carnivora extends Ferae 
 {
-    public Carnivora(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Carnivora(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -561,9 +623,11 @@ class Carnivora extends Ferae
 class Pholidota extends Ferae 
 {
 
-    public Pholidota(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Pholidota(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -588,9 +652,11 @@ class Pholidota extends Ferae
 
 class Cetartiodactyla extends Euunquiata 
 {
-    public Cetartiodactyla(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Cetartiodactyla(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -615,9 +681,11 @@ class Cetartiodactyla extends Euunquiata
 
 class Perissodactyla extends Euunquiata 
 {
-    public Perissodactyla(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood)
+    public Perissodactyla(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int Running_Speed,
+    String Hunting_Process)
     {
-        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood);
+        super(Legs, HasTail, HasABrain, NumNeurons, LevelOfPrecision, DateOfBirth, FavoriteFood, Running_Speed,
+         Hunting_Process);;
     }
 
     @Override public String Attributes() 
@@ -660,23 +728,23 @@ public class Mammalia
         "============================================================================================\n\n");
 
         // problem one says to print out five animals from the families
-        Perissodactyla ButterBean = new Perissodactyla(80, true, true, 12, 1.2, 1954, "Butter  and Peanuts");
+        Perissodactyla ButterBean = new Perissodactyla(80, true, true, 12, 1.2, 1954, "Butter  and Peanuts", 5, "Teeth");
         System.out.println(" I am a Perissodactyla\n"+"---------------------------------\n"+ButterBean.Attributes());
                         
         // animal 2
-        Mammilia BubbleMan = new Theria(2, true, true, 11, 88.3, 1332, "Air and Little Hobbits");
+        Mammilia BubbleMan = new Theria(2, true, true, 11, 88.3, 1332, "Air and Little Hobbits",5, "Teeth");
         System.out.println(" I am a Theria\n"+"---------------------------------\n"+BubbleMan.Attributes());
 
         //mammal3
-        Mammilia Boreoeutheria1 = new Boreoeutheria(19, true, true, 200, 99.9, 1283, "Celery and Potatoes");
+        Mammilia Boreoeutheria1 = new Boreoeutheria(19, true, true, 200, 99.9, 1283, "Celery and Potatoes",5, "Teeth");
         System.out.println(" I am a Boreoeutheria\n"+"---------------------------------\n" +Boreoeutheria1.Attributes());
 
         //mammal 4 creating
-        Pholidota Pholidota1 = new Pholidota(80, true, true, 9, 40.3, 1542, "Nothing");
+        Pholidota Pholidota1 = new Pholidota(80, true, true, 9, 40.3, 1542, "Nothing",5, "Teeth");
         System.out.println(" I am a Pholidota\n"+"---------------------------------\n"+Pholidota1.Attributes());
 
         //mammalia 5 creating
-        Mammilia Placentalia1 = new Placentalia(5, true, true, 800, 10.0, 2030, "McDonals and Ketchup Sauce");
+        Mammilia Placentalia1 = new Placentalia(5, true, true, 800, 10.0, 2030, "McDonals and Ketchup Sauce",5, "Teeth");
         System.out.println("I am a Placentia\n"+"---------------------------------\n"+Placentalia1.Attributes());
 
 
@@ -687,105 +755,220 @@ public class Mammalia
         // in part C, we are needing to have the creation of each class five instances of each
 
         // create five instances of new mammals that are derived from the different levels
-        Marsupialia Marsup1=new Marsupialia(4, true, true, 80, 90.0, 1287, "Pork and Prime Rib");
+        Marsupialia Marsup1=new Marsupialia(4, true, true, 80, 90.0, 1287, "Pork and Prime Rib",5, "Teeth");
         System.out.println("I am a Marsupialia\n"+"---------------------------------\n"+Marsup1.Attributes());
-        Marsupialia Marsup2=new Marsupialia(0, true, true, 0, 0.0, 1500, "Bugs and Worms");
+        Marsupialia Marsup2=new Marsupialia(0, true, true, 0, 0.0, 1500, "Bugs and Worms",5, "Teeth");
         System.out.println("I am a Marsupialia\n"+"---------------------------------\n"+Marsup2.Attributes());
-        Marsupialia Marsup3=new Marsupialia(1, true, true, 10, 100, 1568, "Blue Cheese and Crackers");
+        Marsupialia Marsup3=new Marsupialia(1, true, true, 10, 100, 1568, "Blue Cheese and Crackers",5, "Teeth");
         System.out.println("I am a Marsupialia\n"+"---------------------------------\n"+Marsup3.Attributes());
-        Marsupialia Marsup4=new Marsupialia(8, true, true, 78, 90.9, 1567, "Rocks");
+        Marsupialia Marsup4=new Marsupialia(8, true, true, 78, 90.9, 1567, "Rocks",5, "Teeth");
         System.out.println("I am a Marsupialia\n"+"---------------------------------\n"+Marsup4.Attributes());
-        Marsupialia Marsup5=new Marsupialia(4, true, true, 1, 5.0, 1289, "Spaghetti");
+        Marsupialia Marsup5=new Marsupialia(4, true, true, 1, 5.0, 1289, "Spaghetti",5, "Teeth");
         System.out.println("I am a Marsupialia\n"+"---------------------------------\n"+Marsup5.Attributes());
 
-        Afrotheria Afro1=new Afrotheria(4, true, true, 80, 90.0, 1287, "Beries and Pork Belly");
+        Afrotheria Afro1=new Afrotheria(4, true, true, 80, 90.0, 1287, "Beries and Pork Belly",5, "Teeth");
         System.out.println("I am a Afrotheria\n"+"---------------------------------\n"+Afro1.Attributes());
-        Afrotheria Afro2=new Afrotheria(0, true, true, 0, 0.0, 1500, " Fried Caviar");
+        Afrotheria Afro2=new Afrotheria(0, true, true, 0, 0.0, 1500, " Fried Caviar",5, "Teeth");
         System.out.println("I am a Afrotheria\n"+"---------------------------------\n"+Afro2.Attributes());
-        Afrotheria Afro3=new Afrotheria(1, true, true, 10, 100, 1568, "Mold");
+        Afrotheria Afro3=new Afrotheria(1, true, true, 10, 100, 1568, "Mold",5, "Teeth");
         System.out.println("I am a Afrotheria\n"+"---------------------------------\n"+Afro3.Attributes());
-        Afrotheria Afro4=new Afrotheria(8, true, true, 78, 90.9, 1567, "Ants and Mold Catapillers");
+        Afrotheria Afro4=new Afrotheria(8, true, true, 78, 90.9, 1567, "Ants and Mold Catapillers",5, "Teeth");
         System.out.println("I am a Afrotheria\n"+"---------------------------------\n"+Afro4.Attributes());
-        Afrotheria Afro5=new Afrotheria(4, true, true, 1, 5.0, 1289, "Eggs and Bacon");
+        Afrotheria Afro5=new Afrotheria(4, true, true, 1, 5.0, 1289, "Eggs and Bacon",5, "Teeth");
         System.out.println("I am a Afrotheria\n"+"---------------------------------\n"+Afro5.Attributes());
 
-        Xenarthra Xena1=new Xenarthra(4, true, true, 80, 90.0, 1287, "Banana and More Bananas");
+        Xenarthra Xena1=new Xenarthra(4, true, true, 80, 90.0, 1287, "Banana and More Bananas",5, "Teeth");
         System.out.println("I am a Xenarthra\n"+"---------------------------------\n"+Xena1.Attributes());
-        Xenarthra Xena2=new Xenarthra(0, true, true, 0, 0.0, 1500, "Cherries and Worms");
+        Xenarthra Xena2=new Xenarthra(0, true, true, 0, 0.0, 1500, "Cherries and Worms",5, "Teeth");
         System.out.println("I am a Xenarthra\n"+"---------------------------------\n"+Xena2.Attributes());
-        Xenarthra Xena3=new Xenarthra(1, true, true, 10, 100, 1568, "Drt and Ants");
+        Xenarthra Xena3=new Xenarthra(1, true, true, 10, 100, 1568, "Drt and Ants",5, "Teeth");
         System.out.println("I am a Xenarthra\n"+"---------------------------------\n"+Xena3.Attributes());
-        Xenarthra Xena4=new Xenarthra(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks");
+        Xenarthra Xena4=new Xenarthra(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks",5, "Teeth");
         System.out.println("I am a Xenarthra\n"+"---------------------------------\n"+Xena4.Attributes());
-        Xenarthra Xena5=new Xenarthra(4, true, true, 1, 5.0, 1289, "Beans and Beans");
+        Xenarthra Xena5=new Xenarthra(4, true, true, 1, 5.0, 1289, "Beans and Beans",5, "Teeth");
         System.out.println("I am a Xenarthra\n"+"---------------------------------\n"+Xena5.Attributes());
 
-        Glires Gliry1=new Glires(4, true, true, 80, 90.0, 1287, "Carrotss");
+        Glires Gliry1=new Glires(4, true, true, 80, 90.0, 1287, "Carrotss",5, "Teeth");
         System.out.println("I am a Glires\n"+"---------------------------------\n"+Gliry1.Attributes());
-        Glires Gliry2=new Glires(0, true, true, 0, 0.0, 1500, "Other Animals");
+        Glires Gliry2=new Glires(0, true, true, 0, 0.0, 1500, "Other Animals",5, "Teeth");
         System.out.println("I am a Glires\n"+"---------------------------------\n"+Gliry2.Attributes());
-        Glires Gliry3=new Glires(1, true, true, 10, 100, 1568, "Sticks and Dirt");
+        Glires Gliry3=new Glires(1, true, true, 10, 100, 1568, "Sticks and Dirt",5, "Teeth");
         System.out.println("I am a Glires\n"+"---------------------------------\n"+Gliry3.Attributes());
-        Glires Gliry4=new Glires(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks");
+        Glires Gliry4=new Glires(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks",5, "Teeth");
         System.out.println("I am a Glires\n"+"---------------------------------\n"+Gliry4.Attributes());
-        Glires Gliry5=new Glires(4, true, true, 1, 5.0, 1289, "Beans and Beans");
+        Glires Gliry5=new Glires(4, true, true, 1, 5.0, 1289, "Beans and Beans",5, "Teeth");
         System.out.println("I am a Glires\n"+"---------------------------------\n"+Gliry5.Attributes());
 
-        Chiroptera Chiro1=new Chiroptera(4, true, true, 80, 90.0, 1287, "Carrotss");
+        Chiroptera Chiro1=new Chiroptera(4, true, true, 80, 90.0, 1287, "Carrotss",5, "Teeth");
         System.out.println("I am a Chiroptera\n"+"---------------------------------\n"+Chiro1.Attributes());
-        Chiroptera Chiro2=new Chiroptera(0, true, true, 0, 0.0, 1500, "Other Animals");
+        Chiroptera Chiro2=new Chiroptera(0, true, true, 0, 0.0, 1500, "Other Animals",5, "Teeth");
         System.out.println("I am a Chiroptera\n"+"---------------------------------\n"+Chiro2.Attributes());
-        Chiroptera Chiro3=new Chiroptera(1, true, true, 10, 100, 1568, "Sticks and Dirt");
+        Chiroptera Chiro3=new Chiroptera(1, true, true, 10, 100, 1568, "Sticks and Dirt",5, "Teeth");
         System.out.println("I am a Chiroptera\n"+"---------------------------------\n"+Chiro3.Attributes());
-        Chiroptera Chiro4=new Chiroptera(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks");
+        Chiroptera Chiro4=new Chiroptera(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks",5, "Teeth");
         System.out.println("I am a Chiroptera\n"+"---------------------------------\n"+Chiro4.Attributes());
-        Chiroptera Chiro5=new Chiroptera(4, true, true, 1, 5.0, 1289, "Beans and Beans");
+        Chiroptera Chiro5=new Chiroptera(4, true, true, 1, 5.0, 1289, "Beans and Beans",5, "Teeth");
         System.out.println("I am a Chiroptera\n"+"---------------------------------\n"+Chiro5.Attributes());
 
 
-        Cetartiodactyla Certa1=new Cetartiodactyla(4, true, true, 80, 90.0, 1287, "Carrotss");
+        Cetartiodactyla Certa1=new Cetartiodactyla(4, true, true, 80, 90.0, 1287, "Carrotss",5, "Teeth");
         System.out.println("I am a Cetartiodactyla\n"+"---------------------------------\n"+Certa1.Attributes());
-        Cetartiodactyla Certa2=new Cetartiodactyla(0, true, true, 0, 0.0, 1500, "Other Animals");
+        Cetartiodactyla Certa2=new Cetartiodactyla(0, true, true, 0, 0.0, 1500, "Other Animals",5, "Teeth");
         System.out.println("I am a Cetartiodactyla\n"+"---------------------------------\n"+Certa2.Attributes());
-        Cetartiodactyla Certa3=new Cetartiodactyla(1, true, true, 10, 100, 1568, "Sticks and Dirt");
+        Cetartiodactyla Certa3=new Cetartiodactyla(1, true, true, 10, 100, 1568, "Sticks and Dirt",5, "Teeth");
         System.out.println("I am a Cetartiodactyla\n"+"---------------------------------\n"+Certa3.Attributes());
-        Cetartiodactyla Certa4=new Cetartiodactyla(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks");
+        Cetartiodactyla Certa4=new Cetartiodactyla(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks",5, "Teeth");
         System.out.println("I am a Cetartiodactyla\n"+"---------------------------------\n"+Certa4.Attributes());
-        Cetartiodactyla Certa5=new Cetartiodactyla(4, true, true, 1, 5.0, 1289, "Beans and Beans");
+        Cetartiodactyla Certa5=new Cetartiodactyla(4, true, true, 1, 5.0, 1289, "Beans and Beans",5, "Teeth");
         System.out.println("I am a Cetartiodactyla\n"+"---------------------------------\n"+Certa5.Attributes());
 
-        Perissodactyla Peris1=new Perissodactyla(4, true, true, 80, 90.0, 1287, "Carrotss");
+        Perissodactyla Peris1=new Perissodactyla(4, true, true, 80, 90.0, 1287, "Carrotss",5, "Teeth");
         System.out.println("I am a Perissodactyla\n"+"---------------------------------\n"+Peris1.Attributes());
-        Perissodactyla Peris2=new Perissodactyla(0, true, true, 0, 0.0, 1500, "Other Animals");
+        Perissodactyla Peris2=new Perissodactyla(0, true, true, 0, 0.0, 1500, "Other Animals",5, "Teeth");
         System.out.println("I am a Perissodactyla\n"+"---------------------------------\n"+Peris2.Attributes());
-        Perissodactyla Peris3=new Perissodactyla(1, true, true, 10, 100, 1568, "Sticks and Dirt");
+        Perissodactyla Peris3=new Perissodactyla(1, true, true, 10, 100, 1568, "Sticks and Dirt",5, "Teeth");
         System.out.println("I am a Perissodactyla\n"+"---------------------------------\n"+Peris3.Attributes());
-        Perissodactyla Peris4=new Perissodactyla(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks");
+        Perissodactyla Peris4=new Perissodactyla(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks",5, "Teeth");
         System.out.println("I am a Perissodactyla\n"+"---------------------------------\n"+Peris4.Attributes());
-        Perissodactyla Peris5=new Perissodactyla(4, true, true, 1, 5.0, 1289, "Beans and Beans");
+        Perissodactyla Peris5=new Perissodactyla(4, true, true, 1, 5.0, 1289, "Beans and Beans",5, "Teeth");
         System.out.println("I am a Perissodactyla\n"+"---------------------------------\n"+Peris5.Attributes());
 
-        Pholidota Pholi1=new Pholidota(4, true, true, 80, 90.0, 1287, "Carrotss");
+        Pholidota Pholi1=new Pholidota(4, true, true, 80, 90.0, 1287, "Carrotss",5, "Teeth");
         System.out.println("I am a Pholidota\n"+"---------------------------------\n"+Pholi1.Attributes());
-        Pholidota Pholi2=new Pholidota(0, true, true, 0, 0.0, 1500, "Other Animals");
+        Pholidota Pholi2=new Pholidota(0, true, true, 0, 0.0, 1500, "Other Animals",5, "Teeth");
         System.out.println("I am a Pholidota\n"+"---------------------------------\n"+Pholi2.Attributes());
-        Pholidota Pholi3=new Pholidota(1, true, true, 10, 100, 1568, "Sticks and Dirt");
+        Pholidota Pholi3=new Pholidota(1, true, true, 10, 100, 1568, "Sticks and Dirt",5, "Teeth");
         System.out.println("I am a Pholidota\n"+"---------------------------------\n"+Pholi3.Attributes());
-        Pholidota Pholi4=new Pholidota(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks");
+        Pholidota Pholi4=new Pholidota(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks",5, "Teeth");
         System.out.println("I am a Pholidota\n"+"---------------------------------\n"+Pholi4.Attributes());
-        Pholidota Pholi5=new Pholidota(4, true, true, 1, 5.0, 1289, "Beans and Beans");
+        Pholidota Pholi5=new Pholidota(4, true, true, 1, 5.0, 1289, "Beans and Beans",5, "Teeth");
         System.out.println("I am a Pholidota\n"+"---------------------------------\n"+Pholi5.Attributes());
 
-        Carnivora Carni1=new Carnivora(4, true, true, 80, 90.0, 1287, "Carrotss");
+        Carnivora Carni1=new Carnivora(4, true, true, 80, 90.0, 1287, "Carrotss",5, "Teeth");
         System.out.println("I am a Carnivora\n"+"---------------------------------\n"+Carni1.Attributes());
-        Carnivora Carni2=new Carnivora(0, true, true, 0, 0.0, 1500, "Other Animals");
+        Carnivora Carni2=new Carnivora(0, true, true, 0, 0.0, 1500, "Other Animals",5, "Teeth");
         System.out.println("I am a Carnivora\n"+"---------------------------------\n"+Carni2.Attributes());
-        Carnivora Carni3=new Carnivora(1, true, true, 10, 100, 1568, "Sticks and Dirt");
+        Carnivora Carni3=new Carnivora(1, true, true, 10, 100, 1568, "Sticks and Dirt",5, "Teeth");
         System.out.println("I am a Carnivora\n"+"---------------------------------\n"+Carni3.Attributes());
-        Carnivora Carni4=new Carnivora(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks");
+        Carnivora Carni4=new Carnivora(8, true, true, 78, 90.9, 1567, "Brocolli and Rocks",5, "Teeth");
         System.out.println("I am a Carnivora\n"+"---------------------------------\n"+Carni4.Attributes());
-        Carnivora Carni5=new Carnivora(4, true, true, 1, 5.0, 1289, "Beans and Beans");
+        Carnivora Carni5=new Carnivora(4, true, true, 1, 5.0, 1289, "Beans and Beans",5, "Teeth");
         System.out.println("I am a Carnivora\n"+"---------------------------------\n"+Carni5.Attributes());
 
+        Scrotifera Scrot1 = new Scrotifera(18, true, true, 12, 56.7, 1000, "Carrots and Dings", 100, " Using a Bubble Maker");
+        System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scrot1.Attributes());
+        Scrotifera Scrot2 = new Scrotifera(18, true, true, 12, 56.7, 1000, "Carrots and Dings", 100, " Using a Bubble Maker");
+        System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scrot2.Attributes());
+        Scrotifera Scrot3 = new Scrotifera(18, true, true, 12, 56.7, 1000, "Carrots and Dings", 100, " Using a Bubble Maker");
+        System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scrot3.Attributes());
+        Scrotifera Scrot4 = new Scrotifera(18, true, true, 12, 56.7, 1000, "Carrots and Dings", 100, " Using a Bubble Maker");
+        System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scrot4.Attributes());
+        Scrotifera Scrot5 = new Scrotifera(18, true, true, 12, 56.7, 1000, "Carrots and Dings", 100, " Using a Bubble Maker"); 
+        System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scrot5.Attributes());
+
+
+       // creating first instance and then overriding to change some attributes
+        Cetartiodactyla Cetartiodactyla1 = new Cetartiodactyla(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Cetartiodactyla1.Attributes());
+        
+        Cetartiodactyla1.set_Running_Speed(45); // replacing the attribute hunting and running 
+        Cetartiodactyla1.set_Hunting_Process("Aggressive");
+
+        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Cetartiodactyla1.Attributes());
+
+        Cetartiodactyla Cetartiodactyla2 = new Cetartiodactyla(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetartiodactyla  \n"+"---------------------------------\n"+Cetartiodactyla2.Attributes());
+        Cetartiodactyla Cetartiodactyla3 =new Cetartiodactyla(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetartiodactyla  \n"+"---------------------------------\n"+Cetartiodactyla3.Attributes());
+        Cetartiodactyla Cetartiodactyla4 = new Cetartiodactyla(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetartiodactyla  \n"+"---------------------------------\n"+Cetartiodactyla4.Attributes());
+        Cetartiodactyla Cetartiodactyla5 = new Cetartiodactyla(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetartiodactyla  \n"+"---------------------------------\n"+Cetartiodactyla5.Attributes());
+
+
+        
+        Theria Theria1 = new Theria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria1.Attributes());
+        
+        Cetartiodactyla1.set_Running_Speed(45); // replacing the attribute hunting and running 
+        Cetartiodactyla1.set_Hunting_Process("Aggressive");
+
+        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Theria1.Attributes());
+
+        Theria Theria2 = new Theria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria2.Attributes());
+        Theria Theria3 = new Theria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria3.Attributes());
+        Theria Theria4 = new Theria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria4.Attributes());
+        Theria Theria5 = new Theria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria5.Attributes());
+        
+        Placentalia Placent1 = new Placentalia(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Placent1.Attributes());
+        
+        Placent1.set_Running_Speed(450); // replacing the attribute hunting and running 
+        Placent1.set_Hunting_Process("Lazzzzy");
+
+        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Theria1.Attributes());
+
+        Placentalia Placent2 = new Placentalia(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria2.Attributes());
+        Theria Placent3 = new Placentalia(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria3.Attributes());
+        Theria Placent4 = new Placentalia(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria4.Attributes());
+        Theria Placent5 = new Placentalia(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Theria5.Attributes());
+        
+        
+
+        //Boreutheria class with changing attributes display orignal and then display the update
+        Boreoeutheria Boro1 = new Boreoeutheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Boro1.Attributes());
+        
+        Placent1.set_Running_Speed(450); // replacing the attribute hunting and running 
+        Placent1.set_Hunting_Process("Lazzzzy");
+
+        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Theria1.Attributes());
+
+        Boreoeutheria Boro2 = new Boreoeutheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Boro2.Attributes());
+        Boreoeutheria Boro3 = new Boreoeutheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Boro3.Attributes());
+        Boreoeutheria Boro4 = new Boreoeutheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Boro4.Attributes());
+        Boreoeutheria Boro5 = new Boreoeutheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Boro5.Attributes());
+
+
+
+        /// class of euchaontogires with changing hunting attributes etc display original and then updated
+        Euarchontogires Euch1 = new Euarchontogires(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Euch1.Attributes());
+        
+        Euch1.set_Running_Speed(450); // replacing the attribute hunting and running 
+        Euch1.set_Hunting_Process("Lazzzzy");
+
+        System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Euch1.Attributes());
+
+        Euarchontogires   Euch2 = new Euarchontogires (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Euch2.Attributes());
+        Euarchontogires  Euch3 = new Euarchontogires (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Euch3.Attributes());
+        Euarchontogires  Euch4 = new Euarchontogires (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Euch4.Attributes());
+        Euarchontogires  Euch5 = new Euarchontogires (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        System.out.println("I am a Cetatiodactlyia \n"+"---------------------------------\n"+Euch5.Attributes());
+
+        
+
+
+
+        Atlantogenata
+        Laurasiatheria
+        Scrotifera
+        Euungulata
+        Ferae
     }
 }
