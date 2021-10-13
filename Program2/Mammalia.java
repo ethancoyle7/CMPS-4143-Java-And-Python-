@@ -49,7 +49,7 @@ class Mammilia
     int Legs,RunSpeed = 0,NumNeurons,DateOfBirth;
     boolean HasTail, HasABrain;
     double LevelOfPrecision;
-    String FavoriteFood,HuntingAttribute = "None";
+    String FavoriteFood,HuntingAttribute = " Scavaging for Nice Juicy Worms";
 
     // then we create our constructor which will be used as pointer type to our personal new created animals
     public Mammilia(int Legs, boolean HasTail, Boolean HasABrain, int NumNeurons, double LevelOfPrecision, int DateOfBirth, String FavoriteFood, int RunSpeed,
@@ -1027,9 +1027,11 @@ public class Mammalia
         Scrotifera Scofi1 = new Scrotifera(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scofi1.Attributes());
         
+        //printing out the berfofe
         Scofi1.set_RunSpeed(450); // replacing the attribute hunting and running 
         Scofi1.set_HuntingAttribute("Lazzzzy");
 
+        //print out the after
         System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Scofi1.Attributes());
 
         Scrotifera   Scofi2 = new Scrotifera (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
@@ -1045,12 +1047,14 @@ public class Mammalia
 
 
 
+        // print out the before
         Euungulata Euung1 = new Euungulata(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Euungulata \n"+"---------------------------------\n"+Euung1.Attributes());
         
         Euung1.set_RunSpeed(450); // replacing the attribute hunting and running 
         Euung1.set_HuntingAttribute("Lazzzzy");
 
+        //print out the after
         System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Euung1.Attributes());
 
         Euungulata   Euung2 = new Euungulata (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
@@ -1070,6 +1074,7 @@ public class Mammalia
         Fera1.set_RunSpeed(450); // replacing the attribute hunting and running 
         Fera1.set_HuntingAttribute("Lazzzzy");
 
+        //display the after the set and gett
         System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Fera1.Attributes());
 
         Ferae   Fera2 = new Ferae (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");

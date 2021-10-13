@@ -1099,8 +1099,8 @@ I have                    190 Neurons
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
 And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
-My Hunting Speed is       5000   MPH (Aint I Fast? ) 
- My  HuntingAttribute is    Being Lazy  Aint That Cool?
+My Hunting Speed is       10   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Morbid and Rabid  Aint That Cool?
 
 
 I am a Theria 
@@ -1178,8 +1178,9 @@ I have                    190 Neurons
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
 And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
-My Hunting Speed is       5000   MPH (Aint I Fast? ) 
- My  HuntingAttribute is    Being Lazy  Aint That Cool?
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
 
 
 I am a Placentalia 
@@ -1262,8 +1263,10 @@ I have                    190 Neurons
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
 And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
-My Hunting Speed is       5000   MPH (Aint I Fast? ) 
- My  HuntingAttribute is    Being Lazy  Aint That Cool?
+My Hunting Speed is       450   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+
+
 
 
 I am a Boreoeutheria 
