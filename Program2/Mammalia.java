@@ -1005,26 +1005,26 @@ public class Mammalia
         Atlantogenata  Atla5 = new Atlantogenata (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Atlantogenata \n"+"---------------------------------\n"+Atla5.Attributes());
 
-        Laurasiatheria Laura1 = new Laurasiatheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Laurasiatheria Laura1 = new Laurasiatheria(29, true, true, 190, 75.0, 9999, " Metal Rocks", 5000 , " Being Lazy");
         System.out.println("I am a Laurasiatheria \n"+"---------------------------------\n"+Laura1.Attributes());
         
         Laura1.set_RunSpeed(450); // replacing the attribute hunting and running 
-        Laura1.set_HuntingAttribute("Lazzzzy");
+        Laura1.set_HuntingAttribute("ButterBean and Bean String ");
 
         System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Laura1.Attributes());
 
-        Laurasiatheria   Laura2 = new Laurasiatheria (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Laurasiatheria   Laura2 = new Laurasiatheria (29, true, true, 190, 75.0, 9999, " Salad Dressing on Rocks", 5000 , " Being Lazy");
         System.out.println("I am a Laurasiatheria \n"+"---------------------------------\n"+Laura2.Attributes());
-        Laurasiatheria  Laura3 = new Laurasiatheria (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Laurasiatheria  Laura3 = new Laurasiatheria (29, true, true, 190, 75.0, 9999, " Toes", 5000 , " Being Lazy");
         System.out.println("I am a Laurasiatheria\n"+"---------------------------------\n"+Laura3.Attributes());
-        Laurasiatheria  Laura4 = new Laurasiatheria(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Laurasiatheria  Laura4 = new Laurasiatheria(29, true, true, 190, 75.0, 9999, " Ketchup on Dirt", 5000 , " Being Lazy");
         System.out.println("I am a Laurasiatheria \n"+"---------------------------------\n"+Laura4.Attributes());
-        Laurasiatheria  Laura5 = new Laurasiatheria (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Laurasiatheria  Laura5 = new Laurasiatheria (29, true, true, 190, 75.0, 9999, " Raw Chicken", 5000 , " Being Lazy");
         System.out.println("I am a Laurasiatheria \n"+"---------------------------------\n"+Laura5.Attributes());
         
         
         
-        Scrotifera Scofi1 = new Scrotifera(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Scrotifera Scofi1 = new Scrotifera(29, true, true, 190, 75.0, 9999, "Rotten Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scofi1.Attributes());
         
         //printing out the berfofe
@@ -1034,9 +1034,9 @@ public class Mammalia
         //print out the after
         System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Scofi1.Attributes());
 
-        Scrotifera   Scofi2 = new Scrotifera (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Scrotifera   Scofi2 = new Scrotifera (29, true, true, 190, 75.0, 9999, " Sandwich Carrots", 5000 , " Being Lazy");
         System.out.println("I am a Scrotifera\n"+"---------------------------------\n"+Scofi2.Attributes());
-        Scrotifera  Scofi3 = new Scrotifera (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Scrotifera  Scofi3 = new Scrotifera (29, true, true, 190, 75.0, 9999, " Bananas and Mayoneaisse", 5000 , " Being Lazy");
         System.out.println("I am a Scrotifera\n"+"---------------------------------\n"+Scofi3.Attributes());
         Scrotifera  Scofi4 = new Scrotifera(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
         System.out.println("I am a Scrotifera \n"+"---------------------------------\n"+Scofi4.Attributes());
@@ -1077,13 +1077,13 @@ public class Mammalia
         //display the after the set and gett
         System.out.println("I am the Upgraded Version \n"+"---------------------------------\n"+Fera1.Attributes());
 
-        Ferae   Fera2 = new Ferae (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Ferae   Fera2 = new Ferae (29, true, true, 190, 75.0, 9999, " Sandwich Cream of Worm Buillon", 5000 , " Foraging Snozzles");
         System.out.println("I am a Ferae\n"+"---------------------------------\n"+Fera2.Attributes());
-        Ferae  Fera3 = new Ferae (29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Ferae  Fera3 = new Ferae (29, true, true, 190, 75.0, 9999, " Cow Dung and Catapillar Eyes", 5000 , " Being a lazy shmuck");
         System.out.println("I am a Ferae\n"+"---------------------------------\n"+Fera3.Attributes());
-        Ferae  Fera4 = new Ferae(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Ferae  Fera4 = new Ferae(29, true, true, 190, 75.0, 9999, " Boogers and Sticks ", 5000 , " Stealing from my other animal friends");
         System.out.println("I am a Ferae \n"+"---------------------------------\n"+Fera4.Attributes());
-        Ferae  Fera5 = new Ferae(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " Being Lazy");
+        Ferae  Fera5 = new Ferae(29, true, true, 190, 75.0, 9999, " Worms and Potatoes", 5000 , " I dont eat");
         System.out.println("I am a Ferae \n"+"---------------------------------\n"+Fera5.Attributes());
     }
 }

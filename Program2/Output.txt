@@ -1524,7 +1524,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Metal Rocks   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1540,9 +1540,9 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Metal Rocks   (Isnt that Yummy? )
 My Hunting Speed is       450   MPH (Aint I Fast? ) 
- My  HuntingAttribute is   Lazzzzy  Aint That Cool?
+ My  HuntingAttribute is   ButterBean and Bean String   Aint That Cool?
 
 
 
@@ -1556,7 +1556,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Salad Dressing on Rocks   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1572,7 +1572,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Toes   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1588,7 +1588,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Ketchup on Dirt   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1604,7 +1604,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Raw Chicken   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1620,7 +1620,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is   Rotten Potatoes   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1637,7 +1637,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is   Rotten Potatoes   (Isnt that Yummy? )
 My Hunting Speed is       450   MPH (Aint I Fast? ) 
  My  HuntingAttribute is   Lazzzzy  Aint That Cool?
 
@@ -1654,7 +1654,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Sandwich Carrots   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1671,7 +1671,7 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Bananas and Mayoneaisse   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
  My  HuntingAttribute is    Being Lazy  Aint That Cool?
 
@@ -1866,9 +1866,9 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Sandwich Cream of Worm Buillon   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
- My  HuntingAttribute is    Being Lazy  Aint That Cool?
+ My  HuntingAttribute is    Foraging Snozzles  Aint That Cool?
 
 
 
@@ -1884,9 +1884,27 @@ Do I have a Brain         true
 I have                    190 Neurons 
 My Precision Level is     75.0%  (Im a little Smart) 
 I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
+And My Favorite Food is    Cow Dung and Catapillar Eyes   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
- My  HuntingAttribute is    Being Lazy  Aint That Cool?
+ My  HuntingAttribute is    Being a lazy shmuck  Aint That Cool?
+
+
+
+
+
+
+
+I am a Ferae 
+---------------------------------
+I Have                    29 Leg/s
+I Have a Tail?            true
+Do I have a Brain         true
+I have                    190 Neurons 
+My Precision Level is     75.0%  (Im a little Smart) 
+I was Born in the Year    9999
+And My Favorite Food is    Boogers and Sticks    (Isnt that Yummy? )
+My Hunting Speed is       5000   MPH (Aint I Fast? ) 
+ My  HuntingAttribute is    Stealing from my other animal friends  Aint That Cool?
 
 
 
@@ -1904,25 +1922,7 @@ My Precision Level is     75.0%  (Im a little Smart)
 I was Born in the Year    9999
 And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
 My Hunting Speed is       5000   MPH (Aint I Fast? ) 
- My  HuntingAttribute is    Being Lazy  Aint That Cool?
-
-
-
-
-
-
-
-I am a Ferae 
----------------------------------
-I Have                    29 Leg/s
-I Have a Tail?            true
-Do I have a Brain         true
-I have                    190 Neurons 
-My Precision Level is     75.0%  (Im a little Smart) 
-I was Born in the Year    9999
-And My Favorite Food is    Worms and Potatoes   (Isnt that Yummy? )
-My Hunting Speed is       5000   MPH (Aint I Fast? ) 
- My  HuntingAttribute is    Being Lazy  Aint That Cool?
+ My  HuntingAttribute is    I dont eat  Aint That Cool?
 
 
 

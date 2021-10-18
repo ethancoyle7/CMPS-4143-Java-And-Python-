@@ -23,3 +23,19 @@ elif(int(input)==10):
 else:
     print(" Smaller than 10")
 
+
+# instantiate a while  with try catch block
+print(" please enter a vlaue")
+x=input()
+print(" you entered")
+try:
+   intVal=int(x)
+   while intVal>0:
+    print(intVal)
+    intVal-=1
+except:
+    print("you entered a  a non numeric value")
+
+
+# for loopsiedoopsie
+
