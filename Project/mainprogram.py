@@ -1,4 +1,3 @@
-
 #==========================================================================#
 #                                                                          #
 #  Authors    - Ethan Coyle and Jonathan Hogan                             #
@@ -29,7 +28,6 @@ from tkinter import Button
 import random # importing the random for rand number generator
 
 
-# first create our function definitions 
 
 # define how the lottery drawing ball will be utilized,
 # create the defintion and what each ball will be doing
@@ -52,9 +50,7 @@ def LotteryBallDrawing():
 # create the definition of the the drawing reset to generate more numbers
 # in the definition all the generated values will be reset and replaced to a default value of 0 until the next set is generated
 def ResetDrawing():
-
-    # resetting the values back to default values store here will all be 0 and the multiplier number
-    # will just read Multiplier until new values generated here
+    
     FirstNumber.configure(text="0")
     SecondNumber.configure(text="0")
     ThirdNumber.configure(text="0")
@@ -63,7 +59,7 @@ def ResetDrawing():
     MultiplierNumber.configure(text="MultiPlier")
 
 
-# define how the winning number will be instantiated and also reset
+
 
 # create the basis for the winning number that will be utilized whenever comparing to winning number
 def Winning_Number():
@@ -98,23 +94,19 @@ def ResetWinningNumbers():
     MultiplyNumber.configure(text="MultiPlier")
 
 
-
-
-
 # creating the window for the program to open up in a GUI
 LotterySimulation = tk.Tk()
 
-# window will open and we give it a title
 LotterySimulation.title(" Ethan Coyle and Jonathan Hogan Lottery Simulation")
-# set up the geometric deminsions of our gui interface 
-LotterySimulation.geometry("500x500")
+LotterySimulation.geometry("750x275")
+LotterySimulation.config(bg='Silver')
 
 
 # create a link to the drawing random number lottery generator to draw five rand
 # numbers and a multiplier number and display inside of the number boxes
 numberGen = Button(LotterySimulation, width=20, height=1, text="Draw a Random Number", command=LotteryBallDrawing)
 #configure the color schematics of the widget using .configure
-numberGen.configure(fg = "White" ,bg = "Green")
+numberGen.configure(fg = "Black" ,bg = "Cyan")
 numberGen.pack(side=tk.TOP, anchor=tk.NW)
 
 # create the reset button to reset all the generated numbers in the players drawing 
@@ -124,17 +116,16 @@ reset.configure(fg = "Black" ,bg = "Cyan")
 reset.pack(side=tk.TOP, anchor=tk.NW)
 
 # create the bottom to display the winning lottery number and then go to the function definition to print out the winning number
-#configure the color schematics of the widget using .configure
-# when clicked, this will randomly fill the labels 1-multiplier number with random integer values
 WinningLotteryNum = Button(LotterySimulation, width=20, height=1, text="Show Winning Number", command=Winning_Number)
+
+#configure the color schematics of the widget using .configure
 WinningLotteryNum.configure(fg = "Black" ,bg = "Gold")
 WinningLotteryNum.pack(side=tk.TOP, anchor=tk.NW)
 
 
 # resetting the winning lottery number button go to action
-# whenever the user clicks on this option, the values inside of the winning number labels will reset to default
 ResetWinningNumber = Button(LotterySimulation, width=20, height=1,text=" Reset Winning Number", command =ResetWinningNumbers)
-ResetWinningNumber.configure(fg = "Black" ,bg = "Red")
+ResetWinningNumber.configure(fg = "Black" ,bg = "Gold")
 ResetWinningNumber.pack(side=tk.TOP, anchor=tk.NW)
 
 # we are setting up the basis for our own lottery number GeneratorExit
@@ -154,29 +145,26 @@ SecondNumber.place(x=340, y= 30)
 
 # contents for the third number position in the middle
 ThirdNumber = tk.Label(LotterySimulation, text="3", bg="white", fg="black",relief='raised', width = 5, bd=5)
-# set the placement of the third number  with the coreespond x and y coordinate value
 ThirdNumber.place(x=410, y= 30)
 
 # contents for the fourth number
 FourthNumber = tk.Label(LotterySimulation, text="4", bg="white", fg="black",relief='raised', width = 5, bd=5)
-# set the placement of the fourth number  with the coreespond x and y coordinate value
 FourthNumber.place(x=480, y= 30)
 
 # contents for the fifth number
 FifthNumber = tk.Label(LotterySimulation, text="5", bg="white", fg="black",relief='raised', width = 5, bd=5,)
-# set the placement of the fifth number  with the coreespond x and y coordinate value
 FifthNumber.place(x=550, y= 30)
 
-
+# set the mulitplier number to be gold and then the text to be black
+# the multiplier number will hold the 6th number or the multi
+# number similar to in lottery 
 MultiplierNumber = tk.Label(LotterySimulation, text="MP", bg="gold", fg="black",relief='raised', width = 8, bd=8)
-# set the placement of the multiplier number  with the coreespond x and y coordinate value
 MultiplierNumber.place(x=620, y= 30)
 
 
 
 # this below will be our display for the winning lottery number Generator
-# this is styled almost the exact same way as the number lotto generator above but this will have its
-#  own function definition as well as placement and control 
+# this is styled almost the exact same way as the number lotto generator above but this will have its own function definition as well as placement and control 
 # through the winning number generator
 
 NumberOne = tk.Label(LotterySimulation, text="1", bg="Gold", fg="black",relief='raised', width = 5, bd=5)
@@ -204,5 +192,4 @@ NumberFive.place(x=550, y= 90)
 MultiplyNumber = tk.Label(LotterySimulation, text="MP", bg="gold", fg="black",relief='raised', width = 8, bd=8)
 MultiplyNumber.place(x=620, y= 90)# this good position
 
-
-LotterySimulation.mainloop()# looping through the GUI
+LotterySimulation.mainloop()# displaying the window for lottery aka main loop until exit
