@@ -1,6 +1,1 @@
-number = input("Enter your house number: ")
-street = input("Enter your street name: ")
-town = input("Enter your town/city: ")
-county = input("Enter your county: ")
-postcode = input("Enter your postcode: ")
-print("\nAddress Details:\n" + "Street: " + number + " " + street + "\nTown/City: " + town + "\nCounty: " + county + "\nPostcode: " + postcode)
+
