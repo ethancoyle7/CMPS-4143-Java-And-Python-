@@ -2,15 +2,15 @@ def myAtoi(s):
     # declare a variable to check the number is positive or negative
     isPositive = True
 
-    # we will store the new string in int_string that will be converted into an int
+    # storing the string into in string
     int_string = ""
     
-    # if the input string is empty, return 0
+    # if there nothing in the string return nothing
     if len(s)==0:
         return 0
     i=0
     
-    # ignore all the whitespaces
+    # we need to ignor all the white spaces in the string read in
     while i<len(s):
         if s[i]!=" ":
             break
@@ -56,16 +56,70 @@ def myAtoi(s):
         return max(-1*int(int_string), -2**31)
 
 
-# main function
-# change it as you want
-s = "42"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s))
+# main portion of the program where the actual conversions and the
+# outputs will be handled
 
-s = "             -98"
+# the imputs from the user assigned to the value s
+# for each of the consecutive read ins assign the string to s 
+# parse through and read to the end of the string and convert to
+# string in and then display the corresponding output 
+# with the print(myAtoi(s))
+s="42"
 print('Input: "', end="")
 print(s, end="")
 print('"')
-print(myAtoi(s))
+print(myAtoi(s))	
+
+# reading in the next string
+s=  "+45"
+print('Input: "', end="")
+print(s, end="")
+print('"')
+print(myAtoi(s)) # print out the results
+
+# read in the next string
+s= "        -42"
+print('Input: "', end="")
+print(s, end="")
+print('"')
+print(myAtoi(s)) # print out the results
+
+# read in the string
+s= "4193    with words"
+print('Input: "', end="")
+print(s, end="")
+print('"')
+print(myAtoi(s)) # print out the results
+
+# read in the string 
+s= "Words with 4856"
+print('Input: "', end="")
+print(s, end="")
+print('"')
+print(myAtoi(s)) # print out the result of the string read
+
+#next string read in
+s= "-91283472332"
+print('Input: "', end="")
+print(s, end="")
+print('"')
+print(myAtoi(s)) # print out the result of the string read
+
+# reading in the last string
+s=  "4294967296"
+print('Input: "', end="")
+print(s, end="")
+print('"')
+print(myAtoi(s))  # print out the result
+
+# just for sanity sake, ask the user to input a value read in as a string
+# and see the corresponding output
+
+# ask the user for input string 
+s = str(input("Please enter a string of values\n"))
+print('Input: "', end="")
+print(s, end="")
+print('"')
+print(myAtoi(s))  # print out the result
+
+# end of the program
