@@ -3,7 +3,7 @@ def myAtoi(s):
     isPositive = True
 
     # storing the string into in string
-    int_string = ""
+    StringInput = ""
     
     # if there nothing in the string return nothing
     if len(s)==0:
@@ -17,13 +17,13 @@ def myAtoi(s):
         i+=1
 
     # if the first character after whitespaces:
-    # 1) is a number -> add it to the int_string
+    # 1) is a number -> add it to the StringInput
     # 2) is "+" -> do nothing
     # 3) is "-" -> chnage isPositive to False
     # 4) else return 0
     if i<len(s):
         if ord('0')<=ord(s[i])<=ord('9'):
-            int_string += s[i]
+            StringInput += s[i]
         elif s[i]=="-":
             isPositive = False
         elif s[i]=="+":
@@ -36,24 +36,24 @@ def myAtoi(s):
 
     # now run a loop till the end of the string
     while i<len(s):
-        # if the current character is a number, add it to int_string
+        # if the current character is a number, add it to StringInput
         if ord('0')<=ord(s[i])<=ord('9'):
-            int_string += s[i]
+            StringInput += s[i]
         # else, break the loop
         else:
             break
         i+=1
     
     # if the resulting string is empty, return 0
-    if len(int_string)==0:
+    if len(StringInput)==0:
         return 0
-    # else check int_string
+    # else check StringInput
     else:
-        # if it's true, return minimum of int(int_string) and 2**31-1
+        # if it's true, return minimum of int(StringInput) and 2**31-1
         if isPositive:
-            return min(int(int_string),2**31-1)
-        # else, return max of -1*int(int_string) and -2**31-1
-        return max(-1*int(int_string), -2**31)
+            return min(int(StringInput),2**31-1)
+        # else, return max of -1*int(StringInput) and -2**31-1
+        return max(-1*int(StringInput), -2**31)
 
 
 # main portion of the program where the actual conversions and the
@@ -64,6 +64,16 @@ def myAtoi(s):
 # parse through and read to the end of the string and convert to
 # string in and then display the corresponding output 
 # with the print(myAtoi(s))
+
+print("#========================================================#\n",
+       "# Author - Ethan Coyle                                  #\n",
+       "# Instructor- Dr. Saikat                                #\n",
+       "# Class     - Contemp. Prog Java/Python                 #\n",
+       "# Course    - CMPS 4143                                 #\n",
+       "# Assignment- Problem 3                                 #\n",
+       "#=======================================================#\n")
+
+
 s="42"
 print('Input1:    "',s,'"',"\t\t\t\t\t\t",'OutPut1:    "',myAtoi(s),'"\n') # print out the result of the string read
 
