@@ -65,61 +65,37 @@ def myAtoi(s):
 # string in and then display the corresponding output 
 # with the print(myAtoi(s))
 s="42"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s))	
+print('Input1:    "',s,'"',"\t\t\t\t\t\t",'OutPut1:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # reading in the next string
 s=  "+45"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s)) # print out the results
+print('Input2:    "',s,'"',"\t\t\t\t\t\t",'OutPut2:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # read in the next string
 s= "        -42"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s)) # print out the results
+print('Input3:    "',s,'"',"\t\t\t\t",'OutPut3:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # read in the string
 s= "4193    with words"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s)) # print out the results
+print('Input4:    "',s,'"',"\t\t",'OutPut4:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # read in the string 
 s= "Words with 4856"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s)) # print out the result of the string read
+print('Input5:    "',s,'"',"\t\t\t",'OutPut5:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 #next string read in
 s= "-91283472332"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s)) # print out the result of the string read
+print('Input6:    "',s,'"',"\t\t\t",'OutPut6:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # reading in the last string
 s=  "4294967296"
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s))  # print out the result
+print('Input7:    "',s,'"',"\t\t\t\t",'OutPut7:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # just for sanity sake, ask the user to input a value read in as a string
 # and see the corresponding output
 
 # ask the user for input string 
 s = str(input("Please enter a string of values\n"))
-print('Input: "', end="")
-print(s, end="")
-print('"')
-print(myAtoi(s))  # print out the result
+print('Input8:    "',s,'"',"\t\t\t\t\t",'OutPut8:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # end of the program
