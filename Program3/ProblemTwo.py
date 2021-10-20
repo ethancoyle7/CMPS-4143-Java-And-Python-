@@ -87,6 +87,7 @@ while i<entry:# while i is less than the ammount the user wants to input
             break
 
     # format the output for each individual person to be this  formatted
-    print(FirstName, LastName, "aged", Age,"years, worked as a ",Occupation,
+    print(FirstName, LastName, " aged", Age," years, worked as a ",Occupation,
              " and currently lives at ",Address,".\n")
-i+=1# increment the ocunter variable
+    i+=1# increment the ocunter variable go back to loop begining until satisfied
+# end of the program exitting out
