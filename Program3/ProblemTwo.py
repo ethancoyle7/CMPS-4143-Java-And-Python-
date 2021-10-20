@@ -30,7 +30,7 @@ while i<entry:# while i is less than the ammount the user wants to input
         try:
             FirstName=str(input("What is the persons first name?"))# user prompt
         except:
-            raise ValueError('Occupation is not valid')
+            raise ValueError('FirstName  is not valid')
         if FirstName.isnumeric(): #check if the name is entered as a number
             ErrorWarning= ValueError("Invalid input, insert correct First Name using non numeric values")
             print(ErrorWarning)
@@ -41,7 +41,7 @@ while i<entry:# while i is less than the ammount the user wants to input
         try:
             LastName=str(input("What is the persons last  name?"))# user prompt
         except:
-            raise ValueError('Occupation is not valid')
+            raise ValueError('Last Name  is not valid')
         if LastName.isnumeric(): #chek if occupation contains only numeric value or not
             ErrorWarning= ValueError("Invalid input, insert correct Last Name using non numeric values")
             print(ErrorWarning)
