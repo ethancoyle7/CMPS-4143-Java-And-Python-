@@ -90,8 +90,3 @@ while i<entry:# while i is less than the ammount the user wants to input
     print(FirstName, LastName, "aged", Age,"years, worked as a ",Occupation,
              " and currently lives at ",Address,".\n")
 i+=1# increment the ocunter variable
-
-
-
-
-
