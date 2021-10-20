@@ -111,8 +111,9 @@ print("#========================================================#\n",
 
 try:
     s="42"
-    myAtoi(s)
+    myAtoi(s) # try the function
 except:
+    # if invalid, then error message
     print('Cannot convert string to an integer!')
 
 print('Input1:    "',s,'"',"\t\t\t\t",'OutPut1:    "',myAtoi(s),'"\n') # print out the result of the string read
@@ -120,8 +121,9 @@ print('Input1:    "',s,'"',"\t\t\t\t",'OutPut1:    "',myAtoi(s),'"\n') # print o
 # reading in the next string
 try:
     s=  "+45"
-    myAtoi(s)
+    myAtoi(s) # try the function
 except:
+    # if invalid, then error message
     print('Cannot convert string to an integer!')
 
 print('Input2:    "',s,'"',"\t\t\t\t",'OutPut2:    "',myAtoi(s),'"\n') # print out the result of the string read
@@ -129,8 +131,9 @@ print('Input2:    "',s,'"',"\t\t\t\t",'OutPut2:    "',myAtoi(s),'"\n') # print o
 # read in the next string
 try:
     s= "        -42"
-    myAtoi(s)
+    myAtoi(s) # try the function
 except:
+    # if invalid, then error message
     print('Cannot convert string to an integer!')
 
 print('Input3:    "',s,'"',"\t\t\t",'OutPut3:    "',myAtoi(s),'"\n') # print out the result of the string read
@@ -139,16 +142,18 @@ print('Input3:    "',s,'"',"\t\t\t",'OutPut3:    "',myAtoi(s),'"\n') # print out
 try:
 
     s= "4193    with words"   
-    myAtoi(s)
+    myAtoi(s) # try the function
 except:
+    # if invalid, then error message
     print('Cannot convert string to an integer!')
 print('Input4:    "',s,'"',"\t\t",'OutPut4:    "',myAtoi(s),'"\n') # print out the result of the string read
 
 # read in the string 
 try:
     s= "Words with 4856"
-    myAtoi(s)
+    myAtoi(s) # try the function
 except:
+    # if invalid, then error message
     print('Cannot convert string to an integer!')
 print('Input5:    "',s,'"',"\t\t\t",'OutPut5:    "',myAtoi(s),'"\n') # print out the result of the string read
 
@@ -163,8 +168,9 @@ print('Input6:    "',s,'"',"\t\t\t",'OutPut6:    "',myAtoi(s),'"\n') # print out
 # reading in the last string
 try:
     s=  "4294967296"
-    myAtoi(s)
+    myAtoi(s) # try the function
 except:
+    # if invalid, then error message
     print("invalid data cannot convert")
 print('Input7:    "',s,'"',"\t\t\t",'OutPut7:    "',myAtoi(s),'"\n') # print out the result of the string read
 
@@ -172,11 +178,24 @@ print('Input7:    "',s,'"',"\t\t\t",'OutPut7:    "',myAtoi(s),'"\n') # print out
 # just for sanity sake, ask the user to input a value read in as a string
 # and see the corresponding output
 # ask the user for input string 
-try:
-    s = str(input("Please enter a string of values\n"))
-    myAtoi(s)
-except:
-    print("invalid data unable to process")
-print('Input8:    "',s,'"',"\t\t\t\t\t",'OutPut8:    "',myAtoi(s),'"\n') # print out the result of the string read
 
+# prompt the user for the ammount of strings they would like to check
+entry= int(input(" how many times would you like to try to enter a string value ?  "))
+i=0 # create the counter incrementer starting with 0
+
+# while loop to loop while is less than then ammount of times
+while i< entry:
+
+    # try processing the string through myatoi function and if not proper, will output an error message
+    try:
+        s = str(input("Please enter a string of values\n"))
+        myAtoi(s) # try the function
+    except:
+    # if invalid, then error message
+        print("invalid data unable to process") # if invalid process a error message
+
+    # if works, then print out the result
+    print('Input8:    "',s,'"',"\t\t\t\t\t",'OutPut8:    "',myAtoi(s),'"\n') # print out the result of the string read
+    
+    i+=1# increment the counter to process the ammount the user wants to try
 # end of the program

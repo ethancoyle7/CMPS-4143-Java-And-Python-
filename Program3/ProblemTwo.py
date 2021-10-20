@@ -56,7 +56,7 @@ while i<entry:# while i is less than the ammount the user wants to input
             Age= int((input(" Enter the person Age(must be less than 150).  ")))
         except ValueError:
            raise ValueError('Age Entered Was Not Valid')
-        if Age > 100 or Age<0:
+        if Age > 150 or Age<0:# age must be between 0 and 150 anything else is error
             ErrorMessage = ValueError('Age Must Be less that 150 and larger than 0.')
             print(ErrorMessage)
         else:
