@@ -39,7 +39,6 @@
 def myAtoi(s):
     # declare a variable to check the number is positive or negative
     PositiveNumber = True
-
     # storing the string into in string
     InputValueString = ""
     # first condition, if there is nothing in the string return
@@ -67,10 +66,10 @@ def myAtoi(s):
         else:
             return 0
     
-    # increment i by 1 that is move ahead one step of the first character after white spaces
+    # increment i by 1 and move to next char after whitespace
     i+=1
 
-    # now run a loop till the end of the string
+    # nrun the loop till end of the string
     while i<len(s):
         # if char is a number add to string input
         if ord('0')<=ord(s[i])<=ord('9'):
@@ -85,10 +84,10 @@ def myAtoi(s):
         return 0
     # else check InputValueString
     else:
-        # if it's true, return minimum of int(InputValueString) and 2**31-1
+        # minimum for the 32 bit conversion
         if PositiveNumber:
             return min(int(InputValueString),2**31-1)
-        # else, return max of -1*int(InputValueString) and -2**31-1
+        # maximum for the 32 bit conversion
         return max(-1*int(InputValueString), -2**31)
 
 
