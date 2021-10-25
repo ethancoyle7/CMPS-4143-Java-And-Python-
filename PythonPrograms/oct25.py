@@ -118,9 +118,17 @@ a = [ [1, 2, 3, 4, 5, 6],
       [7, 8, 9, 10, 11, 12], 
       [13, 14, 15, 16, 17, 18] ] 
         
+b= [['a','b','c','d','e','f'],['g','h','i','j','k','l'],['m','n','o','p','q','r']]
 R = 3; C = 6
 print("============================================")
-print("our original matrix is : ", a, "\n\n")
+print("our original Numeric matrix is : ", a, "\n\n")
 print("our spiral matrix is : \n\n")
 spiralPrint( R, C, a) 
 print("\n\n============================================")
+
+
+print(" our result for second  String spiral matrix is below: \n\n\n")
+print("============================================")
+print("our original matrix is : ", b, "\n\n")
+print("our spiral matrix is : \n\n")
+spiralPrint( R, C, b) 
