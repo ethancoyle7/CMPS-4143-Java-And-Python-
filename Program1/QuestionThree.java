@@ -28,7 +28,7 @@ public class QuestionThree //same name as the given java program
             //for formatting purposes and visual presentation, print out the string
             System.out.println("Our Provided String From The Question is "+S+'\n');
     
-            String[] StringWords = S.split("\s");// split the words up so can count occureances
+            String[] StringWords = S.split("/s");// split the words up so can count occureances
 
              //next, we are going to look and find the most frequent StringWords given
              //create two dynamic allocated arrays to store frequent StringWords and their Recurrance
