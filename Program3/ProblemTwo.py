@@ -22,7 +22,7 @@ i=0
 # prompt the user to input the ammount of people they would like to add
 entry=int(input("How many people would you like to add?"))
 while i<entry:# while i is less than the ammount the user wants to input
-
+    
 
     # now for the basis of the individuals
     
@@ -69,7 +69,7 @@ while i<entry:# while i is less than the ammount the user wants to input
         try:
             Age= int(Age)
         except ValueError:
-           raise ValueError('Thats not a valid age. Get real Bonehead!! Enter Valid age!!!')
+           raise ValueError('Thats not a valid age. Get real Bonehead!!!')
         
         if Age > 150 or Age<0:# age must be between 0 and 150 anything else is error
             ErrorMessage = ValueError('Age Must Be less that 150 and larger than 0.')
