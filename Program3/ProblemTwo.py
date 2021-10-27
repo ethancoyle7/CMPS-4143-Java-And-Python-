@@ -92,7 +92,7 @@ while i<entry:# while i is less than the ammount the user wants to input
     # try catch me to get valid address
     while(True):
         try:
-            Address=str(input(" What is this persons Address?"))
+            Address=str(input(" the address of the person?"))
         except:
             raise ValueError('address  is not valid')
         if Address.isnumeric(): #chek if address contains only numeric value or not
@@ -101,8 +101,57 @@ while i<entry:# while i is less than the ammount the user wants to input
         else: #else if the occupation is correct
             break
 
+    while(True):
+        try:
+            City=str(input("What is the persons City name?( enter like Wichita Falls"))# user prompt
+        except:
+            raise ValueError('City  is not valid')
+        if City.isnumeric(): #check if the name is entered as a number
+            ErrorWarning= ValueError("Invalid input, insert correct City using non numeric values")
+            print(ErrorWarning)
+            
+        else: #else if the occupation is correct
+            break
+    while(True):# prompting for the state 
+        try:
+            State=str(input("What is the persons City name?( enter like Wichita Falls "))# user prompt
+        except:
+            raise ValueError('State  is not valid ( enter like " TX or Texas ') # error not correct format
+        if State.isnumeric(): #check if the name is entered as a number
+            ErrorWarning= ValueError("Invalid input, insert correct State using non numeric values")
+            print(ErrorWarning)
+
+        # loop back until value is correct
+        else: #else if the occupation is correct
+            break
+    
+    while True:# prompt for the zip code 
+        # first check to see if the entry is numeric or not
+            try:
+                print(" What is the Zip Code of the person?  ") # prompt for zip
+                ZipCode=input() # check the input
+            except ValueError:
+                raise ValueError('Zip Code  not valid must be five digits ')
+            if not ZipCode.isnumeric(): # if the zip not numbers
+                Message=ValueError("The Zip Code must be numeric")
+                print(Message)
+            # throw the error and 
+            # loop back again till a numeric value is acchieved
+                continue
+        # if the age that is reenter is numeric, then check to see if the number is between the
+        # two specified values then go to next try except bl
+        
+            if len(ZipCode)<5:# age must be between 0 and 150 anything else is error
+                ErrorMessage = ValueError('Zip Must Be five digits i.e. 76308.')
+                print(ErrorMessage)
+            elif len(ZipCode)>5:# age must be between 0 and 150 anything else is error
+                ErrorMessage = ValueError('Zip Must Be five digits i.e. 76308.')
+                print(ErrorMessage)
+            else:
+                break # once the input is valid, break through the while loop
+
     # format the output for each individual person to be this  formatted
     print(FirstName, LastName, " aged", Age," years, worked as a ",Occupation,
-             " and currently lives at ",Address,".\n")
+             " and currently lives at ",Address, " ", City, ", " ,State, "", ZipCode,".\n")
     i+=1# increment the ocunter variable go back to loop begining until satisfied
 # end of the program exitting out
