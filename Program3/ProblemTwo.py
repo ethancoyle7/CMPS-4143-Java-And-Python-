@@ -34,6 +34,7 @@ while i<entry:# while i is less than the ammount the user wants to input
         if FirstName.isnumeric(): #check if the name is entered as a number
             ErrorWarning= ValueError("Invalid input, insert correct First Name using non numeric values")
             print(ErrorWarning)
+            
         else: #else if the occupation is correct
             break
         
@@ -52,10 +53,24 @@ while i<entry:# while i is less than the ammount the user wants to input
     # start try catch block that will catch invalid data  whcih consists of nums between 0 and 150
     
     while True:
+        # first check to see if the entry is numeric or not
         try:
-            Age= int((input(" Enter the person Age(must be less than 150).  ")))
+            print(" enter the age of the person\n")
+            Age=input()
         except ValueError:
-           raise ValueError('Age Entered Was Not Valid')
+            raise ValueError('Age Entered Was Not Valid')
+        if not Age.isnumeric():
+            Message=ValueError("age must be numeric")
+            print(Message)
+            # loop back again till a numeric value is acchieved
+            continue
+        # if the age that is reenter is numeric, then check to see if the number is between the
+        # two specified values then go to next try except block
+        try:
+            Age= int(Age)
+        except ValueError:
+           raise ValueError('Thats not a valid age. Get real Bonehead!! Enter Valid age!!!')
+        
         if Age > 150 or Age<0:# age must be between 0 and 150 anything else is error
             ErrorMessage = ValueError('Age Must Be less that 150 and larger than 0.')
             print(ErrorMessage)
