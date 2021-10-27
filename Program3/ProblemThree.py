@@ -48,20 +48,21 @@ def myAtoi(s):
     
     # any white space, we ignore
     while i<len(s):
-        if s[i]!=" ":
+        if s[i]!=" "# skip all the white spaces
             break
-        i+=1
+        i+=1 # increment through the string
 
     # if the first character after whitespaces:
     # if first char after whitespace is a digit, add to string input
     # if is a + sign dont do anythin if there is a negative sign
     # positive value is changed to false. all other cases, return
     if i<len(s):
+        # check for values 0-9
         if ord('0')<=ord(s[i])<=ord('9'):
             InputValueString += s[i]
-        elif s[i]=="-": # else if as elif
+        elif s[i]=="-": # if there negative sign
             PositiveNumber = False # if negative then positive number set to false
-        elif s[i]=="+":# else if as elif
+        elif s[i]=="+":# is plus sign
             pass
         else:
             return 0

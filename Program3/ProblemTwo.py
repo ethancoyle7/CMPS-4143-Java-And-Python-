@@ -28,7 +28,7 @@ while i<entry:# while i is less than the ammount the user wants to input
     
     while(True):
         try:
-            FirstName=str(input("What is the persons first name?"))# user prompt
+            FirstName=str(input("What is the persons first name?  "))# user prompt
         except:
             raise ValueError('FirstName  is not valid')
         if FirstName.isnumeric(): #check if the name is entered as a number
@@ -40,7 +40,7 @@ while i<entry:# while i is less than the ammount the user wants to input
         
     while(True):
         try:
-            LastName=str(input("What is the persons last  name?"))# user prompt
+            LastName=str(input("What is the persons last  name?   "))# user prompt
         except:
             raise ValueError('Last Name  is not valid')
         if LastName.isnumeric(): #chek if occupation contains only numeric value or not
@@ -55,7 +55,7 @@ while i<entry:# while i is less than the ammount the user wants to input
     while True:
         # first check to see if the entry is numeric or not
         try:
-            print(" enter the age of the person\n")
+            print(" enter the age of the person  ")
             Age=input()
         except ValueError:
             raise ValueError('Age Entered Was Not Valid')
@@ -67,7 +67,7 @@ while i<entry:# while i is less than the ammount the user wants to input
         # if the age that is reenter is numeric, then check to see if the number is between the
         # two specified values then go to next try except block
         try:
-            Age= int(Age)
+            Age= int(Age)# convert to string and try except for valid input
         except ValueError:
            raise ValueError('Thats not a valid age. Get real Bonehead!!!')
         
@@ -80,7 +80,7 @@ while i<entry:# while i is less than the ammount the user wants to input
     # try catch to read in valid non numeric occupation
     while(True):
         try:
-            Occupation= str(input("What is their occupation?"))# prompt the user
+            Occupation= str(input("What is their occupation?   "))# prompt the user
         except:
             raise ValueError('Occupation is not valid')# if invalid say invalid
         if Occupation.isnumeric(): #chek if occupation contains only numeric value or not
@@ -92,7 +92,7 @@ while i<entry:# while i is less than the ammount the user wants to input
     # try catch me to get valid address
     while(True):
         try:
-            Address=str(input(" the address of the person?"))
+            Address=str(input("Whats the address of the person?   "))
         except:
             raise ValueError('address  is not valid')
         if Address.isnumeric(): #chek if address contains only numeric value or not
@@ -103,7 +103,7 @@ while i<entry:# while i is less than the ammount the user wants to input
 
     while(True):
         try:
-            City=str(input("What is the persons City name?( enter like Wichita Falls"))# user prompt
+            City=str(input("What is the persons City name?( enter like Wichita Falls)   "))# user prompt
         except:
             raise ValueError('City  is not valid')
         if City.isnumeric(): #check if the name is entered as a number
@@ -114,7 +114,7 @@ while i<entry:# while i is less than the ammount the user wants to input
             break
     while(True):# prompting for the state 
         try:
-            State=str(input("What is the persons City name?( enter like Wichita Falls "))# user prompt
+            State=str(input("What is the persons City name?( enter like Texas or TX)   "))# user prompt
         except:
             raise ValueError('State  is not valid ( enter like " TX or Texas ') # error not correct format
         if State.isnumeric(): #check if the name is entered as a number
@@ -151,7 +151,7 @@ while i<entry:# while i is less than the ammount the user wants to input
                 break # once the input is valid, break through the while loop
 
     # format the output for each individual person to be this  formatted
-    print(FirstName, LastName, " aged", Age," years, worked as a\n ",Occupation,
+    print(FirstName, LastName, " aged", Age," years, worked as a ",Occupation,
              " and currently lives at ",Address, "", City, "," ,State, " ", ZipCode,".\n")
     i+=1# increment the ocunter variable go back to loop begining until satisfied
 # end of the program exitting out
