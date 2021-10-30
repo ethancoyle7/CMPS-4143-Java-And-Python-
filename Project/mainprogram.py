@@ -73,20 +73,25 @@ def LotteryBallDrawing():
     #creating the fourth number
     # for error checking check that doesnt match any of the others
     FourthNumber.configure(text=str(random.randint(1,70)))
-    if FourthNumber==ThirdNumber or FourthNumber==SecondNumber or FourthNumber==FirstNumber:
+    if (FourthNumber==ThirdNumber or FourthNumber==SecondNumber or FourthNumber==FirstNumber):
         repeat = True
     while repeat:
         FourthNumber.configure(text=str(random.randint(1,70)))
-        if FourthNumber != FirstNumber and ThirdNumber!=SecondNumber and FourthNumber!=FirstNumber:
+        if (FourthNumber != FirstNumber and ThirdNumber!=SecondNumber
+             and FourthNumber!=FirstNumber):
+
             repeat = False
 
     #fifth number and error check to make sure no repeats
     FifthNumber.configure(text=str(random.randint(1,70)))
-    if FifthNumber==FourthNumber or FifthNumber==ThirdNumber or FifthNumber==SecondNumber or FifthNumber==FirstNumber:
+    if (FifthNumber==FourthNumber or FifthNumber==ThirdNumber
+               or FifthNumber==SecondNumber or FifthNumber==FirstNumber):
+
         repeat = True
     while repeat:
         FifthNumber.configure(text=str(random.randint(1,70)))
-        if FifthNumber!=FourthNumber and FifthNumber!= ThirdNumber and FifthNumber!=SecondNumber and FifthNumber!=FirstNumber:
+        if (FifthNumber!=FourthNumber and FifthNumber!= ThirdNumber 
+            and FifthNumber!=SecondNumber and FifthNumber!=FirstNumber):
             repeat = False
     
   
@@ -152,16 +157,20 @@ def Winning_Number():
     # if it is, loop until non repeat found
     while repeat:
         NumberFour.configure(text=str(random.randint(1,70)))
-        if NumberFour != NumberOne and NumberThree!=NumberTwo and NumberFour!=NumberOne:
+        if (NumberFour != NumberOne and NumberThree!=NumberTwo and NumberFour!=NumberOne):
             repeat = False
     # create number five for display in the label
     # error check to make sure it doesnt display a number already picked
     NumberFive.configure(text=str(random.randint(1,70)))
-    if NumberFive==NumberFour or NumberFive==NumberThree or NumberFive==NumberTwo or NumberFive==NumberOne:
+    if (NumberFive==NumberFour or NumberFive==NumberThree or
+     NumberFive==NumberTwo or NumberFive==NumberOne):
+
         repeat = True
     while repeat:
         NumberFive.configure(text=str(random.randint(1,70)))
-        if NumberFive!=NumberFour and NumberFive!= NumberThree and NumberFive!=NumberTwo and NumberFive!=NumberOne:
+        if (NumberFive!=NumberFour and NumberFive!= NumberThree and 
+        NumberFive!=NumberTwo and NumberFive!=NumberOne):
+        
             repeat = False
     #numbers.append(NumberFive)
 
