@@ -24,7 +24,7 @@
 
 # first create our imports tkstrer and random
 import tkinter as tk
-from tkinter import Button
+from tkinter import Button,PhotoImage
 import random # importing the random for rand number generator
 
 
@@ -109,12 +109,10 @@ def ResetDrawing():
   FourthNumber.configure(text='0')
   FifthNumber.configure(text='0')
   MultiplierNumber.configure(text='MultiPlier')
-# hello there :) lol
-# Hell   here :)
 
 
-
-# create the basis for the winning number that will be utilized whenever comparing to winning number
+# create the basis for the winning number that will be utilized 
+# whenever comparing to winning number
 def Winning_Number():
     #numbers = []
     repeat = False
@@ -170,7 +168,7 @@ def Winning_Number():
         NumberFive.configure(text=str(random.randint(1,70)))
         if (NumberFive!=NumberFour and NumberFive!= NumberThree and 
         NumberFive!=NumberTwo and NumberFive!=NumberOne):
-        
+
             repeat = False
     #numbers.append(NumberFive)
 
@@ -179,7 +177,8 @@ def Winning_Number():
     MultiplyNumber.configure(text=str(random.randint(1,25)))
 
 # create the definition of the the drawing reset to generate more numbers
-# in the definition all the generated values will be reset and replaced to a default value of 0 until the next set is generated
+# in the definition all the generated values will be reset and replaced to a 
+# default value of 0 until the next set is generated
 
 
 # Winning Number Generator For Max Prize
@@ -193,13 +192,27 @@ def ResetWinningNumbers():
     NumberFive.configure(text='0')
     MultiplyNumber.configure(text='M')
 
+# define the action of the close button
+def Close():
+    LotterySimulation.destroy()
+
+
+# ---- main portion of the label creations and buttons------
 
 # creating the window for the program to open up in a GUI
 LotterySimulation = tk.Tk()
 
+# add the title and the dimensions of the window and  upload picture
+# for the bakcground
 LotterySimulation.title(' Ethan Coyle and Jonathan Hogan Lottery Simulation')
 LotterySimulation.geometry('750x275')
-LotterySimulation.config(bg='Silver')
+# LotterySimulation.config(bg='Teal')
+
+
+# create image for out background and set it as a label that holds the picture
+bg= PhotoImage(file='Project\lotto-ticket.png')
+BackgroundLabel=tk.Label(LotterySimulation,image=bg)
+BackgroundLabel.place(x=0,y=0,relwidth=1,relheight=1)
 
 
 # create a link to the drawing random number lottery generator to draw five rand
@@ -227,6 +240,12 @@ WinningLotteryNum.pack(side=tk.TOP, anchor=tk.NW)
 ResetWinningNumber = Button(LotterySimulation, width=20, height=1,text=' Reset Winning Number', command =ResetWinningNumbers)
 ResetWinningNumber.configure(fg = 'Black' ,bg = 'Gold')
 ResetWinningNumber.pack(side=tk.TOP, anchor=tk.NW)
+
+# creating a button that closes the simulation
+# whenever it is clicked, goes to function definition which closes out of the program
+CloseSimulation = Button(LotterySimulation,width=20, height=1, text='Close Simulation', command=Close)
+CloseSimulation.configure(fg = 'White' ,bg = 'Red')
+CloseSimulation.pack(side=tk.TOP, anchor=tk.NW)
 
 # we are setting up the basis for our own lottery number GeneratorExit
 # in this we are utlizing the definition call function to Generate
