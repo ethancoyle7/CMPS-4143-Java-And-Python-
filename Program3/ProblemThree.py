@@ -48,7 +48,7 @@ def myAtoi(s):
     
     # any white space, we ignore
     while i<len(s):
-        if s[i]!=" "# skip all the white spaces
+        if s[i]!=" ":# skip all the white spaces
             break
         i+=1 # increment through the string
 
