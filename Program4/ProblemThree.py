@@ -1,3 +1,20 @@
+#========================================================================#
+#                                                                        #
+# Author - Ethan Coyle                                                   #
+# Inst.  - Dr. Saikat                                                    #
+# Class  - CMPS 4143(Java/Python)                                        #
+# Assin  - Program 4 Problem Three                                       #
+#                                                                        #
+# About-                                                                 #
+#. (30 points) Write the OOP program in python using class. Assuming you #
+# have four classes: Bank account which is the parent class and it hastwo#
+#  child classes Saving Account class and Checking account class. Custome#
+#  is another class who has a bank account; either saving or checking    #
+#  both. Implement the scenario using python OOP and make sure you have  #
+#  covered those OOP concepts on your code: inheritance(any),            #
+# polymorphism (runtime and compile time), abstraction and encapsulation.#
+#========================================================================#
+
 class Account:
      
     def __init__(self, CustomerName,CkBalance=0.00,SvBalance=0.00):

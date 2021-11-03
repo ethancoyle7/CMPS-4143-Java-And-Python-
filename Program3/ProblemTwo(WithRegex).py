@@ -169,11 +169,21 @@ for i in range(entry):
                 print(ErrorMessage)
             else:
                 break # once the input is valid, break through the while loop
-   
+    while(True):
+        try:
+            EmailAddress=str(input("Whats the  email address of the person?   "))
+        except:
+            raise ValueError(' email address  is not valid')
+        if not re.match("(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)", EmailAddress): #chek if address contains only numeric value or not
+            ErrorWarning= ValueError("thats invalid")
+            print(ErrorWarning)
+        else: #else if the occupation is correct
+            break
 
+        
    
     print(FirstName, LastName, " aged", Age," years, worked as a ",Occupation,
-         " and currently lives at ",StreetNumber, "",Address, "", City, "," ,State, " ", ZipCode,".")
+         " and currently lives at ",StreetNumber, "",Address, "", City, "," ,State, " ", ZipCode,"." ,"Email Address is : ",EmailAddress)
     i+=1
    
 # end of the program exitting out

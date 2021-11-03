@@ -1,7 +1,1 @@
-Highest grade: 97
-Lowest grade: 63
-Class average: 82.5
-Freshman: 3
-Sophomores: 1
-Juniors: 1
-Seniors: 1
+Persons Name is :SheenHighest grade: 100Lowest grade: 63Class average: 84.5Freshman: 3Sophomores: 1Juniors: 1Seniors: 1
