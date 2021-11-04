@@ -14,10 +14,14 @@
 #  covered those OOP concepts on your code: inheritance(any),            #
 # polymorphism (runtime and compile time), abstraction and encapsulation.#
 #========================================================================#
+# Bank Account is the parent class and the children are checking and savings
+# these two children show multiple inheritance
+import os
+# creating instance of the child class
 
-class Account:
+class BankAccount:
      
-    def __init__(self, CustomerName,CkBalance=0.00,SvBalance=0.00):
+    def __init__(self, CustomerName="",CkBalance=0.00,SvBalance=0.00):
          self.Checkbalance = CkBalance
          self.SavingsBalance=SvBalance
          self.CustName = CustomerName
@@ -26,30 +30,30 @@ class Account:
          self.Checkbalance = self.Checkbalance + amount 
     def depositSavings(self, amount):
          self.SavingsBalance = self.SavingsBalance + amount
-
     def WithDrawChecking(self, amount):
-        self.SavingsBalance=self.SavingsBalance-amount
-    def WithDrawSavings(self, amount):
         self.Checkbalance=self.Checkbalance-amount
+    def WithDrawSavings(self, amount):
+        self.SavingsBalance=self.SavingsBalance-amount
          
 # class holding the checking account balance
-class CheckingAccount(Account):
-    def __init__(self, CustomerName):
-         Account.__init__(self, CustomerName)
+class CheckingAccount(BankAccount):
+    def __init__(self, name, CheckingBalance):
+      super().__init__(name, CheckingBalance)
     def depositChecking(self, amount):
-         Account.depositChecking(self, amount)
+         BankAccount.depositChecking(self, amount)
          print("we here now")
     def WithDrawChecking(self, amount):
-        Account.WithDrawChecking(self,amount)
+        BankAccount.WithDrawChecking(self,amount)
     
 # class holding the savings balance       
-class SavingsAccount(Account):
-    def __init__(self, CustomerName):
-         Account.__init__(self, CustomerName)
+class SavingsAccount(BankAccount):
+    def __init__(self, name,Checking, SavingBalance):
+      super().__init__(name,Checking, SavingBalance)
     def depositSavings(self, amount):
-         Account.depositSavings(self, amount)
-    def WithDrawSavings(self, amount):
-         Account.WithDrawSavings(self, amount)
+         BankAccount.depositSavings(self, amount)
+         print("we here now")
+    def WithSavings(self, amount):
+        BankAccount.WithDrawSavings(self,amount)
     
 
 
@@ -58,48 +62,74 @@ print("""
             [2] -- Make Deposit
             [3] -- Make Withdrawl
             [4] -- Display Info
+            [Q] -- Quit Bank Simulation
     
             """)
+# create a loop to loop until the user presses q to quit
 
-answer='yes'
-while answer !='no':
-    answer=str(input("woul you like to continue enter yes or no?"))
-    print(" What would you like to do? Please Enter a number\n")
-    userInput=str(input("Please select an option : 1-5"))
+#create instance of checking account deposit and withdraw
+# person that only has checking account can only depoist or withdraw from account
 
+person = CheckingAccount("Frodo Baggins",200)
+person.depositChecking(50)
+person.WithDrawChecking(5)
+print(person.CustName,  
+      person.Checkbalance)
+
+#create instance of checking account deposit and withdraw
+# person that only has checking account can only depoist or withdraw from account
+
+person2 = SavingsAccount("Bilbo Baggins ",2000,9000)
+person2.depositSavings(1200)
+person2.WithDrawSavings(5000)
+print(person2.CustName,  
+      person.SavingsBalance)
+
+keep_going = True
+while keep_going:
+
+    # prompt the user what they would like to do
+    userInput = str(input('Please Select One of the Following, or type the letter Q to exit '))
+    
+    
     if userInput == '1':
         name=str(input("please enter the customer name:  "))
         CheckingBalance= float(input("please enter the checking account starting balance: "))
         SavBalance= float(input("please enter the saving account starting balance: "))
-        a = Account(name,CheckingBalance,SavBalance)
+        a = BankAccount(name,CheckingBalance,SavBalance)
 
     if userInput == '2':
-        account_type = input('What account? Enter Savings of Checking ' )
+        AcctType = input('What account to deposit to? Enter Savings of Checking ' )
         deposit_amount = float(input('How Much Would You Like to Deposit? ' ))
     
-        if account_type=='Savings':
+        if AcctType=='Savings':
             a.depositSavings(deposit_amount)
     
-        if account_type=='Checking':
+        if AcctType=='Checking':
             a.depositChecking(deposit_amount)
 
     if userInput=='3':
 
-        account_type = input('What account? Enter Savings of Checking ' )
-        withdrawl_ammount = float(input('How Much Would ifYou Like to Withdraw? ' ))
+        account_type = str(input('What account To Withdraw From? Enter Savings of Checking ' ))
+        
         if account_type=='Savings':
+            withdrawl_ammount = float(input('How Much Would ifYou Like to Withdraw? ' ))
             a.WithDrawSavings(withdrawl_ammount)
         if account_type=='Checking':
             if CheckingBalance<withdrawl_ammount:
                 print("Balance is too low cannot withdraw that much!!!")
             else:
+                withdrawl_ammount = float(input('How Much Would ifYou Like to Withdraw? ' ))
                 a.WithDrawChecking(withdrawl_ammount)
 
     if userInput=='4':
-        print(" Customer Name   Checking Balance   Savings Balance")
-        print("===================================================\n")
-        print("Name : ", a.CustName,"\nChecking Account Balance : $",a.Checkbalance,
-                "\nSavings Balance  : $", a.SavingsBalance)
+        print("\r\n\nCustomer Name            : ", a.CustName)
+        print("\rChecking Account Balance : $",a.Checkbalance)
+        print("\rSavings  Account Balance : $", a.SavingsBalance)
     
+    if userInput == 'Q':
+        keep_going = False # close out of the program
 
-print(CheckingAccount.depositChecking(5))
+
+#print(CheckingAccount.depositChecking(5))
+os._exit(0)

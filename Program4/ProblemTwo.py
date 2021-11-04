@@ -50,15 +50,12 @@ def stringToList(string):
     # read in the first string
 StringList = ['eat','tea','tan','ate','nat','bat']
 print(anagrams(StringList))
+# reading the second sample string
 StringList = ['']
+# go to function definition to determine the output
 print(anagrams(StringList))
+
+# reading the thir string 
 StringList = ['a']
 print(anagrams(StringList))
 
-
-
-strA = str(input("please enter some words and we check to see about angrams: "))
-listRes = list(strA.split(" "))
-
-
-print(anagrams,(listRes))
