@@ -35,7 +35,7 @@ except:
 # try opening up the output file, if exception occured then
 # display to viewer
 try:
-    OutFile = open('Program4\student.txt', 'w')
+    OutFile = open('Program4\student_statistics.txt', 'w')
 except:
     raise OSError("Could not open or write to file Exiting Now")
 
@@ -76,7 +76,6 @@ with InFile:
                 LastNamePerson=LName
         #find the total grades to be used in average below
         GradeTotal = GradeTotal + grade 
-       
         NumLines+=1 #increment the line number till no more 
 
         # iterate over the second index to sum up the class member count for each grade
@@ -100,6 +99,8 @@ OutFile.write("\r===================================================\n")
 OutFile.write('\rPerson With the Highest Grade Was :  '+ FirstNamePerson +" "+LastNamePerson)
 OutFile.write('\rThe Highest Grade Was             :  ' + str(HighestGrade))
 OutFile.write('\rThe Lowest Grade Was              :  ' + str(LowestGrade))
+
+# average rounded to one decimal place %.1f
 OutFile.write('\rThe Class Average Was             :  %.1f'%(GradeTotal/NumLines))
 
 
