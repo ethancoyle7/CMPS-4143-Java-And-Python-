@@ -209,17 +209,18 @@ def main():
     # now specify account to perform transaction with
 # this particular one will be the savings account initialize upon
 # cutomer creation of the accounts accessing the account number and making the
-# necessary adjustments
-
+# necessary adjustments)
+    print("\r first lets do some money stuff on the checking account\n")
     deposit= int(input("how much would you like to deposit     "))
     customer.get_account("10000").deposit(deposit)
     withdraw= int(input(" how much would you like to withdraw  "))
     customer.get_account("10000").withdraw(withdraw)
-    
+
 # now specify another account to perform transaction with
 # this particular one will be the savings account initialize upon
 # cutomer creation of the accounts accessing the account number and making the
 # necessary adjustments
+    print("\r Now lets do some moeny stuff on savings\n")
     Savingsdeposit= int(input("how much would you like to deposit     "))
     customer.get_account("20000").deposit(Savingsdeposit)
     SavingsWithdraw= int(input("how much would you like to withdraw     "))
