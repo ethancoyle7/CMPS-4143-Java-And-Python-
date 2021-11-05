@@ -15,6 +15,31 @@
 # , polymorphism (runtime and compile time), abstraction and             #
 # encapsulation.                                                         #
 #========================================================================#
+
+#=============================================================#
+# Showing OOP CONCepts inside of this program include         #
+# OOPs concepts:                                              #
+# Inheritance:                                                #
+#    # is shown within the saving and checking account        #
+#    # because they are children classes of the original      #
+#    # derived class called bank account                      #
+# polymorphism-                                               #
+#    # is shown when the __str__(0 is overriden inside of the #
+#    # saving and checking account with multiple variables)   #
+#                                                             #
+# abstraction:                                                #
+#    # is shown in here where the member variable inside of   #
+#    # each class are hidden from the user because of the fact#
+#    #  that they are prive memeber variables                 #
+#                                                             #
+#encapsulation:                                               # 
+#    # is shown inside of here where the member variables of  #
+#    # each class can be accesses by using the get and set    #
+#    # methods defined within each class saving,checking and  #
+#    # bank account class                                     #
+#                                                             #
+#=============================================================#
+
 import re
 # First we create our parent class called bank account
 class BankAccount:
@@ -378,26 +403,3 @@ print()
 # print out the details of the second customer
 print(customer2)
 
-#=============================================================#
-# Showing OOP CONCepts inside of this program include         #
-# OOPs concepts:                                              #
-# Inheritance:                                                #
-#    # is shown within the saving and checking account        #
-#    # because they are children classes of the original      #
-#    # derived class called bank account                      #
-# polymorphism-                                               #
-#    # is shown when the __str__(0 is overriden inside of the #
-#    # saving and checking account with multiple variables)   #
-#                                                             #
-# abstraction:                                                #
-#    # is shown in here where the member variable inside of   #
-#    # each class are hidden from the user because of the fact#
-#    #  that they are prive memeber variables                 #
-#                                                             #
-#encapsulation:                                               # 
-#    # is shown inside of here where the member variables of  #
-#    # each class can be accesses by using the get and set    #
-#    # methods defined within each class saving,checking and  #
-#    # bank account class                                     #
-#                                                             #
-#=============================================================#
