@@ -40,11 +40,6 @@ def anagrams(Values):
         Dictionary[key].append(i)
     #convert the dictionary values to a list and return them
     return [val for k,val in Dictionary.items()]
-
-def stringToList(string):
-    listRes = list(string.split(" "))
-    return listRes
-
 #------- main portion of our program-----------------
 
     # read in the first string
@@ -59,3 +54,8 @@ print(anagrams(StringList))
 StringList = ['a']
 print(anagrams(StringList))
 
+# now we create a prompt for user to try
+userlist = [] 
+userlist = [item for item in input("Lets test yours : ").split()]
+# see if any matches found
+print(anagrams(userlist))

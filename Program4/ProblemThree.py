@@ -391,7 +391,7 @@ customer2.add_account(checking_account)
 # for sanity sake print out the customer to see their info
 print(customer2)
 
-# deposit 1200 and withdraw 500 from savings
+# deposit 1000 and withdraw 10000 from savings
 customer2.get_account("00001").deposit(1200)
 customer2.get_account("00001").withdraw(200)
 
