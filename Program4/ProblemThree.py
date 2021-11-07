@@ -392,12 +392,12 @@ customer2.add_account(checking_account)
 print(customer2)
 
 # deposit 1000 and withdraw 10000 from savings
-customer2.get_account("00001").deposit(1200)
-customer2.get_account("00001").withdraw(200)
+customer2.get_account("00001").deposit(1000)
+customer2.get_account("00001").withdraw(1000)
 
 # now from checking depoist and withraw utilizes get and set
-customer2.get_account("00002").deposit(500)
-customer2.get_account("00002").withdraw(250)
+customer2.get_account("00002").deposit(10000)
+customer2.get_account("00002").withdraw(5000)
 print()
 
 # print out the details of the second customer
