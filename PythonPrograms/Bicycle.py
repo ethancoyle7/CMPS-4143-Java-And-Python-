@@ -1,65 +1,60 @@
-#Ethan Coyle
-# CMPs 4143- Dr. Siakat In class Prgram
-# creating bike class and attributes and methods for how they work
+# Ethan Coyle
+# CMPS 4143- Python and Java Dr.Saikat
+# this is the inclass assignment that hold 
+# bike class and mountain class showing 
+# how we can overrride and change attributes based on
+# the object creation
+# November 8,2021
 
+
+# creation of the parent class bike that has methods to
+# define it inside of the class
 class Bicycle:
-    # initialize the constructor for the bicycle class and 
-    # variable to self.(attribute)
-    def __init__(self,gears=3,speed=0,brakes=False):
-        self.gears = 0
-        self.maxGears = gears
-        self.speed = speed
-        self.brakes = brakes
-    # define how each function will work
-    def changeGearUp(self):
-        if self.gears == self.maxGears:
-            print("Max gears limit reached")
-        else:
-            self.gears += 1
-            print("gear incremented")
+    # create constructor andd the variable 
+    gear=int()
+    speed=int()
+    def __init__(self, Gear=None, BikeSpeed=None):
+        self.gear = Gear
+        self.speed = BikeSpeed
+    # function definitions to hold the break, speed and incremation
+    def brake(self, decrement=None):
+        self.speed-=decrement
+    def speedUp(self, increment=None):
+        self.speed+=increment
+    # definition to show the staus of the bike
+    def status(self):
+        print(f'Bike\nSpeed is {self.speed}mph\nGear is {self.gear}')
 
-    def changeGearDown(self):
-        if self.gears == 0:
-            print("gears cannot be reduced")
-        else:
-            self.gears -= 1
-            print("gear decremented")
+# class Mountain Bike that inherits from the bicycle class
+class mountainBike(Bicycle):
+    gear=int()
+    speed=int()
+    seatHeight=int()
+    # constructor that holds gear and speed and height of seat
+    def __init__(self, Gear=None, BikeSpeed=None, SeatHt=None):
+        self.gear = Gear
+        self.speed = BikeSpeed
+        self.seatHeight = SeatHt
+    def status(self):
+        print(f'Mountain Bike\nSpeed is {self.speed} mph\nGear is {self.gear} \nSeat Height {self.seatHeight}')
 
-    def speedUp(self):
-        self.speed += 1
-        print("speed incremented")
+# objects created to show the mountina bike and the bike class objects
+# both hold gear,speed, seatheight
+MountainBike1 = mountainBike(9,87,1)
+Bike = Bicycle(2,900)
 
-    def speedDown(self):
-        if self.speed == 0:
-            print("speed cannot be reduced further")
-        else:
-            self.speed -= 1
-            print("speed reduced")
+# Get the status before
+print('\r\n After changing the speed of both')
+MountainBike1.status()
+Bike.status()
 
-    def applyBrakes(self):
-        if self.brakes :
-            print("brakes already on")
-        else:
-            self.brakes = True
-            print("brakes applied")
-    def removeBrakes(self):
-        if not self.brakes:
-            print("brakes alreay off")
-        else:
-            self.brakes = False
-            print("brakes are made off")
+# Speed Up my mountain bike by 4 mph
+MountainBike1.speedUp(5000)
 
-    def printStates(self):
-        print("Gears = " + str(self.gears))
-        print("Speed  = " + str(self.speed) + " m/s")
-        print("brakes (True means on/False means off) = ",self.brakes)
+# Brake up my car by 6 mph
+Bike.brake(0)
 
-# incstance of bicycle
-myCycle = Bicycle(20000,1,False)
-myCycle.changeGearUp()
-myCycle.speedUp()
-myCycle.speedUp()
-myCycle.speedUp()
-myCycle.speedUp()
-#print out the states of all the cicles
-myCycle.printStates()
+# print out status after changing values
+print('\r\nAfter Changing the speed, our status is : \n')
+MountainBike1.status()
+Bike.status()
