@@ -39,7 +39,7 @@ def anagrams(Values):
         #add the word to the group
         Dictionary[key].append(i)
     #convert the dictionary values to a list and return them
-    return [val for k,val in Dictionary.items()]
+    return [Values for key,Values in Dictionary.items()]
 #------- main portion of our program-----------------
 
     # read in the first string

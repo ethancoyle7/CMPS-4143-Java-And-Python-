@@ -42,26 +42,20 @@ except:
 # if no exceptions occured, continue on with the program
 with InFile:
     # initialize variables to starting values
-    LowestGrade = 0
-    HighestGrade = 0
-    GradeTotal = 0
-    NumLines = 0
-    TotFreshMen = 0
-    TotSophmores = 0
-    TotSeniors = 0
-    TotJuniors = 0
+    LowestGrade=HighestGrade = GradeTotal = NumLines = 0
+    TotFreshMen= TotSophmores =TotSeniors = TotJuniors = 0
     flag = True #flag is true 
     
     # reading each line of the infile
     for line in InFile: #read line 
         
-        each_element = line.strip().split(' ') # extract the elements on whitespace
+        LineElement = line.strip().split(' ') # extract the elements on whitespace
            # after reading each line, the last element is the grade
         # assign default value to start at the first index to hold first and last name
-        Name=str(each_element[0])
-        LName=str(each_element[1])
+        Name=str(LineElement[0])# first in the line is first name index 0
+        LName=str(LineElement[1])# second in the line is the last name index 1
         
-        grade = int(each_element[3])
+        grade = int(LineElement[3])# grade is the last element
         if flag:
            LowestGrade = grade
            HighestGrade = grade
@@ -80,13 +74,14 @@ with InFile:
 
         # iterate over the second index to sum up the class member count for each grade
         # if occurance occurs, increment the counter  for each
-        if each_element[2].lower() == 'sophomore':
+        # on the index 2, this is the name of the class
+        if LineElement[2].lower() == 'sophomore':
            TotSophmores += 1
-        elif each_element[2].lower() == 'freshman':
+        elif LineElement[2].lower() == 'freshman':
            TotFreshMen += 1
-        elif each_element[2].lower() == 'senior':
+        elif LineElement[2].lower() == 'senior':
            TotSeniors += 1
-        elif each_element[2].lower() == 'junior':
+        elif LineElement[2].lower() == 'junior':
            TotJuniors += 1
  
 OutFile.write("After Iterating Through our Infile, We determined that")
