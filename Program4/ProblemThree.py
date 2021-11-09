@@ -24,7 +24,7 @@
 #    # because they are children classes of the original      #
 #    # derived class called bank account                      #
 # polymorphism-                                               #
-#    # is shown when the __str__(0 is overriden inside of the #
+#    # is shown when the AccountInformation(0 is overriden inside of the #
 #    # saving and checking account with multiple variables)   #
 #                                                             #
 # abstraction:                                                #
@@ -88,7 +88,7 @@ class BankAccount:
 
     # we then create the function definition method that will we turn the
     # the formatted account information
-    def __str__(self):
+    def AccountInformation(self):
         return "Acct #       : {}\nAcct Balance : {}".format(self.__account_number, self.__balance)
 
 
@@ -125,8 +125,8 @@ class SavingsAccount(BankAccount):
     # in essecnce, we will return the savings account data, the CustomerName and the account num
     # the CustomerName and the accout number are derived from inside of the bank account
     # class and access through here
-    def __str__(self):
-        return "Savings Acct :\n" + super().__str__() + "\nBank Rate    : {}".format(self.__BankingRate)
+    def AccountInformation(self):
+        return "Savings Acct :\n" + super().AccountInformation() + "\nBank Rate    : {}".format(self.__BankingRate)
 
 # creation of the second child class which is calle Checking Account
 # inside of this, we will be drawing from the constructor of the super class
@@ -154,8 +154,8 @@ class CheckingAccount(BankAccount):
     # return method that will return everything ffrom the super class
     # includeing the account number and the balance as well as the 
     # checking account information
-    def __str__(self):
-        return "Checking Acct: \n" + super().__str__() + "\nBanking Fee  : {}".format(self.__BankingFee)
+    def AccountInformation(self):
+        return "Checking Acct: \n" + super().AccountInformation() + "\nBanking Fee  : {}".format(self.__BankingFee)
 
 
 # We lastly, create our cutomer class which will be used in the creation of a 
@@ -163,10 +163,9 @@ class CheckingAccount(BankAccount):
 class Customer:
     #  create the private sconstructor variable in which store the 
     # customeres information as well as their account information
-    def __init__(self, CustomerName, CustomerAddress, CustomerPhoneNum, CustomerIDNumber):
+    def __init__(self, CustomerName, CustomerAddress, CustomerIDNumber):
         self.__CustomerName = CustomerName
         self.__CustomerAddress = CustomerAddress
-        self.__CustomerPhoneNum = CustomerPhoneNum
         self.__CustomerIDNumber = CustomerIDNumber
         self.__accounts = []
 
@@ -176,8 +175,6 @@ class Customer:
         return self.__CustomerName
     def get_address(self):
         return self.__CustomerAddress
-    def get_phone_number(self):
-        return self.__CustomerPhoneNum
     def get_customer_id(self):
         return self.__CustomerIDNumber
 
@@ -187,31 +184,29 @@ class Customer:
         self.__CustomerName = CustomerName
     def set_address(self, CustomerAddress):
         self.__CustomerAddress = CustomerAddress
-    def set_phone_number(self, CustomerPhoneNum):
-        self.__CustomerPhoneNum = CustomerPhoneNum
     def set_customer_id(self, CustomerIDNumber):
         self.__CustomerIDNumber = CustomerIDNumber
 
 
     # method to ad an account for the customer
-    def add_account(self, account):
+    def CreateAccount(self, account):
         self.__accounts.append(account)
 
     # get method for the customer that will access the 
     # account information for the customer and append it
-    def get_account(self, account_number):
+    def get_Account(self, account_number):
         for account in self.__accounts:
-            if account.get_account_number() == account_number:
+            if account.get_account_number()== account_number:
                 return account
         # if nothing found return none
         return None
 
     # method to return the data for the accounts in the cutomer data classs
-    def __str__(self):
+    def AccountInformation(self):
         account_str = "\n"
         for account in self.__accounts:
             account_str += "\n----------------\n" + str(account) + "\n----------------\n"
-        return "CustomerName: {}\nAddress: {}\nPhone Number: {}\nCustomer ID: {}\n\nAccounts: {}".format(self.__CustomerName, self.__CustomerAddress, self.__CustomerPhoneNum, self.__CustomerIDNumber, account_str)
+        return "CustomerName: {}\nAddress: {}\nCustomer ID: {}\nAccounts: {}".format(self.__CustomerName, self.__CustomerAddress, self.__CustomerIDNumber, account_str)
 
 
 # when called, main will be intialized and come to this
@@ -240,11 +235,10 @@ def main():
             #idnumber
             NameOfCustomer=str(input(" What is the Name of the customer? : "))
             AddressofCustomer= str(input("Enter the Customers Address: "))
-            CustomerPhoneNumber=str(input("Please enter the phone number: "))
             IdNumber="1"
             print("\rYour IdNumber is 1\n")
             customer = Customer(NameOfCustomer,AddressofCustomer,
-                         CustomerPhoneNumber,IdNumber)
+                         IdNumber)
 
     # create a SavingsAccount and  a CheckingAccount
             print("\r Now lets create a savings and checking account ")
@@ -267,6 +261,8 @@ def main():
         # and the startingbalance
             SavNum=str(input("Please Enter a Account Number for Savings : "))
             while True:
+                    # regex checking to make sure user put in proper input balance 
+                    # as number 
                     try:
                         SavBal=int(input("Please Enter a Balance  for Savings : "))
                         if not re.match('^[0-9]*$',SavBal):
@@ -279,11 +275,12 @@ def main():
                         continue
             savings_account = SavingsAccount(SavNum, SavBal, 0.90)
     # add accounts to customer
-            customer.add_account(savings_account)
-            customer.add_account(checking_account)
+            customer.CreateAccount(savings_account)
+            customer.CreateAccount(checking_account)
 
         if userInput == '2':
             while True:
+                # regex check to make sure user puts in the proper input
                 try:
                     AcctType = input('What account to deposit to? Enter Savings of Checking ' )
                     
@@ -309,12 +306,14 @@ def main():
                     except:
                         print("enter a valid integer number")
                         continue
-                customer.get_account(SavingAcctNum).deposit(Savingsdeposit)
+                customer.get_Account(SavingAcctNum).deposit(Savingsdeposit)
     
             if AcctType=='Checking':
             # prompt the user for ammount and the account nuber of checking
                 CheckingAcctNum=str(input("please enter the account number for checking "))
                 while True:
+                    # try except to get valid input from user using regex to
+                    # determine proper input
                     try:
                         deposit= int(input("how much would you like to deposit     "))
                         if not re.match('^[0-9]*$',deposit):
@@ -326,13 +325,15 @@ def main():
                     except:
                         print("enter a valid integer number try again loser")
                         continue
-                customer.get_account(CheckingAcctNum).deposit(deposit)
+                customer.get_Account(CheckingAcctNum).deposit(deposit)
 
         if userInput=='3':
             while True:
+                # use try except to get valid user input labels
+                # Saving or checking
                 try:
                     account_type = str(input('What account To Withdraw From? Enter Savings of Checking ' ))
-                    
+                    #if correct input made break the try except
                     if account_type == "Savings" or account_type== "Checking":
                         break;
                     else:
@@ -353,9 +354,10 @@ def main():
                         print(" try again enter valid integer number")
                         continue
                 SavingAcctNum=str(input("please enter the account number for Savings "))
-                customer.get_account(SavingAcctNum).withdraw(withdrawl_ammount)
+                customer.get_Account(SavingAcctNum).withdraw(withdrawl_ammount)
             if account_type=='Checking':
                 while True:
+                    # regex checking to insure user input proper input
                     try:
                         withdrawl_ammount = int(input('How Much Would ifYou Like to Withdraw? ' ))
                         if not re.match('^[0-9]*$',withdrawl_ammount):
@@ -369,7 +371,7 @@ def main():
                         continue
             # prompt for the user to enter the ammount and the account number
                 accountnumber=str(input("please enter the account number for checking "))
-                customer.get_account(accountnumber).withdraw(withdrawl_ammount)
+                customer.get_Account(accountnumber).withdraw(withdrawl_ammount)
 
         if userInput=='4':
             print(customer)
@@ -381,23 +383,23 @@ def main():
 if __name__ == "__main__":
     main()
 # create a new customer with everything overriden
-customer2 = Customer("Biblo Baggins", "111th Birthday Street", "1800NOADVENTURES", "2")
+customer2 = Customer("Biblo Baggins", "111th NoAdventures Street", "2")
 # creating a checking and savings account for customer 2
 savings_account = SavingsAccount("00001", 5000, 0.05)
 checking_account = CheckingAccount("00002", 60000, 20)
 # customer 2 now has a checking and savings account
-customer2.add_account(savings_account)
-customer2.add_account(checking_account)
+customer2.CreateAccount(savings_account)
+customer2.CreateAccount(checking_account)
 # for sanity sake print out the customer to see their info
 print(customer2)
 
 # deposit 1000 and withdraw 10000 from savings
-customer2.get_account("00001").deposit(1000)
-customer2.get_account("00001").withdraw(1000)
+customer2.get_Account("00001").deposit(1000)
+customer2.get_Account("00001").withdraw(10000)
 
 # now from checking depoist and withraw utilizes get and set
-customer2.get_account("00002").deposit(10000)
-customer2.get_account("00002").withdraw(5000)
+customer2.get_Account("00002").deposit(10000)
+customer2.get_Account("00002").withdraw(5000)
 print()
 
 # print out the details of the second customer
