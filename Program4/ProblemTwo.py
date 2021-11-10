@@ -6,21 +6,12 @@
 # Assin  - Program 4 Problem Two                                         #
 #                                                                        #
 # About-                                                                 #
-#. (35 points) Write a Python program using file operation.              #
-#  You will open an input file “students.dat” that will contain a list of#
-#  student names, classification, and grade in the class. (All student   #
-# info is completely made up) You should read through the entire input   #
-# file.  After reading in all information, do operations (No built-in    #
-# functions like Average, min, max, count, etc.), close the input file   #
-#  and write that following information with labels to an output file    #
-#  “student_statistics.txt”                                              #
-# •	Highest grade in the class                                           #
-# •	Lowest grade in the class                                            #
-# •	Class average grade (rounded to one decimal place)                   #
-# •	Number of freshmen students                                          #
-# •	Number of sophomore students                                         #
-# •	Number of junior students                                            #
-# •	Number of senior students                                            #
+#. (35 points)Given an array of stringsstrs, groupthe anagramstogether.  #
+# You can return the answer inany order.AnAnagramis a word or phrase     #
+# formed by rearranging the letters of a different word or phrase,       #
+# typically using all the original letters exactly once.Inputtype:       #
+# A list with words;Outputtype:A list of lists with grouping the         #
+# anagrams together                                                      #
 #========================================================================#
 
 
@@ -28,6 +19,7 @@
 # will be calle whenever the function is being mention inside of the main
 # portion of our program
 def anagrams(Values):
+    # dictionary creaton to compare all the keys adn values
     Dictionary = {}
     #Loop through all items in the list
     for i in Values:
