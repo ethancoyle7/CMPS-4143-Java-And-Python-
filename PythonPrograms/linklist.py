@@ -24,7 +24,7 @@ class LinkedList:
         # head to the node
         def AddNode(self, new_data):
                 new_node = Node(new_data)# insertin new data
-                new_node.next = self.head # next then head 
+                new_node.next = self.head #
                 self.head = new_node
 
         # Add contents of two linked lists and return the head
@@ -66,13 +66,13 @@ class LinkedList:
                         if second is not None:
                                 second = second.next
 
-                if carry > 0:
-                        temp.next = Node(carry)
+                        if carry > 0:
+                                temp.next = Node(carry)
 
         # printing out the link list inplemented as a method
         def printList(self):
                 temp = self.head
-                while(temp):
+                while(temp is not None):
                         print(temp.data)
                         temp = temp.next
 

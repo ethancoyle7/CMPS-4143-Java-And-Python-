@@ -24,7 +24,8 @@
 #    # because they are children classes of the original      #
 #    # derived class called bank account                      #
 # polymorphism-                                               #
-#    # is shown when the AccountInformation(0 is overriden inside of the #
+#    # is shown when the AccountInformation(0 is overriden    #
+#      nside of the                                           #
 #    # saving and checking account with multiple variables)   #
 #                                                             #
 # abstraction:                                                #

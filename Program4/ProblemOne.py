@@ -21,15 +21,27 @@
 # •	Number of sophomore students                                         #
 # •	Number of junior students                                            #
 # •	Number of senior students                                            #
-#========================================================================#
+# user note: whatever the file name is then put this in place of my relativ#
+#     path and it will run through the                                     #
+#==========================================================================#
 
-
-# try opening up the input file specified by the user
-# if acception occured, then print warning and close program
-try:
-    InFile = open('Program4\Students.dat', 'r')
-except:
-    raise OSError("Could not open or read file Exiting Now")
+ValidFileName = False
+while ValidFileName == False:
+   # we looping until correct input entered and the flag for the 
+   # file checking is correct
+  fileOpen = True
+  try:
+   # try to take user input from the prompr
+    InFile = open(input('What is the name of the file we reading from: '))
+  
+  #not a valid infile check pop error if incorrect and loop again
+  except FileNotFoundError:
+    print(" That is an invalid name please enter a correct name for the file\n")
+    print("Note : The default name for this assignment is Students.dat\n")
+    #loop back agin until the correct value is inputted
+    fileOpen = False
+  if fileOpen:
+    ValidFileName = True
     
 
 # try opening up the output file, if exception occured then
