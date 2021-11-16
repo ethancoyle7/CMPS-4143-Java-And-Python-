@@ -32,14 +32,15 @@ class Node:
     # function method in which we return the elements of our node
     # this is utilizing the get method so inside of here, we 
     # will be passing back the elements inside of the node itself
-    @property
+
+    @property# getting attribute values and returning the elements
     def elements(self):
         return self._elements
 
     # setter method for the elements in our nodes where we 
     # set new daya to each of our nodes again, because 
     # we are setting, we wont be reutrning anythin here
-    @elements.setter
+    @elements.setter# accessor method
     def elements(self, new_elements):
         self._elements = new_elements
 
