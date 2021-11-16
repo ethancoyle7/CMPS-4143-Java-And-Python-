@@ -3,18 +3,25 @@
 class Queue:
     # create the constructor for the queue
     def __init__(self, n):
-        self.q=[0 for i in range(n)]
-        
+        self.StreamValues=[0 for i in range(n)]
+
     #enqueue function
     def enqueue(self):
-        self.q = self.q[1:]
+        # adding the stream values to the queue
+        # initialized as enqueue inside of a queue,
+        # you add by enqueu and remove by dequeue
+        self.StreamValues = self.StreamValues[1:]
 
-    #dequeue function
+    #dequeue function method
     def dequeue(self, val):
-        self.q.append(val)
-    #function to return the sum
+        # append the value
+        self.StreamValues.append(val)
+    #function to return the sum of stream values,
+    # each time will add with previous values and then
+    # divide inside of the streamaverage class to get the
+    # corresponding output
     def queue_sum(self):
-        return sum(self.q)
+        return sum(self.StreamValues)
     
 #class to take input and return the AVERAGE
 class StreamAverage:
@@ -35,7 +42,8 @@ class StreamAverage:
     def Average(self):
         output=[]
         temp = 0
-        #queue object
+        #call the queue class and pass the window size in
+        # and the stream values
         queue = Queue(self.WindowSize)
         for i in range(len(self.stream)):
             #calculating the moving average by adding 
@@ -46,6 +54,9 @@ class StreamAverage:
             temp = round(queue.queue_sum()/min(i+1, self.WindowSize), 2)
             #adding the moving average value to outout
             output.append(temp)
+        # return to the screen to correpsonding output by
+        # the average for each of the numbers
+        # inputed for string after going through the queue class
         return output
 #object of class moving average
 TestingCase = StreamAverage()
