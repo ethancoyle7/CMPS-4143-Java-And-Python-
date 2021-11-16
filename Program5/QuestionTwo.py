@@ -75,4 +75,4 @@ while i<TestingExpressions:# while i is less than the ammount the user wants to 
     print("The DuplicateResult of checking for duplicates: ",DuplicateResult)
     print("=================================================================\n\n")
 
-    i+=1# increment the counter
+    i+=1# increment the counter until the end of the testing
