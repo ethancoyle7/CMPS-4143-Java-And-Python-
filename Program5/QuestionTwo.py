@@ -11,7 +11,7 @@
 #    or not finding the duplicates, that is true or false                #
 # Format style for program -                                             #
 #       Input type: An expression in string; 	 	                     #
-#       Output type: A boolean value True or False                       #
+#       Output type: A boolean value True or False.                      #
 #========================================================================#
 
 # set counter for the iteration
@@ -72,7 +72,7 @@ while i<TestingExpressions:# while i is less than the ammount the user wants to 
 # if it is false, they are not duplicates
     print("\r\n=============================================================")
     print("Your Expression that you entered was : ", UserInputExpression)
-    print("The DuplicateResult of checking for duplicates: ",DuplicateResult)
+    print("After Checking for Duplicates the result was : ",DuplicateResult)
     print("=================================================================\n\n")
 
     i+=1# increment the counter until the end of the testing

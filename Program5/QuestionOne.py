@@ -10,7 +10,7 @@
 #   , StackSize(), top(), push() and pop(). You need to implement the    #
 #   stack with Linkedlist elements structure in python. Implement the    #
 #   stack means, all of the stack functionalities including the          #
-#   construction of stacks should present on your code.                  #                                        #
+#   construction of stacks should present on your code..                 #                                        #
 #========================================================================#
 
 # first, we must create how to access the nodes of the link list

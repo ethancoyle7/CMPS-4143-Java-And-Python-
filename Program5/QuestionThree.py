@@ -10,7 +10,7 @@
 #     input of this program will receive a stream of numbers and a       #
 #     window size to find the moving average of all the numbers in the   #
 #     sliding window. Write your code in OOP style and solve the program #
-#     with queue and or stack data structure.                            #
+#     with queue and or stack data structure..                           #
 #========================================================================#
 
 #CREATE a classs called Queue to nstantiat the running for
